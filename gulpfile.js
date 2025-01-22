@@ -255,6 +255,10 @@ function sections(type = "section", dirs = []) {
 		dirs = fs.readdirSync(sectionsDir).map(fileName => {
 			let stat = fs.statSync(`${sectionsDir}/${fileName}`);
 
+			if (fileName.startsWith("_")) {
+				return;
+			}
+
 			if (stat.isDirectory()) {
 				dir.push(fileName);
 			}
@@ -282,7 +286,11 @@ function sections(type = "section", dirs = []) {
 		let files = fs.readdirSync(filePath).
 		sort((a, b) => parseInt(a.replace( /^\D+/g, '')) - parseInt(b.replace( /^\D+/g, ''))).
 		map(sectionFile => {
-			
+
+			if (sectionFile.startsWith("_")) {
+				return;
+			}
+
 			name = sectionFile.replace(".html","");
 			id = `${group}/${name}`;
 			name = prettify(name);
@@ -298,7 +306,9 @@ function sections(type = "section", dirs = []) {
 		
 		let groupList = '"' + sections.join('","') + '"';
 		group = prettify(group);
-		sectionsJs += template(templates[type]['group'], {group, groupList});
+		if (groupList.length > 2) {
+			sectionsJs += template(templates[type]['group'], {group, groupList});
+		}
 	}
 	
 	return fs.writeFileSync(/*path.resolve(".") + *//*`${sectionsDir}/${type}s.js`*/path.resolve(".") + `/${type}s/${type}s.js`, sectionsJs);

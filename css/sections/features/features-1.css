@@ -1,0 +1,10 @@
+.features-1 {
+  font-weight: 300;
+}
+.features-1 .badge {
+  font-weight: 500;
+  line-height: 14px;
+}
+.features-1 .wrap .max-box {
+  max-width: 580px;
+}

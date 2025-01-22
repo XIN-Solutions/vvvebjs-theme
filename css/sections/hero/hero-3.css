@@ -1,0 +1,77 @@
+.hero-3 {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  /*
+  > .container > .row {
+  	height:100vh;
+  	min-height:800px;
+  }*/
+  /*
+  &.overlay {
+  	position: relative;
+
+  	&:before {
+  		z-index: 1;
+  		position: absolute;
+  		left: 0;
+  		right: 0;
+  		bottom: 0;
+  		top: 0;
+  		content: "";
+  		//background: rgba(var(--bs-body-color-rgb), 0.6);
+  		background: rgba(var(--bs-body-color-rgb), 0.6);
+  	}
+  }
+  */
+}
+.hero-3 .btn {
+  padding: 1rem 3rem;
+  margin: 0rem 1rem 1rem 0;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: rgba(var(--bs-body-color-rgb), 0.25) 0px 5px 15px -5px;
+}
+.hero-3 .btn.btn-white {
+  background: rgba(var(--bs-white-rgb), 0.2);
+  color: var(--bs-light);
+}
+.hero-3 > .container, .hero-3 > .container-fluid {
+  position: relative;
+  z-index: 2;
+}
+.hero-3 > .container > div, .hero-3 > .container-fluid > div {
+  position: relative;
+  height: 100%;
+  min-height: 960px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-3 h1.heading {
+  font-weight: 700;
+  color: var(--bs-light);
+}
+.hero-3 h2 {
+  color: var(--bs-light);
+}
+.hero-3 h3 {
+  font-weight: normal;
+}
+.hero-3 .svg-wrapper {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  z-index: 2;
+}
+.hero-3 .buttons {
+  margin-top: 5rem;
+}
+@media screen and (max-width: 767px) {
+  .hero-3 .btn {
+    min-width: 300px;
+    margin: 0 0 1rem 0;
+  }
+}

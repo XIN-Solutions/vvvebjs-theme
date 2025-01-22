@@ -1,0 +1,23 @@
+.features-11 {
+  color: #8d97ad;
+  font-weight: 300;
+}
+.features-11 .badge {
+  font-weight: 500;
+  line-height: 14px;
+}
+.features-11 .badge-info {
+  background: #188ef4;
+}
+.features-11 .wrap .max-box {
+  max-width: 580px;
+}
+.features-11 .linking {
+  color: #3e4555;
+}
+.features-11 .linking:hover {
+  color: #316ce8;
+}
+.features-11 h1, .features-11 h2, .features-11 h3, .features-11 h4, .features-11 h5, .features-11 h6 {
+  color: #3e4555;
+}

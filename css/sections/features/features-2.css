@@ -1,0 +1,23 @@
+.features-2 {
+  color: #ffffff;
+  font-weight: 300;
+}
+.features-2 .text-box {
+  max-width: 500px;
+  margin-left: 80px;
+}
+.features-2 .bg-info-gradiant {
+  background: #188ef4;
+  background: -webkit-linear-gradient(legacy-direction(to right), #188ef4 0%, #316ce8 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#188ef4), to(#316ce8));
+  background: -webkit-linear-gradient(left, #188ef4 0%, #316ce8 100%);
+  background: -o-linear-gradient(left, #188ef4 0%, #316ce8 100%);
+  background: linear-gradient(to right, #188ef4 0%, #316ce8 100%);
+}
+.features-2 .btn-md {
+  padding: 15px 45px;
+  font-size: 16px;
+}
+.features-2 h1, .features-2 h2, .features-2 h3, .features-2 h4, .features-2 h5, .features-2 h6 {
+  color: #3e4555;
+}

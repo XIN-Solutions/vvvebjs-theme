@@ -1,0 +1,8 @@
+section .container .row > [class*=col-]:empty,
+section .container .row > .col:empty, section .container-fluid .row > [class*=col-]:empty,
+section .container-fluid .row > .col:empty {
+  border: 1px solid var(--bs-secondary);
+  background: var(--bs-tertiary-bg);
+  min-height: 200px;
+  margin: 1rem;
+}

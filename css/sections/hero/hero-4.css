@@ -1,0 +1,52 @@
+.hero-4 {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 100vh;
+  min-height: 800px;
+}
+.hero-4 > .container > .row {
+  height: 100vh;
+  min-height: 800px;
+}
+.hero-4 .btn {
+  padding: 1rem 2rem;
+  border-radius: 30px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+.hero-4 .btn.btn-white {
+  background: rgba(var(--bs-body-bg-rgb), 0.2);
+  color: #fff;
+}
+.hero-4 > .container {
+  position: relative;
+  z-index: 2;
+}
+.hero-4 .heading {
+  font-weight: 700;
+  color: var(--bs-light);
+}
+.hero-4 .subheading {
+  font-family: var(--bs-font-body);
+  margin-bottom: 3rem;
+  color: var(--bs-light);
+}
+.hero-4 .svg-wrapper {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  z-index: 2;
+}
+.hero-4 .buttons {
+  margin-top: 3rem;
+  font-family: var(--bs-font-body);
+}
+.hero-4 .overlay {
+  background: rgba(var(--bs-body-color-rgb), 1);
+  opacity: 0.5;
+}

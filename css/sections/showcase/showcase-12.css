@@ -1,0 +1,39 @@
+.showcase-12 {
+  padding: 2rem 0;
+}
+.showcase-12 .font-container {
+  margin-bottom: 0;
+}
+.showcase-12 .font-container .font-icon {
+  color: var(--bs-primary);
+  font-size: 4rem;
+}
+.showcase-12:nth-child(even) {
+  background: rgba(var(--bs-body-color-rgb), 0.025);
+}
+.showcase-12 .col-img {
+  text-align: center;
+}
+.showcase-12 img {
+  max-height: 300px;
+}
+.showcase-12 h3 {
+  margin-bottom: 0rem;
+  color: var(--bs-blue);
+  text-align: center;
+  line-height: 2.1rem;
+}
+.showcase-12 h3 a {
+  font-size: 1.4rem;
+  color: var(--bs-dark);
+  text-decoration: none;
+}
+.showcase-12 a {
+  text-decoration: none;
+}
+.showcase-12 p {
+  font-size: 1rem;
+  color: #999;
+  line-height: 2.1rem;
+  padding: 1rem 2rem 0;
+}

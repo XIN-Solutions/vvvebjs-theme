@@ -1,0 +1,368 @@
+blockquote {
+  font-style: italic;
+  padding-bottom: 3px;
+  padding-right: 20px;
+  padding-left: 20px;
+  letter-spacing: 0.01rem;
+  border-left: 4px solid #f1f3f7;
+  margin: 0rem;
+}
+blockquote p:before, blockquote p:after {
+  font-family: "Line Awesome Free";
+  font-weight: 900;
+  font-style: normal;
+}
+blockquote p:before {
+  content: "\f10d";
+}
+blockquote p:after {
+  content: " \f10e";
+}
+blockquote i {
+  font-size: 2rem;
+  color: var(--bs-gray);
+}
+
+.post {
+  border: none;
+}
+.post h1, .post h2, .post h3, .post h4, .post h5, .post h6 {
+  word-break: break-word;
+}
+.post .post-title, .post .post-title a {
+  text-decoration: none;
+  color: var(--bs-body-color);
+}
+.post .post-title h1, .post .post-title h2, .post .post-title a h1, .post .post-title a h2 {
+  font-weight: 700;
+}
+.post .post-title h3, .post .post-title a h3 {
+  font-size: 1rem;
+}
+.post .post-title:hover, .post .post-title a:hover {
+  text-decoration: underline;
+}
+.post .post-content {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  font-family: var(--bs-font-sans-serif);
+  /*
+  > * {
+  	margin-bottom:1rem;
+  }
+  */
+}
+.post .post-content > p, .post .post-content > h1, .post .post-content > h2, .post .post-content > h3, .post .post-content > h4, .post .post-content > h5, .post .post-content > h6, .post .post-content > blockquote, .post .post-content > span, .post .post-content > ul, .post .post-content pre, .post .post-content > ol, .post .post-content > details {
+  max-width: 35rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.post .post-content blockquote {
+  font-style: italic;
+  padding-bottom: 3px;
+  padding-right: 20px;
+  padding-left: 20px;
+  letter-spacing: 0.01rem;
+  border-left: 4px solid var(--bs-border-color);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.post .post-content blockquote > p:before, .post .post-content blockquote > p:after {
+  font-family: "Line Awesome Free";
+  font-weight: 900;
+  font-style: normal;
+}
+.post .post-content blockquote > p:before {
+  content: "\f10d";
+}
+.post .post-content blockquote > p:after {
+  content: " \f10e";
+}
+.post .post-content blockquote i {
+  font-size: 2rem;
+  color: var(--bs-gray);
+}
+.post .post-content q:before, .post .post-content q:after {
+  font-family: "Line Awesome Free";
+  font-weight: 900;
+  font-style: normal;
+}
+.post .post-content q:before {
+  content: "\f10d";
+}
+.post .post-content q:after {
+  content: " \f10e";
+}
+.post .post-content img, .post .post-content svg, .post .post-content video {
+  vertical-align: middle;
+  max-width: 100%;
+  margin: 0 auto;
+  height: auto;
+}
+.post .post-content iframe {
+  vertical-align: middle;
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+.post .post-content div.iframe {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.post .post-content .align-left {
+  margin-right: 1rem;
+}
+.post .post-content .align-right {
+  margin-left: 1rem;
+}
+.post .post-content pre {
+  padding: 0 1rem 1rem;
+  background: var(--bs-secondary-bg);
+}
+.post .post-content pre code {
+  background: transparent;
+}
+.post .align-left {
+  float: left;
+  margin-bottom: 25px;
+  max-width: 50%;
+  margin: 0.5em 1em 0.5em 0;
+}
+.post .align-right {
+  float: right;
+  margin-bottom: 25px;
+  max-width: 50%;
+  margin: 0.5em 0 0.5em 1em;
+}
+.post .align-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.post img.align-center {
+  display: block;
+}
+.post figure.align-center {
+  display: table;
+}
+.post .tags, .post .comments-form, .post .post-comments {
+  max-width: 35rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.post .card-header {
+  margin-bottom: 0rem;
+  background: transparent;
+  border: none;
+}
+.post .card-footer {
+  /* padding: 0.5rem 1rem; */
+  padding: 0;
+  width: 35rem;
+  margin: 0 auto;
+  background: transparent;
+  border: none;
+}
+.post .post-meta {
+  list-style: none;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.post .post-meta li {
+  margin-right: 1rem;
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: var(--bs-secondary-color);
+}
+.post .post-meta li i {
+  font-size: 1.4rem;
+}
+.post .post-meta li a {
+  text-decoration: none;
+  color: var(--bs-secondary-color);
+}
+.post .post-meta li a:hover {
+  text-decoration: underline;
+}
+
+.inner-page-hero {
+  position: relative;
+  max-height: 150px;
+  height: 120px;
+  overflow: hidden;
+  background-color: transparent;
+  border-bottom: 1px solid rgba(var(--bs-body-color-rgb), 0.07);
+}
+.inner-page-hero .title-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  z-index: 1;
+  /*
+  ::before
+  {
+          width: 100%;
+          height: 100%;
+          content: " ";
+          //background: rgba(var(--bs-body-bg-rgb),0.5);
+          top: 0px;
+          left: 0px;
+          position: absolute;
+          z-index: -1;
+  }
+  */
+}
+.inner-page-hero .title-container h1 {
+  width: 100%;
+  z-index: 1;
+  margin: 0;
+  font-weight: normal;
+}
+.inner-page-hero .breadcrumb {
+  margin: 0;
+}
+.inner-page-hero img {
+  width: 100%;
+  top: -30vw;
+  position: absolute;
+}
+
+.sidebar-sticky .card {
+  border: none;
+}
+.sidebar-sticky .card-header {
+  margin-bottom: 0rem;
+  background: transparent;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.sidebar-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 2.5rem;
+}
+.sidebar-sticky .card .card-body {
+  padding: 0rem 1rem 1rem;
+}
+
+.categories-widget ul, .archives-widget ul {
+  list-style: none;
+  column-count: 2;
+  padding-left: 0;
+}
+
+.archives-widget ul {
+  column-count: 2;
+}
+
+ul.tags {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul.tags li {
+  display: inline-block;
+}
+ul.tags a {
+  border: 1px solid rgba(var(--bs-body-color-rgb), 0.035);
+  background-color: rgba(var(--bs-body-color-rgb), 0.025);
+  padding: 0.1rem 0.3rem;
+  margin: 0.1rem;
+  display: inline-block;
+  border-radius: 2px;
+  font-size: 90%;
+}
+
+.img-fluid {
+  border-radius: 4px;
+}
+
+/* comments */
+.post-comments, .product-reviews, .product-questions {
+  position: relative;
+}
+.post-comments a, .product-reviews a, .product-questions a {
+  text-decoration: none;
+}
+
+.author-avatar {
+  position: absolute;
+  left: -90px;
+  min-width: 80px;
+  min-height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.author-avatar:empty, .author-avatar .empty {
+  width: 80px;
+  height: 80px;
+  background: rgba(var(--bs-secondary-bg-rgb), 0.5);
+}
+
+.review-list, .question-list {
+  margin-left: 5.5rem;
+}
+
+.comment, .review, .question {
+  position: relative;
+}
+.comment.level-1, .review.level-1, .question.level-1 {
+  margin-left: 1rem;
+}
+.comment.level-2, .review.level-2, .question.level-2 {
+  margin-left: 2rem;
+}
+.comment.level-3, .review.level-3, .question.level-3 {
+  margin-left: 3rem;
+}
+
+.review-list .user-image {
+  display: inline-block;
+  max-width: 80px;
+  margin-right: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.site-header {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.site-header .background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  transform: none;
+}
+.site-header .background img {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+}
+.site-header .background:before {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  background-color: var(--bs-body-bg);
+  opacity: 0.7;
+  z-index: 5;
+}
+.site-header .title-container {
+  position: relative;
+  margin-top: auto;
+  z-index: 100;
+}

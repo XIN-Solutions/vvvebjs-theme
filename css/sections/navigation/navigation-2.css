@@ -1,0 +1,21 @@
+.navigation-2::before {
+  width: 100%;
+  height: 100%;
+  content: " ";
+  position: absolute;
+  backdrop-filter: blur(14px);
+}
+.navigation-2 h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 3rem;
+}
+.navigation-2 .navbar-nav a.nav-link {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  padding: 2.5rem 1rem 2rem;
+}
+.navigation-2 .navbar-nav .dropdown-toggle::after {
+  font-size: 60%;
+}

@@ -1,0 +1,47 @@
+.showcase-1, .showcase-2 {
+  padding: 3rem 0;
+}
+.showcase-1 .container > .row, .showcase-2 .container > .row {
+  --bs-gutter-x: 5rem;
+}
+.showcase-1 .col-md-6, .showcase-2 .col-md-6 {
+  padding: 0rem 1.4rem;
+}
+.showcase-1 .col-md-6 > div, .showcase-2 .col-md-6 > div {
+  margin: auto;
+  display: inline-block;
+  text-align: left;
+}
+.showcase-1 .col-text > div i.la, .showcase-1 .col-text > div i.lab, .showcase-2 .col-text > div i.la, .showcase-2 .col-text > div i.lab {
+  padding: 0.5rem 1rem 0 0;
+  font-size: 2rem;
+  color: var(--bs-primary);
+}
+.showcase-1 .col-img, .showcase-2 .col-img {
+  text-align: center;
+}
+.showcase-1 .col-img .frame, .showcase-2 .col-img .frame {
+  width: 100%;
+}
+.showcase-1 .col-img video, .showcase-2 .col-img video {
+  width: 100%;
+}
+.showcase-1 img, .showcase-2 img {
+  margin: 0 auto;
+  display: block;
+}
+.showcase-1 h3, .showcase-2 h3 {
+  margin-bottom: 2.1rem;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+.showcase-1 a, .showcase-2 a {
+  text-decoration: none;
+}
+.showcase-1 p, .showcase-2 p {
+  font-size: 1.1rem;
+  line-height: 2.1rem;
+  font-weight: 400;
+  margin-bottom: 1.4rem;
+}

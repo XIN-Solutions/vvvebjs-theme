@@ -1,0 +1,61 @@
+.pricing-table-8 .card {
+  border: 0;
+  border-radius: 0px;
+  -webkit-box-shadow: 0 3px 0px 0 rgba(var(--bs-body-color-rgb), 0.08);
+  box-shadow: 0 3px 0px 0 rgba(var(--bs-body-color-rgb), 0.08);
+  transition: all 0.3s ease-in-out;
+  padding: 2.25rem 0;
+  position: relative;
+  will-change: transform;
+}
+.pricing-table-8 .card:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 5px;
+  background-color: #57e2b2;
+  transition: 0.5s;
+}
+.pricing-table-8 .card .card-header {
+  background-color: white;
+  padding-left: 2rem;
+  border-bottom: 0px;
+}
+.pricing-table-8 .card .card-title {
+  margin-bottom: 1rem;
+}
+.pricing-table-8 .card .card-block {
+  padding-top: 0;
+}
+.pricing-table-8 .card .list-group-item {
+  border: 0px;
+  padding: 0.25rem;
+  color: #808080;
+  font-weight: 300;
+}
+.pricing-table-8 .display-2 {
+  font-size: 7rem;
+  letter-spacing: -0.5rem;
+}
+.pricing-table-8 .display-2 .currency {
+  font-size: 2.75rem;
+  position: relative;
+  font-weight: 400;
+  top: -45px;
+  letter-spacing: 0px;
+}
+.pricing-table-8 .display-2 .period {
+  font-size: 1rem;
+  color: #b3b3b3;
+  letter-spacing: 0px;
+}
+.pricing-table-8 .btn-gradient {
+  background-color: #f2f2f2;
+  transition: background 0.3s ease-in-out;
+}
+.pricing-table-8 .btn-gradient:hover {
+  color: white;
+  background-color: #57e2b2;
+}

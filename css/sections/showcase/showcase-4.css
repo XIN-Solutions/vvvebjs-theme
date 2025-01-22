@@ -1,0 +1,58 @@
+.showcase-4 {
+  padding: 2rem 0;
+}
+.showcase-4 .feature {
+  background-color: var(--bs-light);
+  padding: 2rem 0;
+  border-radius: 7px;
+  margin: 0.2rem;
+}
+.showcase-4 .font-container {
+  margin-bottom: 2.1rem;
+}
+.showcase-4 .font-container .font-icon {
+  background-color: var(--bs-white);
+  color: var(--bs-primary);
+  font-size: 4rem;
+  padding: 1rem;
+  border-radius: 60px;
+}
+.showcase-4:nth-child(even) {
+  background: rgba(var(--bs-body-color-rgb), 0.025);
+}
+.showcase-4 .col-img {
+  text-align: center;
+}
+.showcase-4 img {
+  max-height: 300px;
+}
+.showcase-4 h3 {
+  margin-bottom: 0rem;
+  color: var(--bs-dark);
+  text-align: center;
+  line-height: 1.8rem;
+}
+.showcase-4 h3 a {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--bs-dark);
+  text-decoration: none;
+}
+.showcase-4 a {
+  text-decoration: none;
+  color: var(--bs-dark);
+}
+.showcase-4 a.more {
+  font-size: 0.8rem;
+  text-align: center;
+}
+.showcase-4 a.more:hover {
+  color: var(--bs-primary);
+}
+.showcase-4 p {
+  font-size: 1rem;
+  color: var(--bs-gray);
+  line-height: 1.8rem;
+  text-align: center;
+  padding: 1.5rem;
+}
