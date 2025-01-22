@@ -524,6 +524,7 @@ initSwiper();
 
 </header>`
 });
+	Vvveb.SectionsGroup["Hero"] = ["hero/hero-1","hero/hero-2","hero/hero-3","hero/hero-4","hero/hero-5","hero/hero-6","hero/hero-7","hero/hero-slider"];
 Vvveb.Sections.add("features/features-1", {
     name: "Features 1",
     image: Vvveb.themeBaseUrl + "/screenshots/sections/features/features-1-thumb.jpeg",
@@ -1193,6 +1194,7 @@ Vvveb.Sections.add("features/features-1", {
   </div>
 </section>`
 });
+	Vvveb.SectionsGroup["Features"] = ["features/features-1","features/features-2","features/features-3","features/features-4","features/features-5","features/features-6","features/features-7","features/features-8","features/features-9","features/features-10","features/features-11"];
 Vvveb.Sections.add("base/1-column", {
     name: "1 column",
     image: Vvveb.themeBaseUrl + "/screenshots/sections/base/1-column-thumb.jpeg",
@@ -1301,6 +1303,7 @@ Vvveb.Sections.add("base/1-column", {
   </div>
 </section>`
 });
+	Vvveb.SectionsGroup["Base"] = ["base/1-column","base/2-columns","base/3-columns","base/4-columns","base/6-columns","base/8-columns","base/12-columns","base/blank"];
 Vvveb.Sections.add("contact-form/contact-form-1", {
     name: "Contact form 1",
     image: Vvveb.themeBaseUrl + "/screenshots/sections/contact-form/contact-form-1-thumb.jpeg",
@@ -1964,7 +1967,7 @@ Vvveb.Sections.add("contact-form/contact-form-1", {
   </div>
 </section>`
 });
-
+	Vvveb.SectionsGroup["Contact form"] = ["contact-form/contact-form-1","contact-form/contact-form-2","contact-form/contact-form-3","contact-form/contact-form-4","contact-form/contact-form-5","contact-form/contact-form-6","contact-form/contact-form-7","contact-form/contact-form-8","contact-form/contact-form-9"];
 Vvveb.Sections.add("footer/footer-1", {
     name: "Footer 1",
     image: Vvveb.themeBaseUrl + "/screenshots/sections/footer/footer-1-thumb.jpeg",
@@ -2179,8 +2182,7 @@ Vvveb.Sections.add("footer/footer-1", {
 
   </div>
 </footer>`
-});
-Vvveb.Sections.add("footer/footer-3", {
+});Vvveb.Sections.add("footer/footer-3", {
     name: "Footer 3",
     image: Vvveb.themeBaseUrl + "/screenshots/sections/footer/footer-3-thumb.jpeg",
     html: `<footer class="footer-3 bg-dark text-white" title="footer-3" data-v-save-global="index.html,.footer-3">
@@ -2270,8 +2272,7 @@ Vvveb.Sections.add("footer/footer-3", {
 
 </footer>`
 });
-
-
+	Vvveb.SectionsGroup["Footer"] = ["footer/footer-1","footer/footer-2","footer/footer-3"];
 Vvveb.Sections.add("navigation/navigation-1", {
     name: "Navigation 1",
     image: Vvveb.themeBaseUrl + "/screenshots/sections/navigation/navigation-1-thumb.jpeg",
@@ -4152,7 +4153,7 @@ Vvveb.Sections.add("navigation/navigation-1", {
 
 </nav>`
 });
-
+	Vvveb.SectionsGroup["Navigation"] = ["navigation/navigation-1","navigation/navigation-2","navigation/navigation-3","navigation/navigation-4"];
 Vvveb.Sections.add("posts/posts-1", {
     name: "Posts 1",
     image: Vvveb.themeBaseUrl + "/screenshots/sections/posts/posts-1-thumb.jpeg",
@@ -4495,6 +4496,7 @@ Vvveb.Sections.add("posts/posts-1", {
   </div>
 </section>`
 });
+	Vvveb.SectionsGroup["Posts"] = ["posts/posts-1","posts/posts-2","posts/posts-3"];
 Vvveb.Sections.add("pricing-table/pricing-table-3", {
     name: "Pricing table 3",
     image: Vvveb.themeBaseUrl + "/screenshots/sections/pricing-table/pricing-table-3-thumb.jpeg",
@@ -4610,6 +4612,7 @@ Vvveb.Sections.add("pricing-table/pricing-table-3", {
   </div>
 </section>`
 });
+	Vvveb.SectionsGroup["Pricing table"] = ["pricing-table/pricing-table-3"];
 Vvveb.Sections.add("products/products-1", {
     name: "Products 1",
     image: Vvveb.themeBaseUrl + "/screenshots/sections/products/products-1-thumb.jpeg",
@@ -5138,6 +5141,7 @@ Vvveb.Sections.add("products/products-1", {
   </div>
 </section>`
 });
+	Vvveb.SectionsGroup["Products"] = ["products/products-1"];
 Vvveb.Sections.add("showcase/showcase-1", {
     name: "Showcase 1",
     image: Vvveb.themeBaseUrl + "/screenshots/sections/showcase/showcase-1-thumb.jpeg",
@@ -5694,6 +5698,7 @@ Vvveb.Sections.add("showcase/showcase-1", {
   </div>
 </section>`
 });
+	Vvveb.SectionsGroup["Showcase"] = ["showcase/showcase-1","showcase/showcase-2","showcase/showcase-3","showcase/showcase-4","showcase/showcase-5","showcase/showcase-6","showcase/showcase-7","showcase/showcase-8","showcase/showcase-9","showcase/showcase-10","showcase/showcase-11","showcase/showcase-12"];
 Vvveb.Sections.add("team/team-1", {
     name: "Team 1",
     image: Vvveb.themeBaseUrl + "/screenshots/sections/team/team-1-thumb.jpeg",
@@ -6736,6 +6741,7 @@ Vvveb.Sections.add("team/team-1", {
   </div>
 </section>`
 });
+	Vvveb.SectionsGroup["Team"] = ["team/team-1","team/team-2","team/team-3","team/team-4","team/team-5","team/team-6"];
 Vvveb.Sections.add("testimonials/testimonials-1", {
     name: "Testimonials 1",
     image: Vvveb.themeBaseUrl + "/screenshots/sections/testimonials/testimonials-1-thumb.jpeg",
@@ -7050,24 +7056,4 @@ Vvveb.Sections.add("testimonials/testimonials-1", {
     </div>
 </section>`
 });
-
-  Vvveb.SectionsGroup["Hero"] = ["hero/hero-1","hero/hero-2","hero/hero-3","hero/hero-4","hero/hero-5","hero/hero-6","hero/hero-7","hero/hero-slider"];
-  Vvveb.SectionsGroup["Features"] = ["features/features-1","features/features-2","features/features-3","features/features-4","features/features-5","features/features-6","features/features-7","features/features-8","features/features-9","features/features-10","features/features-11"];
-Vvveb.SectionsGroup["Showcase"] = ["showcase/showcase-1","showcase/showcase-2","showcase/showcase-3","showcase/showcase-4","showcase/showcase-5","showcase/showcase-6","showcase/showcase-7","showcase/showcase-8","showcase/showcase-9","showcase/showcase-10","showcase/showcase-11","showcase/showcase-12"];
-
-Vvveb.SectionsGroup["Team"] = ["team/team-1","team/team-2","team/team-3","team/team-4","team/team-5","team/team-6"];
-
-Vvveb.SectionsGroup["Testimonials"] = ["testimonials/testimonials-1","testimonials/testimonials-2","testimonials/testimonials-3"];
-
-
-  Vvveb.SectionsGroup["Contact form"] = ["contact-form/contact-form-1","contact-form/contact-form-2","contact-form/contact-form-3","contact-form/contact-form-4","contact-form/contact-form-5","contact-form/contact-form-6","contact-form/contact-form-7","contact-form/contact-form-8","contact-form/contact-form-9"];
-
-Vvveb.SectionsGroup["Base"] = ["base/1-column","base/2-columns","base/3-columns","base/4-columns","base/6-columns","base/8-columns","base/12-columns","base/blank"];
-  Vvveb.SectionsGroup["Posts"] = ["posts/posts-1","posts/posts-2","posts/posts-3"];
-
-  Vvveb.SectionsGroup["Products"] = ["products/products-1"];
-
-
-// Vvveb.SectionsGroup["Footer"] = ["footer/footer-1","footer/footer-2","footer/footer-3"];
-// Vvveb.SectionsGroup["Navigation"] = ["navigation/navigation-1","navigation/navigation-2","navigation/navigation-3","navigation/navigation-4"];
-
+	Vvveb.SectionsGroup["Testimonials"] = ["testimonials/testimonials-1","testimonials/testimonials-2","testimonials/testimonials-3"];

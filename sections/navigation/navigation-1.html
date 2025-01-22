@@ -1,32 +1,32 @@
-<nav class="navigation-1 clearfix">
+<nav class="navigation-1 clearfix" data-v-save-global="blank.html,.navigation-1">
 
   <div id="top" class="top-nav clearfix">
     <div class="container">
-      <div class="nav float-start">
-        <ul class="list-inline" data-v-component-site>
-          <li class="list-inline-item" data-v-if="site.phone-number">
-            <a href="tel:5511112377" data-v-site-phone-number>
-              <i class="la la-phone"></i>
-              <span class="d-none d-md-inline text-muted" data-v-site-phone-number>+55 (111) 123 777</span>
-            </a>
-          </li>
-          <li class="list-inline-item" data-v-if="site.contact-email">
-            <a href="mailto:contact@mysite.com" data-v-site-contact-email>
-              <i class="la la-envelope"></i>
-              <span class="d-none d-md-inline text-muted" data-v-site-contact-email>contact@mysite.com</span>
-            </a>
-          </li>
-          <li class="list-inline-item"></li>
-        </ul>
-      </div>
-      <div class="nav float-end">
-        <ul class="list-inline">
-          <!--
-					<li class="list-inline-item"><a href="#" id="wishlist-total" title="Wish List (0)"><i class="la la-heart"></i> <span class="d-none d-md-inline">Favorites</span></a></li>
-					<li class="list-inline-item"><a href="#" title="Checkout"><i class="la la-share"></i> <span class="d-none d-md-inline">Checkout</span></a></li>
+      <div class="d-flex justify-content-between  flex-md-row d-flex flex-column flex-md-row">
+        <div class="nav">
+          <ul class="list-inline" data-v-component-site>
+            <li class="list-inline-item" data-v-if="site.description.phone-number">
+              <a href="tel:5511112377" class="p-2 p-md-0" title="Phone" data-v-site-description-phone-number>
+                <i class="la la-phone"></i>
+                <span class=" text-muted" data-v-site-description-phone-number>+55 (111) 123 777</span>
+              </a>
+            </li>
+            <li class="list-inline-item" data-v-if="site.contact-email">
+              <a href="mailto:contact@mysite.com" class="p-2 p-md-0" title="Email" data-v-site-contact-email>
+                <i class="la la-envelope"></i>
+                <span class=" text-muted" data-v-site-contact-email>contact@mysite.com</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav">
+          <ul class="list-inline">
+            <!--
+					<li class="list-inline-item"><a href="#" id="wishlist-total" title="Wish List (0)"><i class="la la-heart"></i> <span class="">Favorites</span></a></li>
+					<li class="list-inline-item"><a href="#" title="Checkout"><i class="la la-share"></i> <span class="">Checkout</span></a></li>
 					<li class="list-inline-item">
 						<div class="dropdown">
-							<a href="" class="dropdown-toggle" data-bs-toggle="dropdown"><i class="la la-user"></i> <span class="d-none d-md-inline">My Account</span></i></a>
+							<a href="" class="dropdown-toggle" data-bs-toggle="dropdown" role="button"><i class="la la-user"></i> <span class="">My Account</span></i></a>
 							<ul class="dropdown-menu dropdown-menu-right">
 								<li><a href="#" class="dropdown-item">Register</a></li>
 								<li><a href="#" class="dropdown-item">Login</a></li>
@@ -34,94 +34,95 @@
 						</div>
 					</li>
 					-->
-          <li class="list-inline-item">
+            <li class="list-inline-item">
+              <div data-v-component-currency>
+                <form method="post" enctype="multipart/form-data" id="form-currency">
 
-            <a id="color-theme-switch" href="javascript:void(0);" title="Switch sidebar color theme">
-              <i class="la la-sun la-lg"></i>
-            </a>
-
-          </li>
-          <li class="list-inline-item">
-            <div data-v-component-currency>
-              <form method="post" enctype="multipart/form-data" id="form-currency">
-
-                <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <!-- <i class="la la-dollar-sign me-1"></i> -->
-                  <span class="d-none d-md-inline" data-v-currency-info-name>USD</span>
-                </a>
+                  <a class="dropdown-toggle p-2 p-md-0" data-bs-toggle="dropdown" role="button" title="Currency " aria-expanded="false">
+                    <!-- <i class="la la-dollar-sign me-1"></i> -->
+                    <span class="" data-v-currency-info-name>USD</span>
+                  </a>
 
 
-                <div class="dropdown-menu dropdown-menu-end">
+                  <div class="dropdown-menu dropdown-menu-end">
 
-                  <div data-v-currency>
-                    <button class="dropdown-item" type="submit" value="EUR" name="currency" data-v-currency-code>
-                      <span data-v-currency-sign_start>€</span>
-                      <span data-v-currency-sign_end>€</span>
-                      <span class="ms-1" data-v-currency-name>Euro</span>
-                    </button>
+                    <div data-v-currency>
+                      <button class="dropdown-item" type="submit" value="EUR" name="currency" data-v-currency-code>
+                        <span data-v-currency-sign_start>€</span>
+                        <span data-v-currency-sign_end>€</span>
+                        <span class="ms-1" data-v-currency-name>Euro</span>
+                      </button>
+                    </div>
+
+                    <div data-v-currency>
+                      <button class="dropdown-item" type="submit" value="GBP" name="currency" data-v-currency-code>
+                        <span data-v-currency-sign_start>£</span>
+                        <span data-v-currency-sign_end>£</span>
+                        <span class="ms-1" data-v-currency-name>Pound Sterling</span>
+                      </button>
+                    </div>
+
+                    <div data-v-currency>
+                      <button class="dropdown-item" type="submit" value="USD" name="currency" data-v-currency-code>
+                        <span data-v-currency-sign_start>$</span>
+                        <span data-v-currency-sign_end>$</span>
+                        <span class="ms-1" data-v-currency-name>US Dollar</span>
+                      </button>
+                    </div>
+
                   </div>
+                </form>
+              </div>
+            </li>
+            <li class="list-inline-item">
+              <div data-v-component-language>
+                <form method="post" enctype="multipart/form-data" id="form-language">
 
-                  <div data-v-currency>
-                    <button class="dropdown-item" type="submit" value="GBP" name="currency" data-v-currency-code>
-                      <span data-v-currency-sign_start>£</span>
-                      <span data-v-currency-sign_end>£</span>
-                      <span class="ms-1" data-v-currency-name>Pound Sterling</span>
-                    </button>
-                  </div>
-
-                  <div data-v-currency>
-                    <button class="dropdown-item" type="submit" value="USD" name="currency" data-v-currency-code>
-                      <span data-v-currency-sign_start>$</span>
-                      <span data-v-currency-sign_end>$</span>
-                      <span class="ms-1" data-v-currency-name>US Dollar</span>
-                    </button>
-                  </div>
-
-                </div>
-              </form>
-            </div>
-          </li>
-          <li class="list-inline-item">
-            <div data-v-component-language>
-              <form method="post" enctype="multipart/form-data" id="form-language">
-
-                <a class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  <!-- <i class="la la-flag me-1"></i> -->
-                  <!-- 
+                  <a class="dropdown-toggle p-2 p-md-0" data-bs-toggle="dropdown" role="button" title="Language" aria-expanded="false">
+                    <!-- <i class="la la-flag me-1"></i> -->
+                    <!-- 
 									<img src="" data-v-language-info-img>
 									-->
-                  <span class="d-none d-md-inline" data-v-language-info-name>English</span>
-                </a>
+                    <span class="" data-v-language-info-name>English</span>
+                  </a>
 
 
-                <div class="dropdown-menu dropdown-menu-end">
+                  <div class="dropdown-menu dropdown-menu-end">
 
-                  <div data-v-language>
-                    <button class="dropdown-item" type="submit" value="eng" name="language" data-v-language-code>
-                      <!-- <i class="la la-flag la-lg me-2"></i> -->
-                      <img src="" loading="lazy" class="me-1" data-v-language-img>
+                    <div data-v-language>
+                      <button class="dropdown-item" type="submit" value="eng" name="language" data-v-language-code>
+                        <!-- <i class="la la-flag la-lg me-2"></i> -->
+                        <img src="" loading="lazy" class="me-1" data-v-language-img>
 
-                      <!-- <a href="" data-v-language-url> -->
-                      <span data-v-language-name>English</span>
-                      <!-- </a> -->
-                    </button>
+                        <!-- <a href="" data-v-language-url> -->
+                        <span data-v-language-name>English</span>
+                        <!-- </a> -->
+                      </button>
+                    </div>
+
+                    <div data-v-language>
+                      <button class="dropdown-item" type="submit" value="ro" name="language" data-v-language-code>
+                        <!-- <i class="la la-flag la-lg me-2"></i> -->
+                        <img src="" loading="lazy" class="me-1" data-v-language-img>
+                        <!-- <a href="" data-v-language-url>  -->
+                        <span data-v-language-name>Romanian</span>
+                        <!-- </a>  -->
+                      </button>
+                    </div>
+
                   </div>
+                </form>
+              </div>
+            </li>
+            <li class="list-inline-item">
 
-                  <div data-v-language>
-                    <button class="dropdown-item" type="submit" value="ro" name="language" data-v-language-code>
-                      <!-- <i class="la la-flag la-lg me-2"></i> -->
-                      <img src="" loading="lazy" class="me-1" data-v-language-img>
-                      <!-- <a href="" data-v-language-url>  -->
-                      <span data-v-language-name>Romanian</span>
-                      <!-- </a>  -->
-                    </button>
-                  </div>
+              <a id="color-theme-switch" class="p-2 p-md-0" href="javascript:void(0);" role="button" title="Switch sidebar color theme">
+                <i class="la la-sun la-lg"></i>
+              </a>
 
-                </div>
-              </form>
-            </div>
-          </li>
-        </ul>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
@@ -131,10 +132,11 @@
     <div class="container">
       <div data-v-component-site>
         <a class="navbar-brand" href="/" data-v-url-params='{"host":"www.*.*"}'>
-          <img src="img/logo.png" loading="lazy" class="logo-default" data-v-site-logo>
-          <img src="img/logo.png" loading="lazy" class="logo-sticky" data-v-site-logo-sticky>
-          <img src="img/logo-white.png" loading="lazy" class="logo-default-dark" data-v-site-logo-dark>
-          <img src="img/logo-white.png" loading="lazy" class="logo-default-dark-sticky" data-v-site-logo-dark-sticky>
+          <span class="visually-hidden">Logo</span>
+          <img src="img/logo.png" alt="Site logo" loading="lazy" class="logo-default" data-v-site-logo>
+          <img src="img/logo.png" alt="Site logo sticky" loading="lazy" class="logo-sticky" data-v-site-logo-sticky>
+          <img src="img/logo-white.png" alt="Site logo dark" loading="lazy" class="logo-default-dark" data-v-site-logo-dark>
+          <img src="img/logo-white.png" alt="Site logo dark sticky" loading="lazy" class="logo-default-dark-sticky" data-v-site-logo-dark-sticky>
         </a>
       </div>
 
@@ -144,29 +146,68 @@
 
       <div class="collapse navbar-collapse" id="navbar" data-v-component-menu="header" data-v-slug="main-menu">
         <ul class="navbar-nav ms-auto" data-v-menu-items>
-          <li class="nav-item dropdown" data-v-menu-item data-v-class-if-has-dropdown="category.children > 0">
+          <li class="nav-item dropdown position-static" data-v-menu-item data-v-class-if-has-dropdown="category.children > 0" data-v-class-if-position-static="category.has-text">
 
-            <a class="nav-link" href="#" data-v-class-if-dropdown-toggle="category.children > 0" aria-haspopup="true" aria-expanded="false" data-v-menu-item-url>
-              <span data-v-menu-item-name>Resources</span>
+            <a class="nav-link dropdown-toggle" href="#" data-v-class-if-dropdown-toggle="category.children > 0" data-v-class-if-active="category.active" aria-expanded="false" data-v-menu-item-url>
+              <span data-v-menu-item-name data-v-if-not="category.type = 'text'"></span>
+              <span data-v-menu-item-content>
+                <p>
+                  <img src="/media/vvveb.svg" height="24" alt="" class="me-2">Mega menu
+                </p>
+              </span>
             </a>
 
             <div class="dropdown-menu" data-v-menu-item-recursive>
-              <div data-v-menu-item class="nav-item" data-v-menu-item data-v-class-if-dropdown="category.children > 0">
-                <a class="dropdown-item" href="https://github.com/givanz/VvvebJs/wiki" data-v-menu-item-url>
-                  <span data-v-menu-item-name>User Documentation</span>
+              <div data-v-menu-item class="nav-item" data-v-class-if-dropdown="category.children > 0">
+                <a class="dropdown-item" data-v-class-if-active="category.active" href="https://github.com/givanz/VvvebJs/wiki" data-v-menu-item-url>
+                  <span data-v-menu-item-name data-v-if-not="category.type = 'text'"></span>
+                  <span data-v-if="category.content" data-v-menu-item-content>
+                    <div class="row">
+                      <div class="col-6 align-self-center">
+                        <img src="img/demo/video-1.jpg" alt="Post" width="250" loading="lazy" class="rounded img-fluid">
+                      </div>
+                      <div class="col-6">
+                        <h4>Features</h4>
+                        <p class="text-muted">Just a few mentions, but there is more</p>
+                        <ul class="list-unstyled">
+                          <li class="text-primary">Page builder</li>
+                          <li class="text-primary">Mega menu</li>
+                          <li class="text-primary">Multi language</li>
+                          <li class="text-primary">Advanced SEO</li>
+                          <li class="text-primary">Ecommerce</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </span>
                 </a>
               </div>
-              <div data-v-menu-item class="nav-item" data-v-menu-item data-v-class-if-dropdown="category.children > 0">
-                <a class="dropdown-item" href="https://github.com/givanz/VvvebJs/wiki" data-v-menu-item-url>
-                  <span data-v-menu-item-name>Developer Documentation</span>
+              <div data-v-menu-item class="nav-item" data-v-class-if-dropdown="category.children > 0">
+                <a class="dropdown-item" href="https://github.com/givanz/VvvebJs/wiki" data-v-class-if-active="category.active" data-v-menu-item-url>
+                  <span data-v-menu-item-name data-v-if-not="category.type = 'text'">Developer Documentation</span>
+                  <span data-v-menu-item-content></span>
                 </a>
               </div>
             </div>
           </li>
-          <li class="nav-item" data-v-menu-item>
-            <a class="nav-link" href="https://blog.vvveb.com" data-v-menu-item-url>
+          <li class="nav-item dropdown" data-v-menu-item>
+            <a class="nav-link dropdown-toggle" href="https://blog.vvveb.com" data-v-menu-item-url>
               <span data-v-menu-item-name>Blog</span>
             </a>
+
+            <div class="dropdown-menu" data-v-menu-item-recursive>
+              <div data-v-menu-item class="nav-item" data-v-class-if-dropdown="category.children > 0">
+                <a class="dropdown-item" href="https://github.com/givanz/VvvebJs/wiki" data-v-menu-item-url>
+                  <span data-v-menu-item-name data-v-if-not="category.type = 'text'">User Documentation</span>
+                  <span data-v-menu-item-content></span>
+                </a>
+              </div>
+              <div data-v-menu-item class="nav-item" data-v-class-if-dropdown="category.children > 0">
+                <a class="dropdown-item" href="https://github.com/givanz/VvvebJs/wiki" data-v-menu-item-url>
+                  <span data-v-menu-item-name data-v-if-not="category.type = 'text'">Developer Documentation</span>
+                  <span data-v-menu-item-content></span>
+                </a>
+              </div>
+            </div>
           </li>
           <li class="nav-item" data-v-menu-item>
             <a class="nav-link" href="https://www.vvveb.com/page/contact" data-v-menu-item-url>
@@ -181,9 +222,10 @@
           <li class="nav-toggle">
             <!-- User Login Info -->
             <div class="dropdown user-box nav-item">
-              <a class="dropdown-toggle nav-link " href role="button" id="user-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-v-url="user/index">
+              <a class="dropdown-toggle nav-link " href role="button" id="user-dropdown" data-bs-toggle="dropdown" aria-expanded="false" data-v-url="user/index">
                 <!-- <img src="img/user.svg" loading="lazy" width="20" alt> -->
                 <i class="la la-lg la-user"></i>
+                <span class="visually-hidden">User</span>
               </a>
 
               <div class="dropdown-menu dropdown-menu-end login-box p-4" aria-labelledby="user-dropdown">
@@ -302,32 +344,55 @@
 
 
                     <div class="user-form" data-v-if="component.user_id">
-                      <div>Welcome <b data-v-user-first_name data-filter-capitalize>John</b>
+                      <div class="text-center">Welcome <b data-v-user-first_name data-filter-capitalize>John</b>
                         <b data-v-user-last_name data-filter-capitalize>Doe</b>
                       </div>
 
-                      <ul class="m-2 list-unstyled">
+                      <div class="dropdown-divider opacity-50 my-3"></div>
+
+                      <ul class="m-3 list-unstyled">
                         <li>
-                          <a href="user" data-v-url="user/index">My account</a>
+                          <a href="user" data-v-url="user/index">
+                            <i class="la la-user la-lg text-muted m-1"></i>
+                            <span>My account</span>
+                          </a>
                         </li>
                         <li>
-                          <a href="user/comments" data-v-url="user/comments/index">Comments</a>
+                          <a href="user/comments" data-v-url="user/comments/index">
+                            <i class="la la-comment la-lg text-muted m-1"></i>
+                            <span>Comments</span>
+                          </a>
                         </li>
                         <li>
-                          <a href="user/orders" data-v-url="user/orders/index">Orders</a>
+                          <a href="user/orders" data-v-url="user/orders/index">
+                            <i class="la la-shopping-bag la-lg text-muted m-1"></i>
+                            <span>Orders</span>
+                          </a>
                         </li>
                         <li>
-                          <a href="user/downloads" data-v-url="user/downloads/index">Downloads</a>
+                          <a href="user/downloads" data-v-url="user/downloads/index">
+                            <i class="la la-hand-holding-heart la-lg text-muted m-1"></i>
+                            <span>Downloads</span>
+                          </a>
                         </li>
                         <li>
-                          <a href="user/profile" data-v-url="user/profile/index">Profile</a>
+                          <a href="user/wishlist" data-v-url="user/wishlist/index">
+                            <i class="la la-download la-lg text-muted m-1"></i>
+                            <span>Wishlist</span>
+                          </a>
+                        </li>
+                        <li>
+                          <a href="user/profile" data-v-url="user/profile/index">
+                            <i class="la la-cogs la-lg text-muted m-1"></i>
+                            <span>Profile</span>
+                          </a>
                         </li>
                       </ul>
 
 
                       <input type="hidden" name="logout">
 
-                      <button type="submit" value="logout" class="btn btn-primary w-100">
+                      <button type="submit" value="logout" class="btn btn-sm btn-primary w-100">
 
                         <span class="loading d-none">
                           <span class="spinner-border spinner-border-sm align-middle" role="status" aria-hidden="true">
@@ -336,7 +401,9 @@
                         </span>
 
                         <span class="button-text">
-                          Logout
+                          <i class="la la-sign-out-alt la-lg m-1"></i>
+                          <span>Log out</span>
+                          </a>
                         </span>
 
                       </button>
@@ -352,9 +419,10 @@
             <!-- Cart Area -->
             <div class="dropdown nav-item mini-cart" data-v-component-cart>
 
-              <a class="dropdown-toggle cart-info nav-link " href role="button" id="cart-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-v-url="cart/cart/index">
+              <a class="dropdown-toggle cart-info nav-link " href role="button" id="cart-dropdown" data-bs-toggle="dropdown" aria-expanded="false" data-v-url="cart/cart/index">
                 <!-- <img src="img/bag.svg" width="20" alt> -->
                 <i class="la la-lg la-shopping-bag"></i>
+                <span class="visually-hidden">Cart</span>
                 <strong class="text-top text-bold" data-v-total_items data-v-if="cart.total_items > 0"></strong>
               </a>
 
@@ -385,17 +453,21 @@
                             <div class="option" data-v-if="product.option">
                               <div class="" data-v-product-option>
                                 <span data-v-product-option-option>Color</span>: <span data-v-product-option-name>Red</span>
+                                <span data-v-if="value.price">(<span data-v-product-option-price></span>)</span>
                               </div>
                               <div class="" data-v-product-option>
                                 <span data-v-product-option-option>Size</span>: <span data-v-product-option-name>XL</span>
+                                <span data-v-if="value.price">(<span data-v-product-option-price></span>)</span>
                               </div>
                               <div class="" data-v-product-option>
                                 <span data-v-product-option-option>Material</span>: <span data-v-product-option-name>Wool</span>
+                                <span data-v-if="value.price">(<span data-v-product-option-price></span>)</span>
                               </div>
                             </div>
 
                             <div class="subscription" data-v-if="product.subscription">
-                              <span data-v-product-subscription-name>Subscription plan</span>
+                              <span>Subscription plan</span>:
+                              <span data-v-cart-product-subscription_name>Subscription plan</span>
                             </div>
                           </td>
                           <td class="text-end">
@@ -513,21 +585,30 @@
           </li>
         </ul>
 
-        <div class="search-area toggle-hover">
-          <form action="/search" method="get" data-v-action="/search">
-            <input type="hidden" name="route" value="search">
-            <div class="input-group">
-              <input type="search" name="search" class="form-control" id="headerSearch" placeholder="Type for search" data-v-vvveb-action="search" data-v-vvveb-on="keyup">
-              <button class="btn border-0" type="submit">
-                <div class="la-flip-horizontal">
-                  <i class="la la-search la-lg" aria-hidden="true"></i>
-                </div>
-              </button>
-            </div>
-          </form>
-        </div>
+        <button class="btn btn-outline-secondary border-0" type="submit" title="Search" data-bs-toggle="modal" data-bs-target="#searchModal">
+          <div class="la-flip-horizontal">
+            <i class="la la-search la-lg" aria-hidden="true"></i>
+          </div>
+        </button>
 
+        <!--
+	<div class="search-area toggle-hover">
+		<form action="/search" method="get" data-v-action="/search">
+			<input type="hidden" name="route" value="search">
+			<div class="input-group">
+				<input type="search" name="search" class="form-control" id="headerSearch" placeholder="Type for search" data-v-vvveb-action="search" data-v-vvveb-on="keyup">
+				<button class="btn border-0" type="submit" title="Search">
+					<div class="la-flip-horizontal">
+						<i class="la la-search la-lg" aria-hidden="true"></i>
+					</div>
+				</button>
+			</div>			  
+		</form>
+	</div>
+-->
       </div>
+
+
     </div>
   </div>
 </nav>
