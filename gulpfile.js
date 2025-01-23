@@ -256,7 +256,7 @@ function sections(type = "section", dirs = []) {
 		dirs = fs.readdirSync(sectionsDir).map(fileName => {
 			let stat = fs.statSync(`${sectionsDir}/${fileName}`);
 
-			if (fileName.startsWith("_")) {
+			if (fileName.startsWith("_") || fileName === "footer" || fileName === "navigation") {
 				return;
 			}
 
