@@ -129,7 +129,7 @@ async function screenshots(type = "sections", dirs = []) {
 		section = sections[i];
 		screenshot = section.replace(sectionsDir, screenshotDir).replace('.html', '.png');
 		tempFiles.push(screenshot);
-		sectionScreenshot = section.replace('.html', '-screenshot.html');;
+		sectionScreenshot = section.replace('.html', '-screenshot.html');
 		tempFiles.push(sectionScreenshot);
 		
 		//gutil.log(`Start screenshot for '${gutil.colors.cyan(section)}' to '${gutil.colors.magenta(screenshot)}'`);
@@ -146,13 +146,14 @@ async function screenshots(type = "sections", dirs = []) {
 		
 		//await page.setContent(html, {"waitUntil":"networkidle0"});
 
-		url = "http://127.0.0.1:8008" + sectionScreenshot.replace(baseDir, '');
-		/*	
+	 	const url = "http://localhost:8008" + sectionScreenshot.replace(baseDir, '');
+
+		 /*
 		await Promise.all([ page.goto(url, { waitUntil: "load", timeout: 10000 }).catch(e => {
 		  if (e.message.includes('net::ERR_ABORTED')) { console.log('PAGE LOG:', e.message) }
 		}), page.waitForNavigation() ]);
 		*/ 
-		
+
 		await page.goto(url, { waitUntil: "load", timeout: 10000 }).catch(e => {
 		  console.log('PAGE LOG:', e.message);
 		  //if (e.message.includes('net::ERR_ABORTED')) { console.log('PAGE LOG:', e.message) }
