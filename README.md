@@ -71,10 +71,23 @@ npm run gulp blocks
 
 ### Generate screenshots for sections
 
+Make sure to run a web server inside this root folder. It'll spin up a webserver at 8008. 
+
+```bash
+npm run gulp connect
+```
+
+Then, separately, run the following command. 
+
 ```bash
 npm run gulp screenshots
 ```
 
+Make sure you have graphics magick installed. On Mac you can type:
+
+```bash
+brew install graphicsmagick
+```
 
 ## Quick start
 
