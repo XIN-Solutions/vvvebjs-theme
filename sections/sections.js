@@ -3076,9 +3076,9 @@ Vvveb.Sections.add("showcase/showcase-1", {
             </svg>
           </div>
           <h3>
-            <a href="#">Better Security</a>
+            <a href="#">Cras felis nunc</a>
           </h3>
-          <p class="text-center">Vvveb is 100% safe against sql injections, a vulerability that affects most CMS.</p>
+          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
         </div>
       </div>
       <div class="col-12 col-sm-6 col-md-6 col-lg-3">
@@ -3090,9 +3090,9 @@ Vvveb.Sections.add("showcase/showcase-1", {
             </svg>
           </div>
           <h3>
-            <a href="#">Unlimited customization</a>
+            <a href="#">Cras felis nunc</a>
           </h3>
-          <p class="text-center">Vvveb uses only html for templating for maximum flexibility.</p>
+          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
         </div>
       </div>
       <div class="col-12 col-sm-6 col-md-6 col-lg-3">
@@ -3104,9 +3104,9 @@ Vvveb.Sections.add("showcase/showcase-1", {
             </svg>
           </div>
           <h3>
-            <a href="#">Advanced Ecommerce</a>
+            <a href="#">Cras felis nunc</a>
           </h3>
-          <p class="text-center">Vvveb is a full featured ecommerce platform with advanced functionality.</p>
+          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
         </div>
       </div>
       <div class="col-12 col-sm-6 col-md-6 col-lg-3">
@@ -3117,9 +3117,9 @@ Vvveb.Sections.add("showcase/showcase-1", {
             </svg>
           </div>
           <h3>
-            <a href="#">Full Localization</a>
+            <a href="#">Cras felis nunc</a>
           </h3>
-          <p class="text-center">Publish content in multiple languages or sell in different currencies.</p>
+          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
         </div>
       </div>
     </div>
@@ -3137,9 +3137,9 @@ Vvveb.Sections.add("showcase/showcase-1", {
             <i class="font-icon la la-shield-alt"></i>
           </div>
           <h3>
-            <a href="#">Security</a>
+            <a href="#">Cras felis nunc</a>
           </h3>
-          <p>Vvveb is 100% safe against sql injections, a vulerability that affects most CMS.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
           <a class="more  d-block" href="#">
             Read more
             <i class="font-icon la la-chevron-circle-right"></i>
@@ -3152,9 +3152,9 @@ Vvveb.Sections.add("showcase/showcase-1", {
             <i class="font-icon la la-praying-hands"></i>
           </div>
           <h3>
-            <a href="#">Unlimited theme flexibility</a>
+            <a href="#">Cras felis nunc</a>
           </h3>
-          <p>Vvveb uses only html for templating for maximum flexibility.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
           <a class="more d-block" href="#">
             Read more
             <i class="font-icon la la-chevron-circle-right"></i>
@@ -3167,9 +3167,9 @@ Vvveb.Sections.add("showcase/showcase-1", {
             <i class="font-icon la la-shopping-cart"></i>
           </div>
           <h3>
-            <a href="#">Ecommerce</a>
+            <a href="#">Cras felis nunc</a>
           </h3>
-          <p>Vvveb is a full featured ecommerce platform with advanced functionality.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
           <a class="more d-block" href="#">
             Read more
             <i class="font-icon la la-chevron-circle-right"></i>
@@ -3182,9 +3182,9 @@ Vvveb.Sections.add("showcase/showcase-1", {
             <i class="font-icon la la-globe-europe"></i>
           </div>
           <h3>
-            <a href="#">Localization</a>
+            <a href="#">Cras felis nunc</a>
           </h3>
-          <p>Publish content in multiple languages or sell in different currencies.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
           <a class="more d-block" href="#">
             Read more
             <i class="font-icon la la-chevron-circle-right"></i>
@@ -3206,9 +3206,9 @@ Vvveb.Sections.add("showcase/showcase-1", {
             <i class="font-icon la la-shield-alt"></i>
           </div>
           <h3>
-            <a href="#">Security</a>
+            <a href="#">Cras felis nunc</a>
           </h3>
-          <p>Vvveb is 100% safe against sql injections, a vulerability that affects most CMS.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
           <!-- a class="more d-block" href="#">
 			  Read more
 			  <i class="font-icon la la-chevron-circle-right"></i>
@@ -3221,9 +3221,9 @@ Vvveb.Sections.add("showcase/showcase-1", {
             <i class="font-icon la la-praying-hands"></i>
           </div>
           <h3>
-            <a href="#">Unlimited flexibility</a>
+            <a href="#">Cras felis nunc</a>
           </h3>
-          <p>Vvveb uses only html for templating for maximum flexibility.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
           <!-- a class="more d-block" href="#">
 			  Read more
 			  <i class="font-icon la la-chevron-circle-right"></i>
@@ -3236,9 +3236,9 @@ Vvveb.Sections.add("showcase/showcase-1", {
             <i class="font-icon la la-shopping-cart"></i>
           </div>
           <h3>
-            <a href="#">Ecommerce</a>
+            <a href="#">Cras felis nunc</a>
           </h3>
-          <p>Vvveb is a full featured ecommerce platform with advanced functionality.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
           <!-- a class="more d-block" href="#">
 			  Read more
 			  <i class="font-icon la la-chevron-circle-right"></i>
@@ -3251,9 +3251,9 @@ Vvveb.Sections.add("showcase/showcase-1", {
             <i class="font-icon la la-globe-europe"></i>
           </div>
           <h3>
-            <a href="#">Localization</a>
+            <a href="#">Cras felis nunc</a>
           </h3>
-          <p>Publish content in multiple languages or sell in different currencies.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
           <!-- a class="more d-block" href="#">
 			  Read more
 			  <i class="font-icon la la-chevron-circle-right"></i>
@@ -3292,9 +3292,9 @@ Vvveb.Sections.add("showcase/showcase-1", {
           </div>
           <div class="text">
             <h3>
-              <a href="#">Security</a>
+              <a href="#">Cras felis nunc</a>
             </h3>
-            <p>Vvveb is 100% safe against sql injections, a vulerability that affects most CMS.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
             <a class="more d-block" href="#">
               Read more
               <i class="font-icon la la-chevron-circle-right"></i>
@@ -3309,9 +3309,9 @@ Vvveb.Sections.add("showcase/showcase-1", {
           </div>
           <div class="text">
             <h3>
-              <a href="#">Unlimited flexibility</a>
+              <a href="#">Cras felis nunc</a>
             </h3>
-            <p>Vvveb uses only html for templating for maximum flexibility.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
             <a class="more d-block" href="#">
               Read more
               <i class="font-icon la la-chevron-circle-right"></i>
@@ -3326,9 +3326,9 @@ Vvveb.Sections.add("showcase/showcase-1", {
           </div>
           <div class="text">
             <h3>
-              <a href="#">Ecommerce</a>
+              <a href="#">Cras felis nunc</a>
             </h3>
-            <p>Vvveb is a full featured ecommerce platform with advanced functionality.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
             <a class="more d-block" href="#">
               Read more
               <i class="font-icon la la-chevron-circle-right"></i>
@@ -3366,9 +3366,9 @@ Vvveb.Sections.add("showcase/showcase-1", {
           </div>
           <div class="text">
             <h3>
-              <a href="#">Security</a>
+              <a href="#">Cras felis nunc</a>
             </h3>
-            <p>Vvveb is 100% safe against sql injections, a vulerability that affects most CMS.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
             <a class="more d-block" href="#">
               Read more
               <i class="font-icon la la-chevron-circle-right"></i>
@@ -3383,9 +3383,9 @@ Vvveb.Sections.add("showcase/showcase-1", {
           </div>
           <div class="text">
             <h3>
-              <a href="#">Unlimited theme flexibility</a>
+              <a href="#">Cras felis nunc</a>
             </h3>
-            <p>Vvveb uses only html for templating for maximum flexibility.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
             <a class="more d-block" href="#">
               Read more
               <i class="font-icon la la-chevron-circle-right"></i>
@@ -3400,9 +3400,9 @@ Vvveb.Sections.add("showcase/showcase-1", {
           </div>
           <div class="text">
             <h3>
-              <a href="#">Ecommerce</a>
+              <a href="#">Cras felis nunc</a>
             </h3>
-            <p>Vvveb is a full featured ecommerce platform with advanced functionality and internationalization.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
             <a class="more d-block" href="#">
               Read more
               <i class="font-icon la la-chevron-circle-right"></i>
@@ -3426,9 +3426,9 @@ Vvveb.Sections.add("showcase/showcase-1", {
           </div>
           <div class="text">
             <h3>
-              <a href="#">The next generation website builder</a>
+              <a href="#">Cras felis nunc</a>
             </h3>
-            <p>Powerful and easy to use drag and drop website builder for blogs, presentation or ecommerce stores.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
             <a class="more d-block" href="#">
               Read more
               <i class="font-icon la la-chevron-circle-right"></i>
@@ -3451,9 +3451,9 @@ Vvveb.Sections.add("showcase/showcase-1", {
           </div>
           <div class="text">
             <h3>
-              <a href="#">The next generation website builder</a>
+              <a href="#">Cras felis nunc</a>
             </h3>
-            <p>Powerful and easy to use drag and drop website builder for blogs, presentation or ecommerce stores.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
             <a class="more d-block" href="#">
               Read more
               <i class="font-icon la la-chevron-circle-right"></i>
@@ -3476,9 +3476,9 @@ Vvveb.Sections.add("showcase/showcase-1", {
           </div>
           <div class="text">
             <h3>
-              <a href="#">The next generation website builder</a>
+              <a href="#">Cras felis nunc</a>
             </h3>
-            <p>Powerful and easy to use drag and drop website builder for blogs, presentation or ecommerce stores.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
             <a class="more d-block" href="#">
               Read more
               <i class="font-icon la la-chevron-circle-right"></i>
@@ -3498,14 +3498,14 @@ Vvveb.Sections.add("showcase/showcase-1", {
         <img alt="image" loading="lazy" class="img-fluid" src="http://via.placeholder.com/650x450/5fa9f8/fff">
       </div>
       <div class="col-12 col-md-4 order-1 order-md-2">
-        <h2>Nice Heading</h2>
-        <p class="text-h3 mt-3">Powerful and easy to use drag and drop website builder for blogs, presentation or ecommerce stores.</p>
+        <h2>Cras felis nunc</h2>
+        <p class="text-h3 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
       </div>
     </div>
     <div class="row align-items-center justify-content-center pt-5 pb-5">
       <div class="col-12 col-md-4 offset-md-1">
-        <h2>Nice Heading</h2>
-        <p class="text-h3 mt-3">Powerful and easy to use drag and drop website builder for blogs, presentation or ecommerce stores.</p>
+        <h2>Cras felis nunc</h2>
+        <p class="text-h3 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
 
       </div>
       <div class="col-12 col-md-6   mt-4 mt-md-0">
@@ -3517,8 +3517,8 @@ Vvveb.Sections.add("showcase/showcase-1", {
         <img alt="image" loading="lazy" class="img-fluid" src="http://via.placeholder.com/650x450/5fa9f8/fff">
       </div>
       <div class="col-12 col-md-4 order-1 order-md-2">
-        <h2>Nice Heading</h2>
-        <p class="text-h3 mt-3">Powerful and easy to use drag and drop website builder for blogs, presentation or ecommerce stores.</p>
+        <h2>Cras felis nunc</h2>
+        <p class="text-h3 mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
       </div>
     </div>
   </div>
@@ -3535,9 +3535,9 @@ Vvveb.Sections.add("showcase/showcase-1", {
             <i class="font-icon la la-shield-alt"></i>
           </div>
           <h3>
-            <a href="#">Security</a>
+            <a href="#">Cras felis nunc</a>
           </h3>
-          <p class="text-center">Vvveb is 100% safe against sql injections, a vulerability that affects most CMS.</p>
+          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
         </div>
       </div>
       <div class="col-12 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
@@ -3546,9 +3546,9 @@ Vvveb.Sections.add("showcase/showcase-1", {
             <i class="font-icon la la-praying-hands"></i>
           </div>
           <h3>
-            <a href="#">Unlimited theme flexibility</a>
+            <a href="#">Cras felis nunc</a>
           </h3>
-          <p class="text-center">Vvveb uses only html for templating for maximum flexibility.</p>
+          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
         </div>
       </div>
       <div class="col-12 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
@@ -3559,7 +3559,7 @@ Vvveb.Sections.add("showcase/showcase-1", {
           <h3>
             <a href="#">Ecommerce</a>
           </h3>
-          <p class="text-center">Vvveb is a full featured ecommerce platform with advanced functionality.</p>
+          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
         </div>
       </div>
       <div class="col-12 col-sm-6 col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
@@ -3568,9 +3568,9 @@ Vvveb.Sections.add("showcase/showcase-1", {
             <i class="font-icon la la-globe-europe"></i>
           </div>
           <h3>
-            <a href="#">Localization</a>
+            <a href="#">Cras felis nunc</a>
           </h3>
-          <p class="text-center">Publish content in multiple languages or sell in different currencies.</p>
+          <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
         </div>
       </div>
     </div>
@@ -3586,7 +3586,7 @@ Vvveb.Sections.add("team/team-1", {
     <div class="row justify-content-center mb-4">
       <div class="col-md-7 text-center">
         <h2 class="mb-3">Meet Our Team</h2>
-        <h3 class="text-muted">We are a group of professionals dedicated to their work</h3>
+        <h3 class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </h3>
       </div>
     </div>
     <div class="row">
@@ -3601,7 +3601,7 @@ Vvveb.Sections.add("team/team-1", {
             <div class="pt-2">
               <h4 class="mt-4 mb-0">John Doe</h4>
               <h5 class="text-muted mb-3">CTO - Founder</h5>
-              <p class="text-muted">We are a group of professionals dedicated to their work</p>
+              <p class="text-muted">Phasellus ullamcorper, dui vitae ullamcorper rutrum.</p>
 
               <ul class="mb-0 list-inline mt-3">
                 <li class="list-inline-item">
@@ -3648,7 +3648,7 @@ Vvveb.Sections.add("team/team-1", {
             <div class="pt-2">
               <h4 class="mt-4 mb-0">John Doe</h4>
               <h5 class="text-muted mb-3">CTO - Tech</h5>
-              <p class="text-muted">We are a group of professionals dedicated to their work</p>
+              <p class="text-muted">Phasellus ullamcorper, dui vitae ullamcorper rutrum.</p>
 
               <ul class="mb-0 list-inline mt-3">
                 <li class="list-inline-item">
@@ -3695,7 +3695,7 @@ Vvveb.Sections.add("team/team-1", {
             <div class="pt-2">
               <h4 class="mt-4 mb-0">John Doe</h4>
               <h5 class="text-muted mb-3">CSO - Financial</h5>
-              <p class="text-muted">We are a group of professionals dedicated to their work</p>
+              <p class="text-muted">Phasellus ullamcorper, dui vitae ullamcorper rutrum.</p>
 
               <ul class="mb-0 list-inline mt-3">
                 <li class="list-inline-item">
@@ -3742,7 +3742,7 @@ Vvveb.Sections.add("team/team-1", {
             <div class="pt-2">
               <h4 class="mt-4 mb-0">John Doe</h4>
               <h5 class="text-muted mb-3">CMO - Operations</h5>
-              <p class="text-muted">You can relay on our amazing features list and also our user services will be great experience.</p>
+              <p class="text-muted">Phasellus ullamcorper, dui vitae ullamcorper rutrum.</p>
 
               <ul class="mb-0 list-inline mt-3">
                 <li class="list-inline-item">
@@ -3788,7 +3788,8 @@ Vvveb.Sections.add("team/team-1", {
     <div class="row justify-content-center mb-4">
       <div class="col-md-7 text-center">
         <h3 class="mb-3">Meet Our Team</h3>
-        <h5 class="lead text-muted">We are a group of professionals dedicated to their work</h5>
+        <h5 class="lead text-muted">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </h5>
       </div>
     </div>
     <div class="row justify-content-center py-5">
@@ -3803,7 +3804,7 @@ Vvveb.Sections.add("team/team-1", {
               <small>CEO - Founder</small>
             </div>
             <div class="card-subtitle">
-              <p class="text-muted"> I really enjoyed working with them, they are Group of Professionals and they know what they're Doing </p>
+              <p class="text-muted">Phasellus ullamcorper, dui vitae ullamcorper rutrum.</p>
             </div>
             <div class="card-footer">
               <ul class="mb-0 list-inline mt-3">
@@ -3847,7 +3848,7 @@ Vvveb.Sections.add("team/team-1", {
               <small>CTO - Co-Founder</small>
             </div>
             <div class="card-subtitle">
-              <p class="text-muted"> I really enjoyed working with them, they are Group of Professionals and they know what they're Doing </p>
+              <p class="text-muted">Phasellus ullamcorper, dui vitae ullamcorper rutrum.</p>
             </div>
             <div class="card-footer">
               <ul class="mb-0 list-inline mt-3">
@@ -3891,7 +3892,7 @@ Vvveb.Sections.add("team/team-1", {
               <small>CSO - Financial</small>
             </div>
             <div class="card-subtitle">
-              <p class="text-muted"> I really enjoyed working with them, they are Group of Professionals and they know what they're Doing </p>
+              <p class="text-muted">Phasellus ullamcorper, dui vitae ullamcorper rutrum.</p>
             </div>
             <div class="card-footer">
               <ul class="mb-0 list-inline mt-3">
@@ -3934,7 +3935,7 @@ Vvveb.Sections.add("team/team-1", {
     <div class="row justify-content-center mb-4">
       <div class="col-md-7 text-center">
         <h3 class="mb-3">Meet Our Team</h3>
-        <h5 class="text-muted">We are a group of professionals dedicated to their work</h5>
+        <h5 class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </h5>
       </div>
     </div>
     <div class="row">
@@ -3975,7 +3976,7 @@ Vvveb.Sections.add("team/team-1", {
             <div class="px-4">
               <h5 class="mt-4 mb-0">John Doe</h5>
               <h6 class="text-muted mb-3">CSO - Financial</h6>
-              <p class="mt-3">We are a group of professionals dedicated to their work</p>
+              <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
             </div>
           </div>
         </div>
@@ -4019,7 +4020,7 @@ Vvveb.Sections.add("team/team-1", {
             <div class="px-4">
               <h5 class="mt-4 mb-0">John Doe</h5>
               <h6 class="text-muted mb-3">CSO - Financial</h6>
-              <p class="mt-3">We are a group of professionals dedicated to their work</p>
+              <p class="mt-3">Phasellus ullamcorper, dui vitae ullamcorper rutrum.</p>
             </div>
           </div>
         </div>
@@ -4063,7 +4064,7 @@ Vvveb.Sections.add("team/team-1", {
             <div class="px-4">
               <h5 class="mt-4 mb-0">John Doe</h5>
               <h6 class="text-muted mb-3">CSO - Financial</h6>
-              <p class="mt-3">We are a group of professionals dedicated to their work</p>
+              <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim.</p>
             </div>
           </div>
         </div>
@@ -4107,7 +4108,7 @@ Vvveb.Sections.add("team/team-1", {
             <div class="px-4">
               <h5 class="mt-4 mb-0">John Doe</h5>
               <h6 class="text-muted mb-3">CSO - Financial</h6>
-              <p class="mt-3">We are a group of professionals dedicated to their work</p>
+              <p class="mt-3">Phasellus ullamcorper, dui vitae ullamcorper rutrum.</p>
             </div>
           </div>
         </div>
@@ -4125,7 +4126,7 @@ Vvveb.Sections.add("team/team-1", {
     <div class="row justify-content-center mb-4">
       <div class="col-md-7 text-center">
         <h3 class="mb-3">Meet Our Team</h3>
-        <h5 class="text-muted">We are a group of professionals dedicated to their work</h5>
+        <h5 class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </h5>
       </div>
     </div>
     <div class="row">
@@ -4183,7 +4184,7 @@ Vvveb.Sections.add("team/team-1", {
             <div class="px-4">
               <h5 class="mt-4 mb-0">John Doe</h5>
               <h6 class="text-muted mb-3">CSO - Financial</h6>
-              <p class="mt-3">We are a group of professionals dedicated to their work</p>
+              <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
               <ul class="mb-0 list-inline mt-3">
                 <li class="list-inline-item">
                   <a href="#" class="social-link">
@@ -4226,7 +4227,7 @@ Vvveb.Sections.add("team/team-1", {
             <div class="px-4">
               <h5 class="mt-4 mb-0">John Doe</h5>
               <h6 class="text-muted mb-3">CSO - Financial</h6>
-              <p class="mt-3">We are a group of professionals dedicated to their work</p>
+              <p class="mt-3">Phasellus ullamcorper, dui vitae ullamcorper rutrum.</p>
               <ul class="mb-0 list-inline mt-3">
                 <li class="list-inline-item">
                   <a href="#" class="social-link">
@@ -4269,7 +4270,7 @@ Vvveb.Sections.add("team/team-1", {
     <div class="row justify-content-center mb-4">
       <div class="col-md-7 text-center">
         <h3 class="mb-3">Meet Our Team</h3>
-        <h5 class="text-muted">We are a group of professionals dedicated to their work</h5>
+        <h5 class="text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </h5>
       </div>
     </div>
     <div class="row">
@@ -4286,7 +4287,7 @@ Vvveb.Sections.add("team/team-1", {
             <div class="col-md-7">
               <div class="p-4">
                 <h4 class="mb-3">John Doe</h4>
-                <p>We are a group of professionals dedicated to their work</p>
+                <p>Phasellus ullamcorper, dui vitae ullamcorper rutrum.</p>
                 <ul class="mb-0 list-inline mt-3">
                   <li class="list-inline-item">
                     <a href="#" class="social-link">
@@ -4332,7 +4333,7 @@ Vvveb.Sections.add("team/team-1", {
             <div class="col-md-7">
               <div class="p-4">
                 <h4 class="mb-3">John Doe</h4>
-                <p>We are a group of professionals dedicated to their work</p>
+                <p>Phasellus ullamcorper, dui vitae ullamcorper rutrum.</p>
                 <ul class="mb-0 list-inline mt-3">
                   <li class="list-inline-item">
                     <a href="#" class="social-link">
@@ -4380,7 +4381,7 @@ Vvveb.Sections.add("team/team-1", {
             <div class="col-md-7">
               <div class="p-4">
                 <h4 class="mb-3">John Doe</h4>
-                <p>We are a group of professionals dedicated to their work</p>
+                <p>Phasellus ullamcorper, dui vitae ullamcorper rutrum.</p>
                 <ul class="mb-0 list-inline mt-3">
                   <li class="list-inline-item">
                     <a href="#" class="social-link">
@@ -4426,7 +4427,7 @@ Vvveb.Sections.add("team/team-1", {
             <div class="col-md-7">
               <div class="p-4">
                 <h4 class="mb-3">John Doe</h4>
-                <p>We are a group of professionals dedicated to their work</p>
+                <p>Phasellus ullamcorper, dui vitae ullamcorper rutrum.</p>
                 <ul class="mb-0 list-inline mt-3">
                   <li class="list-inline-item">
                     <a href="#" class="social-link">
