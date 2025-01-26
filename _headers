@@ -2,8 +2,20 @@
     Access-Control-Allow-Origin: *
     X-Robots-Tag: noindex
 
-/js/*
+/*.html
+    Content-Type: text/html
+
+/*.svg
+    Content-Type: image/svg+xml
+
+/*.jpg
+    Content-Type: image/jpeg
+
+/*.png
+    Content-Type: image/png
+
+/*.js
     Content-Type: text/javascript
 
-/css/*
+/*.css
     Content-Type: text/css
