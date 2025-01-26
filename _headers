@@ -1,0 +1,9 @@
+/*
+    Access-Control-Allow-Origin: *
+    X-Robots-Tag: noindex
+
+/js/*
+    Content-Type: text/javascript
+
+/css/*
+    Content-Type: text/css
