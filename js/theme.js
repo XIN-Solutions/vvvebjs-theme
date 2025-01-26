@@ -131,11 +131,11 @@ function zoom(e) {
 document.querySelectorAll('div.zoom').forEach(e => e.addEventListener('mousemove', zoom));
 
 
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/service-worker.js', { scope: '/' })
-        .then(function (registration){console.log('Service worker registered successfully');})
-        .catch(function (e){console.error('Error during service worker registration:', e);});
-}
+// if ('serviceWorker' in navigator) {
+//   navigator.serviceWorker.register('/service-worker.js', { scope: '/' })
+//         .then(function (registration){console.log('Service worker registered successfully');})
+//         .catch(function (e){console.error('Error during service worker registration:', e);});
+// }
 
 function togglePasswordInput(element, input) {
 	let password = document.getElementById(input);
