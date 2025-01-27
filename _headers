@@ -1,6 +1,7 @@
 /*
     Access-Control-Allow-Origin: *
     X-Robots-Tag: noindex
+    Cache-Control: no-transform
 
 /*.html
     Content-Type: text/html
