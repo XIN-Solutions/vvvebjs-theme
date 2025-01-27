@@ -1,28 +1,22 @@
 /*
     Access-Control-Allow-Origin: *
     X-Robots-Tag: noindex
-    Cache-Control: no-transform
 
 /*.html
     Content-Type: text/html
-    Cache-Control: no-transform
 
 /*.svg
     Content-Type: image/svg+xml
-    Cache-Control: no-transform
 
 /*.jpg
     Content-Type: image/jpeg
-    Cache-Control: no-transform
 
 /*.png
     Content-Type: image/png
-    Cache-Control: no-transform
 
 /*.js
     Content-Type: text/javascript
-    Cache-Control: no-transform
 
 /*.css
+    Content-Type: text/css
 
-    Cache-Control: no-transform
