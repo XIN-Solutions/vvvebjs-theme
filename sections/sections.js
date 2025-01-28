@@ -357,179 +357,8 @@ Vvveb.Sections.add("hero/hero-1", {
     <img src="img/demo/hero-3.jpg" alt="Hero background">
   </div>
 </header>`
-});Vvveb.Sections.add("hero/hero-slider", {
-    name: "Hero slider",
-    image: Vvveb.themeBaseUrl + "/screenshots/sections/hero/hero-slider-thumb.jpeg",
-    html: `<header class="hero-slider" title="hero-slider">
-
-
-  <div class="swiper" data-slides-per-view="1" data-draggable="true">
-    <div class="swiper-wrapper">
-
-
-      <div class="swiper-slide">
-        <img src="img/demo/hero-3.jpg" loading="lazy">
-        <div class="content">
-          <div class="container">
-            <div>
-              <div class="row align-items-center justify-content-center text-start">
-                <div class="col-lg-7">
-                  <h1 class="heading mb-3 display-3 fw-bold" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet.</h1>
-                  <h2 class="h3 col-lg-8 mx-auto" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </h2>
-
-
-                  <div class="buttons mt-4" data-aos="fade-up" data-aos-delay="300">
-                    <a href="#" class="btn btn-primary text-white btn-lg">
-                      <span>⚡</span>
-                      <span>Read More</span>
-                      <b>›</b>
-                    </a>
-                    <a href="#" class="btn btn-white text-white btn-lg">Free Demo</a>
-                  </div>
-
-
-                </div>
-                <div class="col-lg-5">
-                  <img src="img/demo/video-1.jpg" class="shadow img-thumbnail" loading="lazy">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="overlay"></div>
-      </div>
-
-
-      <div class="swiper-slide">
-        <img src="img/demo/hero-3.jpg" loading="lazy">
-        <div class="content">
-          <div class="container">
-            <div>
-              <div class="row align-items-center justify-content-center text-center">
-                <div class="col-lg-12">
-                  <h1 class="heading text-white mb-3 display-4 fw-bold" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet.</h1>
-                  <h2 class="text-white h3" data-aos="fade-up" data-aos-delay="100">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim.
-                  </h2>
-
-                  <div class="buttons mt-4" data-aos="fade-up" data-aos-delay="300">
-                    <a href="https://www.vvveb.com" class="btn btn-primary text-white  btn-lg">
-                      <span>⚡</span>
-                      <span>Read More</span>
-                      <b>›</b>
-                    </a>
-                    <a href="https://demo.vvveb.com" class="btn btn-white text-white  btn-lg">Free Demo</a>
-                  </div>
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="overlay"></div>
-      </div>
-
-      <div class="swiper-slide">
-        <img src="img/demo/hero-3.jpg" loading="lazy">
-        <div class="content">
-          <div class="container">
-            <div>
-              <div class="row align-items-center justify-content-center text-start g-5">
-                <div class="col-lg-5">
-                  <img src="img/demo/video-1.jpg" class="shadow img-thumbnail" loading="lazy">
-                </div>
-
-                <div class="col-lg-7">
-                  <h1 class="heading text-white mb-3 display-3 fw-bold" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet.</h1>
-                  <h2 class="text-white h3" data-aos="fade-up" data-aos-delay="100">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim.
-                  </h2>
-
-
-                  <div class="buttons mt-4" data-aos="fade-up" data-aos-delay="300">
-                    <a href="https://www.vvveb.com" class="btn btn-primary text-white btn-lg">
-                      <span>⚡</span>
-                      <span>Read More</span>
-                      <b>›</b>
-                    </a>
-                    <a href="https://demo.vvveb.com" class="btn btn-white text-white  btn-lg">Free Demo</a>
-                  </div>
-
-
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="overlay"></div>
-      </div>
-
-    </div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-
-    <div class="swiper-pagination"></div>
-  </div>
-
-
-
-  <div class="separator bottom">
-
-    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 41" width="100%" preserveAspectRatio="none">
-      <defs>
-        <style>
-          .cls-1 {
-            fill: var(--bs-body-bg);
-          }
-        </style>
-      </defs>
-      <title>rough-edges-bottom</title>
-      <path class="cls-1" d="M0,185l125-26,33,17,58-12s54,19,55,19,50-11,50-11l56,6,60-8,63,15v15H0Z" transform="translate(0 -159)" />
-    </svg>
-
-  </div>
-
-
-  <div class="background-container">
-    <img src="img/demo/hero-3.jpg" alt="Hero background" loading="lazy">
-  </div>
-
-
-  <script id="swiper-js" src="../../js/libs/swiper/swiper-bundle.min.js"></script>
-  <link id="swiper-css" href="../../js/libs/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <script>
-var swiper = [];
-function initSwiper(onlyNew = false) {
-	var list = document.querySelectorAll('.swiper' + (onlyNew ? ":not(.swiper-initialized)" : "") );
-	list.forEach(el => {
-		//el.dataset
-		let params = {      
-			navigation: {
-				nextEl: ".swiper-button-next",
-				prevEl: ".swiper-button-prev",
-			},      
-			pagination: {
-				el: ".swiper-pagination",
-		  },
-		};
-		for (i in el.dataset) {
-			let param = el.dataset[i];
-			if (param[0] = '{') {
-				param = JSON.parse(param);
-			}
-			params[i] = param;
-		}
-		swiper.push(new Swiper(el, params))
-		//swiper.push(new Swiper(el, { ...{autoplay:{delay: 500}}, ...el.dataset}))		
-	});
-}	
-
-initSwiper();
-</script>
-
-</header>`
 });
-	Vvveb.SectionsGroup["Hero"] = ["hero/hero-1","hero/hero-2","hero/hero-3","hero/hero-4","hero/hero-5","hero/hero-6","hero/hero-7","hero/hero-slider"];
+	Vvveb.SectionsGroup["Hero"] = ["hero/hero-1","hero/hero-2","hero/hero-3","hero/hero-4","hero/hero-5","hero/hero-6","hero/hero-7"];
 Vvveb.Sections.add("features/features-1", {
     name: "Features 1",
     image: Vvveb.themeBaseUrl + "/screenshots/sections/features/features-1-thumb.jpeg",
@@ -2036,117 +1865,6 @@ Vvveb.Sections.add("contact-form/contact-form-1", {
 Vvveb.Sections.add("posts/posts-1", {
     name: "Posts 1",
     image: Vvveb.themeBaseUrl + "/screenshots/sections/posts/posts-1-thumb.jpeg",
-    html: `<section class="posts-1" title="latest-post-1">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="section-heading text-center">
-          <h2>Latest Posts</h2>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-  <div class="container" data-v-component-posts="posts-1" data-v-limit="3" data-v-image_size="medium">
-    <div class="row">
-
-
-
-      <div class="col-12 col-lg-4 mb-2" data-v-post>
-
-        <article class="card h-100 shadow-sm">
-          <div class="card-img-top" data-v-if="post.image">
-            <img src="img/demo/video-1.jpg" alt="" class="w-100" loading="lazy" data-v-size="thumb" data-v-post-image>
-          </div>
-          <!-- Post Title -->
-          <div class="card-body">
-            <div class="post-title card-title">
-              <a href="#" data-v-post-url>
-                <h3 data-v-post-name>
-                  Vivamus sed nunc in arcu cursus mollis quis et orci. Interdum et malesuada
-                </h3>
-              </a>
-            </div>
-            <!-- Hover Content -->
-            <p class="card-text text-muted" data-v-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus purus dignissim convallis.</p>
-            <a href="#" title="Read more" role="button" data-v-post-url>
-              <span>Read more</span>
-              <i class="la la-angle-right"></i>
-            </a>
-          </div>
-        </article>
-
-
-      </div>
-
-
-
-      <div class="col-12 col-lg-4 mb-2" data-v-post>
-
-        <article class="card h-100 shadow-sm">
-          <div class="card-img-top" data-v-if="post.image">
-            <img src="img/demo/video-1.jpg" alt="" class="w-100" loading="lazy" data-v-size="thumb" data-v-post-image>
-          </div>
-          <!-- Post Title -->
-          <div class="card-body">
-            <div class="post-title card-title">
-              <a href="#" data-v-post-url>
-                <h3 data-v-post-name>
-                  Vivamus sed nunc in arcu cursus mollis quis et orci. Interdum et malesuada
-                </h3>
-              </a>
-            </div>
-            <!-- Hover Content -->
-            <p class="card-text text-muted" data-v-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus purus dignissim convallis.</p>
-            <a href="#" title="Read more" role="button" data-v-post-url>
-              <span>Read more</span>
-              <i class="la la-angle-right"></i>
-            </a>
-          </div>
-        </article>
-
-
-      </div>
-
-
-
-      <div class="col-12 col-lg-4 mb-2" data-v-post>
-
-        <article class="card h-100 shadow-sm">
-          <div class="card-img-top" data-v-if="post.image">
-            <img src="img/demo/video-1.jpg" alt="" class="w-100" loading="lazy" data-v-size="thumb" data-v-post-image>
-          </div>
-          <!-- Post Title -->
-          <div class="card-body">
-            <div class="post-title card-title">
-              <a href="#" data-v-post-url>
-                <h3 data-v-post-name>
-                  Vivamus sed nunc in arcu cursus mollis quis et orci. Interdum et malesuada
-                </h3>
-              </a>
-            </div>
-            <!-- Hover Content -->
-            <p class="card-text text-muted" data-v-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus purus dignissim convallis.</p>
-            <a href="#" title="Read more" role="button" data-v-post-url>
-              <span>Read more</span>
-              <i class="la la-angle-right"></i>
-            </a>
-          </div>
-        </article>
-
-
-      </div>
-
-
-
-    </div>
-  </div>
-</section>`
-});Vvveb.Sections.add("posts/posts-2", {
-    name: "Posts 2",
-    image: Vvveb.themeBaseUrl + "/screenshots/sections/posts/posts-2-thumb.jpeg",
     html: `<section class="pt-5 pb-5" title="posts-2">
   <div class="container">
     <div class="row">
@@ -2298,9 +2016,9 @@ Vvveb.Sections.add("posts/posts-1", {
     </div>
   </div>
 </section>`
-});Vvveb.Sections.add("posts/posts-3", {
-    name: "Posts 3",
-    image: Vvveb.themeBaseUrl + "/screenshots/sections/posts/posts-3-thumb.jpeg",
+});Vvveb.Sections.add("posts/posts-2", {
+    name: "Posts 2",
+    image: Vvveb.themeBaseUrl + "/screenshots/sections/posts/posts-2-thumb.jpeg",
     html: `<section class="posts-3 py-5" title="posts-3">
   <div class="container">
 
@@ -2371,6 +2089,160 @@ Vvveb.Sections.add("posts/posts-1", {
         </div>
       </div>
 
+    </div>
+  </div>
+</section>`
+});Vvveb.Sections.add("posts/posts-3", {
+    name: "Posts 3",
+    image: Vvveb.themeBaseUrl + "/screenshots/sections/posts/posts-3-thumb.jpeg",
+    html: `<section class="pt-5 pb-5" title="posts-2">
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <h3 class="mb-3">News sections</h3>
+      </div>
+      <div class="col-6 text-end">
+        <a class="btn btn-primary mb-3 me-1" href="#carouselPosts2" role="button" data-bs-slide="prev">
+          <i class="la la-arrow-left"></i>
+        </a>
+        <a class="btn btn-primary mb-3 " href="#carouselPosts2" role="button" data-bs-slide="next">
+          <i class="la la-arrow-right"></i>
+        </a>
+      </div>
+      <div class="col-12">
+        <div id="carouselPosts2" class="carousel slide" data-bs-ride="carousel">
+
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-v-component-posts="slide1" data-v-limit="3" data-v-page="1" data-v-image_size="medium">
+              <div class="row">
+
+                <div class="col-md-4 mb-3" data-v-post>
+                  <div class="card">
+                    <img class="img-fluid" loading="lazy" alt="day67-dog" src="img/illustrations.co/day67-dog.svg" data-v-post-image>
+                    <div class="card-body">
+                      <a href="content/post.html" data-v-post-url>
+                        <h4 class="card-title" data-v-post-name>Interdum et malesuada</h4>
+                      </a>
+                      <p class="card-text" data-v-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus purus dignissim convallis.</p>
+
+                    </div>
+
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3" data-v-post>
+                  <div class="card">
+                    <img class="img-fluid" loading="lazy" alt="day22-owl" src="img/illustrations.co/day22-owl.svg" data-v-post-image>
+                    <div class="card-body">
+                      <a href="content/post.html" data-v-post-url>
+                        <h4 class="card-title" data-v-post-name>Interdum et malesuada</h4>
+                      </a>
+                      <p class="card-text" data-v-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus purus dignissim convallis.</p>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3" data-v-post>
+                  <div class="card">
+                    <img class="img-fluid" loading="lazy" alt="day68-happy-cat" src="img/illustrations.co/day68-happy-cat.svg" data-v-post-image>
+                    <div class="card-body">
+                      <a href="content/post.html" data-v-post-url>
+                        <h4 class="card-title" data-v-post-name>Interdum et malesuada</h4>
+                      </a>
+                      <p class="card-text" data-v-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus purus dignissim convallis.</p>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="carousel-item" data-v-component-posts="slide2" data-v-limit="3" data-v-page="2">
+              <div class="row">
+
+                <div class="col-md-4 mb-3" data-v-post>
+                  <div class="card">
+                    <img class="img-fluid" loading="lazy" alt="day79-coffee" src="img/illustrations.co/day79-coffee.svg" data-v-post-image>
+                    <div class="card-body">
+                      <a href="content/post.html" data-v-post-url>
+                        <h4 class="card-title" data-v-post-name>Interdum et malesuada</h4>
+                      </a>
+                      <p class="card-text" data-v-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus purus dignissim convallis.</p>
+
+                    </div>
+
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3" data-v-post>
+                  <div class="card">
+                    <img class="img-fluid" loading="lazy" alt="109-map-location" src="img/illustrations.co/109-map-location.svg" data-v-post-image>
+                    <div class="card-body">
+                      <a href="content/post.html" data-v-post-url>
+                        <h4 class="card-title" data-v-post-name>Interdum et malesuada</h4>
+                      </a>
+                      <p class="card-text" data-v-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus purus dignissim convallis.</p>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3" data-v-post>
+                  <div class="card">
+                    <img class="img-fluid" loading="lazy" alt="107-healthy" src="img/illustrations.co/107-healthy.svg" data-v-post-image>
+                    <div class="card-body">
+                      <a href="content/post.html" data-v-post-url>
+                        <h4 class="card-title" data-v-post-name>Interdum et malesuada</h4>
+                      </a>
+                      <p class="card-text" data-v-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus purus dignissim convallis.</p>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="carousel-item" data-v-component-posts="slide3" data-v-limit="3" data-v-page="3">
+              <div class="row">
+
+                <div class="col-md-4 mb-3" data-v-post>
+                  <div class="card">
+                    <img class="img-fluid" loading="lazy" alt="126-namaste-no-hand-shake" src="img/illustrations.co/126-namaste-no-hand-shake.svg" data-v-post-image>
+                    <div class="card-body">
+                      <a href="content/post.html" data-v-post-url>
+                        <h4 class="card-title" data-v-post-name>Interdum et malesuada</h4>
+                      </a>
+                      <p class="card-text" data-v-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus purus dignissim convallis.</p>
+
+                    </div>
+
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3" data-v-post>
+                  <div class="card">
+                    <img class="img-fluid" loading="lazy" alt="104-dumbbell" src="img/illustrations.co/104-dumbbell.svg" data-v-post-image>
+                    <div class="card-body">
+                      <a href="content/post.html" data-v-post-url>
+                        <h4 class="card-title" data-v-post-name>Interdum et malesuada</h4>
+                      </a>
+                      <p class="card-text" data-v-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus purus dignissim convallis.</p>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 mb-3" data-v-post>
+                  <div class="card">
+                    <img class="img-fluid" loading="lazy" alt="day50-pirahna" src="img/illustrations.co/day50-pirahna.svg" data-v-post-image>
+                    <div class="card-body">
+                      <a href="content/post.html" data-v-post-url>
+                        <h4 class="card-title" data-v-post-name>Interdum et malesuada</h4>
+                      </a>
+                      <p class="card-text" data-v-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus purus dignissim convallis.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>`
