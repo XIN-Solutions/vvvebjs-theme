@@ -104,7 +104,7 @@ Vvveb.Sections.add("hero/hero-1", {
           <h1 class="heading mb-3 display-4" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet.</h1>
           <h2 class="h3 col-lg-8 mx-auto" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </h2>
 
-          <div class="+buttons" data-aos="fade-up" data-aos-delay="300">
+          <div class="+buttons mt-4" data-aos="fade-up" data-aos-delay="300">
             <a href="#" class="btn btn-primary">
               <span>&#9889;</span>
               <span>Read More</span>
@@ -210,7 +210,7 @@ Vvveb.Sections.add("hero/hero-1", {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim.
         </p>
         <div class=" d-flex mt-3 mb-1">
-          <a class="btn btn-primary btn-lg  mt-md-3 " href="#" role="button">Read More</a>
+          <a class="btn btn-primary btn-lg mt-md-3 mx-0 " href="#" role="button">Read More</a>
         </div>
       </div>
       <div class="col-12 col-md-6 order-sm-1 order-md-2  ">
@@ -258,16 +258,16 @@ Vvveb.Sections.add("hero/hero-1", {
       <div class="row align-items-center justify-content-center text-start">
         <div class="col-lg-7">
           <h1 class="heading mb-3 display-3 fw-bold" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet.</h1>
-          <h2 class="h3 col-lg-8 mx-auto" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </h2>
+          <h2 class="h3 mx-auto" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </h2>
 
 
           <div class="buttons mt-4" data-aos="fade-up" data-aos-delay="300">
-            <a href="#" class="btn btn-success btn-lg">
+            <a href="#" class="btn btn-success btn-lg mx-0">
               <span>⚡</span>
               <span>Read More</span>
               <b>›</b>
             </a>
-            <a href="#" class="btn btn-white btn-lg">Free Demo</a>
+            <a href="#" class="btn btn-light btn-lg mx-0">Free Demo</a>
           </div>
 
 
@@ -316,16 +316,16 @@ Vvveb.Sections.add("hero/hero-1", {
 
         <div class="col-lg-7">
           <h1 class="heading mb-3 display-3 fw-bold" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet.</h1>
-          <h2 class="h3 col-lg-8 mx-auto" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </h2>
+          <h2 class="h3 mx-auto" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </h2>
 
 
           <div class="buttons mt-4" data-aos="fade-up" data-aos-delay="300">
-            <a href="#" class="btn btn-success btn-lg">
+            <a href="#" class="btn btn-success btn-lg mx-0">
               <span>⚡</span>
               <span>Read More</span>
               <b>›</b>
             </a>
-            <a href="#" class="btn btn-white btn-lg">Free Demo</a>
+            <a href="#" class="btn btn-light btn-lg mx-0">Free Demo</a>
           </div>
 
 
