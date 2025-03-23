@@ -1,0 +1,151 @@
+{
+    "name": "VvvebJS Theme Builder",
+    "description": "A Bootstrap 5 theme template system for VvvebJS page builder with sections and blocks generation capability",
+    
+    "structure": {
+        "input": {
+            "src/": "Source HTML templates and partials",
+            "scss/": "SASS source files",
+            "sections/": "Individual section templates for VvvebJS editor",
+            "blocks/": "Reusable block templates for VvvebJS editor"
+        },
+        "output": {
+            "css/": "Compiled CSS files",
+            "screenshots/": "Generated screenshots of sections and blocks",
+            "*.html": "Generated HTML pages from src templates"
+        }
+    },
+
+    "componentSystem": {
+        "declaration": {
+            "description": "Components are defined using HTML data attributes",
+            "examples": [
+                "data-v-component-menu=\"header\"",
+                "data-v-component-products=\"popular\"",
+                "data-v-component-posts=\"recent\""
+            ]
+        },
+        "options": {
+            "basic": {
+                "data-v-limit": "Number of items to show",
+                "data-v-page": "Page number for pagination",
+                "data-v-image_size": "Image size option",
+                "data-v-slug": "Unique identifier"
+            },
+            "storage": {
+                "data-v-storage": "Storage type (e.g. database)",
+                "data-v-name": "Component instance name"
+            },
+            "conditional": {
+                "data-v-if": "Conditional rendering",
+                "data-v-if-not": "Negative conditional"
+            }
+        },
+        "componentTypes": {
+            "menu": {
+                "description": "Navigation menu components",
+                "example": {
+                    "structure": "<div data-v-component-menu=\"header\" data-v-slug=\"main-menu\"><ul data-v-menu-items><li data-v-menu-item><a data-v-menu-item-url><span data-v-menu-item-name></span></a></li></ul></div>"
+                }
+            },
+            "product": {
+                "description": "Product display components",
+                "example": {
+                    "structure": "<div data-v-component-products=\"popular\" data-v-limit=\"8\"><div data-v-product><img data-v-product-image><span data-v-product-name></span><span data-v-product-price></span></div></div>"
+                }
+            },
+            "form": {
+                "description": "Form handling components",
+                "example": {
+                    "structure": "<div data-v-component-plugin-contact-form-form data-v-storage=\"database\" data-v-name=\"contact-form\"></div>"
+                }
+            },
+            "content": {
+                "description": "Content display components",
+                "example": {
+                    "structure": "<div data-v-component-posts=\"recent\" data-v-limit=\"4\" data-v-page=\"1\" data-v-image_size=\"medium\"></div>"
+                }
+            }
+        }
+    },
+
+    "buildSteps": [
+        {
+            "name": "install",
+            "command": "npm install",
+            "description": "Install all dependencies including gulp and related plugins"
+        },
+        {
+            "name": "build",
+            "command": "npm run gulp",
+            "description": "Generate HTML files from templates and compile SASS to CSS",
+            "watches": ["src/**/*.html", "scss/**/*.scss"]
+        },
+        {
+            "name": "development",
+            "command": "npm run gulp watch",
+            "description": "Watch for changes in source files and rebuild automatically",
+            "watches": ["src/**/*.html", "scss/**/*.scss"]
+        },
+        {
+            "name": "sections",
+            "command": "npm run gulp sections",
+            "description": "Generate sections list for VvvebJS page builder",
+            "watches": ["sections/**/*.html"]
+        },
+        {
+            "name": "blocks",
+            "command": "npm run gulp blocks",
+            "description": "Generate blocks list for VvvebJS editor",
+            "watches": ["blocks/**/*.html"]
+        },
+        {
+            "name": "screenshots",
+            "sequence": [
+                {
+                    "command": "npm run gulp connect",
+                    "description": "Start local web server on port 8008"
+                },
+                {
+                    "command": "npm run gulp screenshots",
+                    "description": "Generate screenshots for sections and blocks",
+                    "requires": ["graphicsmagick"]
+                }
+            ]
+        }
+    ],
+
+    "requirements": {
+        "node": ">=14.0.0",
+        "npm": ">=6.0.0",
+        "graphicsmagick": "Required for screenshot generation"
+    },
+
+    "outputs": {
+        "pages": {
+            "index.html": "Main landing page",
+            "blank.html": "Basic layout template",
+            "content/*.html": "Blog and content pages",
+            "product/*.html": "E-commerce pages",
+            "user/*.html": "User account pages",
+            "cart/*.html": "Shopping cart pages",
+            "checkout/*.html": "Checkout process pages",
+            "email/*.html": "Email templates"
+        }
+    },
+
+    "workflow": {
+        "development": [
+            "npm install",
+            "npm run gulp watch"
+        ],
+        "production": [
+            "npm install",
+            "npm run gulp",
+            "npm run gulp sections",
+            "npm run gulp blocks",
+            "npm run gulp connect",
+            "npm run gulp screenshots"
+        ]
+    }
+} 
