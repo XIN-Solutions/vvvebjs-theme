@@ -1,0 +1,3 @@
+.hero--compact > .container > div {
+    min-height: 600px !important;
+}
