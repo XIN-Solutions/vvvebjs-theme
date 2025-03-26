@@ -1,7 +1,7 @@
 Vvveb.Sections.add("hero/hero-1", {
     name: "Hero 1",
     image: Vvveb.themeBaseUrl + "/screenshots/sections/hero/hero-1-thumb.jpeg",
-    html: `<header class="hero-1" title="hero-1">
+    html: `<header class="hero-1">
 
   <div class="container">
     <div class="heading">
@@ -47,7 +47,7 @@ Vvveb.Sections.add("hero/hero-1", {
 });Vvveb.Sections.add("hero/hero-2", {
     name: "Hero 2",
     image: Vvveb.themeBaseUrl + "/screenshots/sections/hero/hero-2-thumb.jpeg",
-    html: `<header class="hero-2" title="hero-2">
+    html: `<header class="hero-2">
 
   <div class="container">
     <div class="row align-items-center justify-content-between">
@@ -95,7 +95,7 @@ Vvveb.Sections.add("hero/hero-1", {
 });Vvveb.Sections.add("hero/hero-3", {
     name: "Hero 3",
     image: Vvveb.themeBaseUrl + "/screenshots/sections/hero/hero-3-thumb.jpeg",
-    html: `<header class="hero-3" title="hero-3">
+    html: `<header class="hero-3">
 
   <div class="container">
     <div>
@@ -148,7 +148,7 @@ Vvveb.Sections.add("hero/hero-1", {
 });Vvveb.Sections.add("hero/hero-4", {
     name: "Hero 4",
     image: Vvveb.themeBaseUrl + "/screenshots/sections/hero/hero-4-thumb.jpeg",
-    html: `<header class="hero-4" title="hero-4">
+    html: `<header class="hero-4">
 
   <div class="container">
     <div class="row align-items-center justify-content-center text-center">
@@ -200,7 +200,7 @@ Vvveb.Sections.add("hero/hero-1", {
 });Vvveb.Sections.add("hero/hero-5", {
     name: "Hero 5",
     image: Vvveb.themeBaseUrl + "/screenshots/sections/hero/hero-5-thumb.jpeg",
-    html: `<header class="hero-5" title="hero-5">
+    html: `<header class="hero-5">
 
   <div class="container" style="z-index:2">
     <div class="row align-items-center d-flex justify-content-between">
@@ -216,8 +216,7 @@ Vvveb.Sections.add("hero/hero-1", {
       <div class="col-12 col-md-6 order-sm-1 order-md-2  ">
         <div class="icon-wrap text-primary d-flex justify-content-md-center my-3">
           <button href="#" class="icon d-flex border-0 align-items-center justify-content-center bg-white text-dark shadow-lg rounded-circle " style="width:70px; height:70px">
-            <i class="la la-play la-lg ms-1"></i>
-          </button>
+            <i class="la la-play la-lg ms-1"></i </button>
         </div>
       </div>
     </div>
@@ -251,7 +250,7 @@ Vvveb.Sections.add("hero/hero-1", {
 });Vvveb.Sections.add("hero/hero-6", {
     name: "Hero 6",
     image: Vvveb.themeBaseUrl + "/screenshots/sections/hero/hero-6-thumb.jpeg",
-    html: `<header class="hero-6" title="hero-6">
+    html: `<header class="hero-6">
 
   <div class="container">
     <div>
@@ -305,7 +304,7 @@ Vvveb.Sections.add("hero/hero-1", {
 });Vvveb.Sections.add("hero/hero-7", {
     name: "Hero 7",
     image: Vvveb.themeBaseUrl + "/screenshots/sections/hero/hero-7-thumb.jpeg",
-    html: `<header class="hero-7" title="hero-7">
+    html: `<header class="hero-7">
 
   <div class="container">
     <div>
@@ -357,8 +356,61 @@ Vvveb.Sections.add("hero/hero-1", {
     <img src="img/demo/hero-3.jpg" alt="Hero background">
   </div>
 </header>`
+});Vvveb.Sections.add("hero/hero-compact", {
+    name: "Hero compact",
+    image: Vvveb.themeBaseUrl + "/screenshots/sections/hero/hero-compact-thumb.jpeg",
+    html: `<header class="hero-3 hero--compact">
+
+  <div class="container">
+    <div>
+      <div class="row align-items-center justify-content-center text-center">
+        <div class="col-lg-12">
+          <h1 class="heading mb-3 display-4" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet.</h1>
+          <h2 class="h3 col-lg-8 mx-auto" data-aos="fade-up" data-aos-delay="100">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </h2>
+
+          <div class="+buttons mt-4" data-aos="fade-up" data-aos-delay="300">
+            <a href="#" class="btn btn-primary">
+              <span>&#9889;</span>
+              <span>Read More</span>
+              <b>›</b>
+            </a>
+            <a href="#" class="btn btn-white">Secondary Button</a>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="separator bottom">
+
+    <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 41" width="100%" height="100" fill="var(--bs-body-bg)" preserveAspectRatio="none">
+      <defs></defs>
+      <title>rough-edges-bottom</title>
+      <path d="M0,185l125-26,33,17,58-12s54,19,55,19,50-11,50-11l56,6,60-8,63,15v15H0Z" transform="translate(0 -159)" />
+    </svg>
+
+  </div>
+  <!--
+   <div class="separator top">
+		
+		<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 41" width="100%" height="200" preserveAspectRatio="none"><defs><style>.cls-1{fill:var(--bs-body-bg);}</style></defs><title>rough-edges-bottom</title><path class="cls-1" d="M0,185l125-26,33,17,58-12s54,19,55,19,50-11,50-11l56,6,60-8,63,15v15H0Z" transform="translate(0 -159)"/></svg>
+		
+    </div>
+-->
+  <div class="overlay">
+  </div>
+
+  <div class="background-container">
+
+    <img src="img/demo/hero-3.jpg" alt="Hero background">
+
+  </div>
+
+</header>`
 });
-	Vvveb.SectionsGroup["Hero"] = ["hero/hero-1","hero/hero-2","hero/hero-3","hero/hero-4","hero/hero-5","hero/hero-6","hero/hero-7"];
+	Vvveb.SectionsGroup["Hero"] = ["hero/hero-1","hero/hero-2","hero/hero-3","hero/hero-4","hero/hero-5","hero/hero-6","hero/hero-7","hero/hero-compact"];
 Vvveb.Sections.add("features/features-1", {
     name: "Features 1",
     image: Vvveb.themeBaseUrl + "/screenshots/sections/features/features-1-thumb.jpeg",
