@@ -50,35 +50,42 @@ function setCookie(name, value) {
 
 let themeSwitch = document.querySelector("#color-theme-switch i");
 let theme = document.documentElement.dataset.bsTheme;
+
 if (theme) {
-	if (theme == "dark") {
+	if (theme === "dark") {
 		let themeSwitch = document.querySelector("#color-theme-switch i");
-		themeSwitch.classList.remove("la-sun")
-		themeSwitch.classList.add("la-moon");
+		if (themeSwitch) {
+			themeSwitch.classList.remove("la-sun")
+			themeSwitch.classList.add("la-moon");
+		}
 	}
 }
-	
-themeSwitch.addEventListener("click", function (event) {
-	
-	let theme = document.documentElement.dataset.bsTheme;
-	
-	if (theme == "dark") {
-		theme = "light";
-		themeSwitch.classList.remove("la-sun")
-		themeSwitch.classList.add("la-moon");
-	} else if (theme == "light" || theme == "auto" || !theme) {
-		theme = "dark";
-		themeSwitch.classList.remove("la-moon")
-		themeSwitch.classList.add("la-sun");
-	} else {
-		theme = "auto";
-	}
-	
-	document.documentElement.dataset.bsTheme = theme;
-	//localStorage.setItem("theme", theme);
-	setCookie("theme", theme);
-	//serverStorage.setItem();
-});
+
+if (themeSwitch) {
+	themeSwitch.addEventListener("click", function (event) {
+
+		let theme = document.documentElement.dataset.bsTheme;
+
+		if (theme === "dark") {
+			theme = "light";
+			themeSwitch.classList.remove("la-sun")
+			themeSwitch.classList.add("la-moon");
+		}
+		else if (theme === "light" || theme === "auto" || !theme) {
+			theme = "dark";
+			themeSwitch.classList.remove("la-moon")
+			themeSwitch.classList.add("la-sun");
+		}
+		else {
+			theme = "auto";
+		}
+
+		document.documentElement.dataset.bsTheme = theme;
+		//localStorage.setItem("theme", theme);
+		setCookie("theme", theme);
+		//serverStorage.setItem();
+	});
+}
 
 // product page
 document.querySelectorAll('.quantity').forEach(e => e.addEventListener('click', function (e) {
