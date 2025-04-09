@@ -9,32 +9,33 @@
         </div>
         <div class="col-lg-6">
           <div class="contact-box ms-3">
-            <h1 class=" mt-2">Quick Contact</h1>
-            <form class="mt-4">
+            <h1 class=" mt-2">Contact Us</h1>
+            <p>Get in touch with us, fill out the form below.</p>
+            <form hx-post="/contact" hx-disabled-elt="find button" class="mt-4">
               <div class="row">
                 <div class="col-lg-12">
                   <div class="form-group mt-2">
-                    <input class="form-control" type="text" placeholder="name">
+                    <input class="form-control" type="text" placeholder="name" name="name">
                   </div>
                 </div>
                 <div class="col-lg-12">
                   <div class="form-group mt-2">
-                    <input class="form-control" type="email" placeholder="email address">
+                    <input class="form-control" type="email" placeholder="email address" name="email" required>
                   </div>
                 </div>
                 <div class="col-lg-12">
                   <div class="form-group mt-2">
-                    <input class="form-control" type="text" placeholder="phone">
+                    <input class="form-control" type="text" placeholder="phone" name="phone">
                   </div>
                 </div>
                 <div class="col-lg-12">
                   <div class="form-group mt-2">
-                    <textarea class="form-control" rows="3" placeholder="message"></textarea>
+                    <textarea class="form-control" rows="5" name="message" placeholder="message"></textarea>
                   </div>
                 </div>
                 <div class="col-lg-12">
                   <button type="submit" class="btn btn-success mt-3 text-white border-0 px-3 py-2">
-                    <span> Submit</span>
+                    Submit
                   </button>
                 </div>
               </div>

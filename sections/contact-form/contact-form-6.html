@@ -2,7 +2,7 @@
   <div class="container-fluid g-0">
 
     <div style="height:300px" data-component-maps>
-      <iframe loading="lazy" frameborder="0" title="map" src="https://maps.google.com/maps?q=Bucharest&z=15&t=q&key=&output=embed" width="100%" height="100%" style="width:100%;height:100%;left:0px">
+      <iframe loading="lazy" frameborder="0" title="map" src="https://maps.google.com/maps?q=Auckland,New+Zealand&z=15&t=q&key=&output=embed" width="100%" height="100%" style="width:100%;height:100%;left:0px">
       </iframe>
     </div>
 
@@ -24,9 +24,9 @@
             <span>
               <i class="la la-lg la-envelope opacity-50"></i> Email:
             </span>
-            <span data-v-if="site.contact-email">
-              <a href="mailto:contact@mysite.com" data-v-site-contact-email>
-                <span data-v-site-contact-email>contact@mysite.com</span>
+            <span>
+              <a href="mailto:contact@mysite.com">
+                contact@mysite.com
               </a>
             </span>
           </p>
@@ -34,85 +34,18 @@
             <span>
               <i class="la la-lg la-phone opacity-50"></i> Phone:
             </span>
-            <a href="tel:5511112377" data-v-site-description-phone-number>
-              <span data-v-site-description-phone-number>+55 (111) 123 777</span>
-            </a>
+            <a href="tel:0224020111">022 4020 111</a>
           </p>
         </div>
       </div>
 
-      <div class="col-12 col-md-6 ms-auto" data-v-component-plugin-contact-form-form data-v-storage="database" data-v-name="contact-us-home">
+      <div class="col-12 col-md-6 ms-auto">
 
-        <div class="notifications" data-v-notifications>
-
-          <div class="alert alert-danger d-flex alert-dismissable" role="alert" data-v-notification-error>
-
-            <div class="icon align-middle me-2">
-              <i class="align-middle la la-2x lh-1 la-exclamation-triangle"></i>
-            </div>
-
-            <div class="flex-grow-1 align-self-center text-small">
-              <div>
-                <div data-v-notification-text>
-                  This is a placeholder for a notification message.
-                </div>
-              </div>
-            </div>
-
-
-            <button type="button" class="btn-close align-middle" data-bs-dismiss="alert" aria-label="Close">
-              <span aria-hidden="true">
-                <!-- <i class="la la-times"></i> -->
-              </span>
-            </button>
-          </div>
-
-          <div class="alert alert-success d-flex  alert-dismissable d-flex" role="alert" data-v-notification-success>
-
-            <div class="icon align-middle me-2">
-              <i class="align-middle la la-2x lh-1 la-check-circle"></i>
-            </div>
-
-            <div class="flex-grow-1 align-self-center align-middle" data-v-notification-text>
-              This is a placeholder for a success message.
-            </div>
-
-            <button type="button" class="btn-close align-middle" data-bs-dismiss="alert" aria-label="Close">
-              <span aria-hidden="true">
-                <!-- <i class="la la-times"></i> -->
-              </span>
-            </button>
-          </div>
-
-          <div class="alert alert-primary d-flex alert-dismissable d-flex" role="alert" data-v-notification-info>
-
-            <div class="icon align-middle me-2">
-              <i class="align-middle la la-2x lh-1  la-info-circle"></i>
-            </div>
-
-            <div class="flex-grow-1 align-self-center" data-v-notification-text>
-              This is a placeholder for a info message.
-            </div>
-
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
-              <span aria-hidden="true">
-                <!-- <i class="la la-times"></i> -->
-              </span>
-            </button>
-          </div>
-
-        </div>
-
-        <form action="" method="post" data-v-vvveb-action="submit" data-selector="[data-v-component-plugin-contact-form-form]" data-v-vvveb-on="submit">
-          <input type="hidden" class="form-control" placeholder="First name" name="firstname-empty">
-          <input type="hidden" class="form-control" placeholder="Email" name="csrf" data-v-csrf>
+        <form hx-post="/contact" hx-disabled-elt="find button">
 
           <div class="row">
             <div class="col">
-              <input type="text" class="form-control" placeholder="First name" name="firstname" required>
-            </div>
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Last name" name="lastname" required>
+              <input type="text" class="form-control" placeholder="Name" name="name" required>
             </div>
           </div>
 
@@ -124,38 +57,20 @@
 
           <div class="row mt-4">
             <div class="col">
-              <input type="text" class="form-control" placeholder="Subject" name="subject" required>
+              <input type="text" class="form-control" placeholder="Subject" name="subject">
             </div>
           </div>
+
           <div class="row mt-4">
             <div class="col">
-              <textarea class="form-control" name="message" rows="3" placeholder="How can we help?" required></textarea>
+              <textarea class="form-control" name="message" rows="5" placeholder="How can we help?" required></textarea>
             </div>
           </div>
-
-
-          <!-- if these hidden inputs are filled then ignore, robots -->
-
-          <input type="text" class="form-control d-none" placeholder="Contact form" name="contact-form">
-
-          <input type="text" class="form-control d-none" placeholder="Subject" name="subject-empty">
-
-          <input type="text" class="form-control visually-hidden" placeholder="Last name" name="lastname-empty" tabindex="-1">
-
 
           <div class="row mt-4">
             <div class="col">
               <button type="submit" class="btn btn-primary">
-                <span class="loading d-none">
-                  <span class="spinner-border spinner-border-sm align-middle" role="status" aria-hidden="true">
-                  </span>
-                  <span>Submitting</span> ...
-                </span>
-
-                <span class="button-text">
-                  <span>Submit</span>
-                  <i class="la la-lg la-envelope opacity-50 ms-2"></i>
-                </span>
+                Submit
               </button>
             </div>
           </div>

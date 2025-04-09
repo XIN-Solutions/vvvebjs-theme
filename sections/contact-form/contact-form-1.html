@@ -14,27 +14,23 @@
 
           <div class="row justify-content-center pt-4">
             <div class="col-12 col-md-8">
-              <form>
+              <form hx-post="/contact" hx-disabled-elt="find button">
                 <div class="row">
                   <div class="col-12 col-md">
-                    <input type="text" class="form-control" placeholder="Name">
+                    <input type="text" class="form-control" placeholder="Name" name="name" required>
                   </div>
+
                   <div class="col-12 col-md mt-4 mt-md-0">
-                    <input type="text" class="form-control" placeholder="Email">
+                    <input type="text" class="form-control" placeholder="Email" name="email" required>
                   </div>
                 </div>
 
                 <div class="row mt-4">
                   <div class="col">
-                    <input type="email" class="form-control" placeholder="Subject">
+                    <textarea class="form-control" name="message" rows="5" placeholder="How can we help?" required></textarea>
                   </div>
                 </div>
 
-                <div class="row mt-4">
-                  <div class="col">
-                    <textarea class="form-control" name="message" rows="3" placeholder="How can we help?"></textarea>
-                  </div>
-                </div>
                 <div class="row mt-4">
                   <div class="col text-center">
                     <button type="submit" class="btn btn-primary">Send</button>

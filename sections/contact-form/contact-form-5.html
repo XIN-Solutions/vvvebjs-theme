@@ -18,34 +18,27 @@
               </div>
 
 
-              <form id="contactForm">
+              <form hx-post="/contact" hx-disabled-elt="find button">
+
+                <div class="mb-3">
+                  <input class="form-control" id="name" type="text" placeholder="Name" name="name" required />
+                </div>
 
 
-                <div class=" mb-3">
-                  <input class="form-control" id="name" type="text" placeholder="Name" required />
-                  <label for="name">Name</label>
+                <div class="mb-3">
+                  <input class="form-control" id="emailAddress" name="email" type="email" placeholder="Email Address" required />
                 </div>
 
 
                 <div class=" mb-3">
-                  <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" required />
-                  <label for="emailAddress">Email Address</label>
+                  <textarea class="form-control" id="message" type="text" name="message" placeholder="Message" style="height: 10rem;" required></textarea>
                 </div>
 
-
-                <div class=" mb-3">
-                  <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" required></textarea>
-                  <label for="message">Message</label>
+                <div>
+                  <button class="btn btn-primary" id="submitButton" type="submit">Submit</button>
                 </div>
 
-
-
-
-                <div class="d-grid">
-                  <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button>
-                </div>
               </form>
-
 
             </div>
           </div>

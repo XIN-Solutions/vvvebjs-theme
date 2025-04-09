@@ -1279,27 +1279,23 @@ Vvveb.Sections.add("contact-form/contact-form-1", {
 
           <div class="row justify-content-center pt-4">
             <div class="col-12 col-md-8">
-              <form>
+              <form hx-post="/contact" hx-disabled-elt="find button">
                 <div class="row">
                   <div class="col-12 col-md">
-                    <input type="text" class="form-control" placeholder="Name">
+                    <input type="text" class="form-control" placeholder="Name" name="name" required>
                   </div>
+
                   <div class="col-12 col-md mt-4 mt-md-0">
-                    <input type="text" class="form-control" placeholder="Email">
+                    <input type="text" class="form-control" placeholder="Email" name="email" required>
                   </div>
                 </div>
 
                 <div class="row mt-4">
                   <div class="col">
-                    <input type="email" class="form-control" placeholder="Subject">
+                    <textarea class="form-control" name="message" rows="5" placeholder="How can we help?" required></textarea>
                   </div>
                 </div>
 
-                <div class="row mt-4">
-                  <div class="col">
-                    <textarea class="form-control" name="message" rows="3" placeholder="How can we help?"></textarea>
-                  </div>
-                </div>
                 <div class="row mt-4">
                   <div class="col text-center">
                     <button type="submit" class="btn btn-primary">Send</button>
@@ -1318,40 +1314,39 @@ Vvveb.Sections.add("contact-form/contact-form-1", {
     image: Vvveb.themeBaseUrl + "/screenshots/sections/contact-form/contact-form-2-thumb.jpeg",
     html: `<section class="contact-form-11 pt-0">
   <div class="container-fluid p-0 pb-5">
-    <iframe loading="lazy" class="map" title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.8444388087937!2d26.101253041406952!3d44.43635311654287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff4770adb5b7%3A0x58147f39579fe6fa!2zR3J1cHVsIFN0YXR1YXIgIkPEg3J1yJthIEN1IFBhaWHIm2Ui!5e0!3m2!1sen!2sro!4v1507381157656" style="border:0" allowfullscreen="" width="100%" height="300" frameborder="0"></iframe>
+    <div style="height:300px" data-component-maps>
+      <iframe loading="lazy" frameborder="0" title="map" src="https://maps.google.com/maps?q=Auckland,New+Zealand&z=15&t=q&key=&output=embed" width="100%" height="100%" style="width:100%;height:100%;left:0px">
+      </iframe>
+    </div>
   </div>
   <div class="container">
     <div class="row pt-5">
       <div class="col-12">
-        <form>
+        <form hx-post="/contact" hx-disabled-elt="find button">
           <div class="row">
-            <div class="col-12 col-md">
-              <label>First Name</label>
-              <input type="text" class="form-control">
-            </div>
-            <div class="col-12 col-md mt-4 mt-md-0">
-              <label>Last Name</label>
-              <input type="text" class="form-control">
+            <div class="col-12">
+              <label>Name</label>
+              <input type="text" name="name" class="form-control" required>
             </div>
           </div>
 
           <div class="row mt-4">
             <div class="col">
               <label>Your Email</label>
-              <input type="email" class="form-control">
+              <input type="email" class="form-control" name="email" required>
             </div>
           </div>
 
           <div class="row mt-4">
             <div class="col">
-              <label>Subject (optional but helpful)</label>
-              <input type="email" class="form-control">
+              <label>Subject</label>
+              <input type="text" class="form-control" name="subject">
             </div>
           </div>
           <div class="row mt-4">
             <div class="col">
               <label>How can we help?</label>
-              <textarea class="form-control" name="message" rows="3"></textarea>
+              <textarea class="form-control" name="message" rows="5" required></textarea>
             </div>
           </div>
           <div class="row mt-4 text-center">
@@ -1377,29 +1372,37 @@ Vvveb.Sections.add("contact-form/contact-form-1", {
         </p>
       </div>
     </div>
+
     <div class="row-50">
     </div>
+
     <div class="row justify-content-center">
       <div class="col-12 col-md-8 col-lg-7">
-        <form>
+        <form hx-post="/contact" hx-disabled-elt="find button">
           <div class="row">
+
             <div class="col">
-              <label>Your Email Address</label>
-              <input type="text" class="form-control">
+              <label>Name</label>
+              <input type="text" class="form-control" name="name" required>
+            </div>
+
+            <div class="col">
+              <label>Email Address</label>
+              <input type="email" class="form-control" name="email" required>
             </div>
           </div>
 
           <div class="row mt-4">
             <div class="col">
               <label>Subject</label>
-              <input type="email" class="form-control">
+              <input type="text" class="form-control" name="subject">
             </div>
           </div>
 
           <div class="row mt-4">
             <div class="col">
               <label>How can we help?</label>
-              <textarea class="form-control" name="message" rows="3"></textarea>
+              <textarea class="form-control" name="message" rows="5" required></textarea>
             </div>
           </div>
           <div class="row mt-4">
@@ -1414,8 +1417,14 @@ Vvveb.Sections.add("contact-form/contact-form-1", {
   </div>
 
   <div class="container-fluid p-0">
-    <iframe loading="lazy" class="map" title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.8444388087937!2d26.101253041406952!3d44.43635311654287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff4770adb5b7%3A0x58147f39579fe6fa!2zR3J1cHVsIFN0YXR1YXIgIkPEg3J1yJthIEN1IFBhaWHIm2Ui!5e0!3m2!1sen!2sro!4v1507381157656" style="border:0" allowfullscreen="" width="100%" height="300" frameborder="0"></iframe>
+
+    <div style="height:300px" data-component-maps>
+      <iframe loading="lazy" frameborder="0" title="map" src="https://maps.google.com/maps?q=Auckland,New+Zealand&z=15&t=q&key=&output=embed" width="100%" height="100%" style="width:100%;height:100%;left:0px">
+      </iframe>
+    </div>
+
   </div>
+
 </section>`
 });Vvveb.Sections.add("contact-form/contact-form-4", {
     name: "Contact form 4",
@@ -1432,22 +1441,26 @@ Vvveb.Sections.add("contact-form/contact-form-1", {
     </div>
     <div class="row-70"></div>
     <div class="row">
-      <div class="col-12 col-md-8 col-lg m-auto">
-        <form>
+      <div class="col-12 col-md-8 col-lg">
+        <form hx-post="/contact" hx-disabled-elt="find button">
           <div class="row">
             <div class="col">
-              <input type="email" class="form-control" placeholder="Enter email">
+              <input type="text" class="form-control" placeholder="Name" name="name" required>
+            </div>
+
+            <div class="col">
+              <input type="email" class="form-control" placeholder="Enter email" name="email" required>
             </div>
           </div>
 
           <div class="row mt-4">
             <div class="col">
-              <input type="email" class="form-control" placeholder="Subject">
+              <input type="text" class="form-control" placeholder="Subject" name="subject">
             </div>
           </div>
           <div class="row mt-4">
             <div class="col">
-              <textarea class="form-control" name="message" rows="3" placeholder="How can we help?"></textarea>
+              <textarea class="form-control" name="message" rows="5" placeholder="How can we help?" required></textarea>
             </div>
           </div>
           <div class="row mt-4">
@@ -1458,8 +1471,12 @@ Vvveb.Sections.add("contact-form/contact-form-1", {
         </form>
       </div>
 
-      <div class="col-12 col-md-8 col-lg pt-5 m-auto pt-lg-0">
-        <iframe loading="lazy" class="mb-4" title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.8444388087937!2d26.101253041406952!3d44.43635311654287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff4770adb5b7%3A0x58147f39579fe6fa!2zR3J1cHVsIFN0YXR1YXIgIkPEg3J1yJthIEN1IFBhaWHIm2Ui!5e0!3m2!1sen!2sro!4v1507381157656" style="border:0" allowfullscreen="" width="100%" height="200" frameborder="0"></iframe>
+      <div class="col-12 col-md-8 col-lg pt-5 pt-lg-0">
+
+        <div style="height:200px" data-component-maps>
+          <iframe loading="lazy" frameborder="0" title="map" src="https://maps.google.com/maps?q=Auckland,New+Zealand&z=15&t=q&key=&output=embed" width="100%" height="100%" style="width:100%;height:100%;left:0px">
+          </iframe>
+        </div>
 
         <p>
           <strong>Showroom</strong>
@@ -1495,34 +1512,27 @@ Vvveb.Sections.add("contact-form/contact-form-1", {
               </div>
 
 
-              <form id="contactForm">
+              <form hx-post="/contact" hx-disabled-elt="find button">
+
+                <div class="mb-3">
+                  <input class="form-control" id="name" type="text" placeholder="Name" name="name" required />
+                </div>
 
 
-                <div class=" mb-3">
-                  <input class="form-control" id="name" type="text" placeholder="Name" required />
-                  <label for="name">Name</label>
+                <div class="mb-3">
+                  <input class="form-control" id="emailAddress" name="email" type="email" placeholder="Email Address" required />
                 </div>
 
 
                 <div class=" mb-3">
-                  <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" required />
-                  <label for="emailAddress">Email Address</label>
+                  <textarea class="form-control" id="message" type="text" name="message" placeholder="Message" style="height: 10rem;" required></textarea>
                 </div>
 
-
-                <div class=" mb-3">
-                  <textarea class="form-control" id="message" type="text" placeholder="Message" style="height: 10rem;" required></textarea>
-                  <label for="message">Message</label>
+                <div>
+                  <button class="btn btn-primary" id="submitButton" type="submit">Submit</button>
                 </div>
 
-
-
-
-                <div class="d-grid">
-                  <button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">Submit</button>
-                </div>
               </form>
-
 
             </div>
           </div>
@@ -1539,7 +1549,7 @@ Vvveb.Sections.add("contact-form/contact-form-1", {
   <div class="container-fluid g-0">
 
     <div style="height:300px" data-component-maps>
-      <iframe loading="lazy" frameborder="0" title="map" src="https://maps.google.com/maps?q=Bucharest&z=15&t=q&key=&output=embed" width="100%" height="100%" style="width:100%;height:100%;left:0px">
+      <iframe loading="lazy" frameborder="0" title="map" src="https://maps.google.com/maps?q=Auckland,New+Zealand&z=15&t=q&key=&output=embed" width="100%" height="100%" style="width:100%;height:100%;left:0px">
       </iframe>
     </div>
 
@@ -1561,9 +1571,9 @@ Vvveb.Sections.add("contact-form/contact-form-1", {
             <span>
               <i class="la la-lg la-envelope opacity-50"></i> Email:
             </span>
-            <span data-v-if="site.contact-email">
-              <a href="mailto:contact@mysite.com" data-v-site-contact-email>
-                <span data-v-site-contact-email>contact@mysite.com</span>
+            <span>
+              <a href="mailto:contact@mysite.com">
+                contact@mysite.com
               </a>
             </span>
           </p>
@@ -1571,85 +1581,18 @@ Vvveb.Sections.add("contact-form/contact-form-1", {
             <span>
               <i class="la la-lg la-phone opacity-50"></i> Phone:
             </span>
-            <a href="tel:5511112377" data-v-site-description-phone-number>
-              <span data-v-site-description-phone-number>+55 (111) 123 777</span>
-            </a>
+            <a href="tel:0224020111">022 4020 111</a>
           </p>
         </div>
       </div>
 
-      <div class="col-12 col-md-6 ms-auto" data-v-component-plugin-contact-form-form data-v-storage="database" data-v-name="contact-us-home">
+      <div class="col-12 col-md-6 ms-auto">
 
-        <div class="notifications" data-v-notifications>
-
-          <div class="alert alert-danger d-flex alert-dismissable" role="alert" data-v-notification-error>
-
-            <div class="icon align-middle me-2">
-              <i class="align-middle la la-2x lh-1 la-exclamation-triangle"></i>
-            </div>
-
-            <div class="flex-grow-1 align-self-center text-small">
-              <div>
-                <div data-v-notification-text>
-                  This is a placeholder for a notification message.
-                </div>
-              </div>
-            </div>
-
-
-            <button type="button" class="btn-close align-middle" data-bs-dismiss="alert" aria-label="Close">
-              <span aria-hidden="true">
-                <!-- <i class="la la-times"></i> -->
-              </span>
-            </button>
-          </div>
-
-          <div class="alert alert-success d-flex  alert-dismissable d-flex" role="alert" data-v-notification-success>
-
-            <div class="icon align-middle me-2">
-              <i class="align-middle la la-2x lh-1 la-check-circle"></i>
-            </div>
-
-            <div class="flex-grow-1 align-self-center align-middle" data-v-notification-text>
-              This is a placeholder for a success message.
-            </div>
-
-            <button type="button" class="btn-close align-middle" data-bs-dismiss="alert" aria-label="Close">
-              <span aria-hidden="true">
-                <!-- <i class="la la-times"></i> -->
-              </span>
-            </button>
-          </div>
-
-          <div class="alert alert-primary d-flex alert-dismissable d-flex" role="alert" data-v-notification-info>
-
-            <div class="icon align-middle me-2">
-              <i class="align-middle la la-2x lh-1  la-info-circle"></i>
-            </div>
-
-            <div class="flex-grow-1 align-self-center" data-v-notification-text>
-              This is a placeholder for a info message.
-            </div>
-
-            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
-              <span aria-hidden="true">
-                <!-- <i class="la la-times"></i> -->
-              </span>
-            </button>
-          </div>
-
-        </div>
-
-        <form action="" method="post" data-v-vvveb-action="submit" data-selector="[data-v-component-plugin-contact-form-form]" data-v-vvveb-on="submit">
-          <input type="hidden" class="form-control" placeholder="First name" name="firstname-empty">
-          <input type="hidden" class="form-control" placeholder="Email" name="csrf" data-v-csrf>
+        <form hx-post="/contact" hx-disabled-elt="find button">
 
           <div class="row">
             <div class="col">
-              <input type="text" class="form-control" placeholder="First name" name="firstname" required>
-            </div>
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Last name" name="lastname" required>
+              <input type="text" class="form-control" placeholder="Name" name="name" required>
             </div>
           </div>
 
@@ -1661,38 +1604,20 @@ Vvveb.Sections.add("contact-form/contact-form-1", {
 
           <div class="row mt-4">
             <div class="col">
-              <input type="text" class="form-control" placeholder="Subject" name="subject" required>
+              <input type="text" class="form-control" placeholder="Subject" name="subject">
             </div>
           </div>
+
           <div class="row mt-4">
             <div class="col">
-              <textarea class="form-control" name="message" rows="3" placeholder="How can we help?" required></textarea>
+              <textarea class="form-control" name="message" rows="5" placeholder="How can we help?" required></textarea>
             </div>
           </div>
-
-
-          <!-- if these hidden inputs are filled then ignore, robots -->
-
-          <input type="text" class="form-control d-none" placeholder="Contact form" name="contact-form">
-
-          <input type="text" class="form-control d-none" placeholder="Subject" name="subject-empty">
-
-          <input type="text" class="form-control visually-hidden" placeholder="Last name" name="lastname-empty" tabindex="-1">
-
 
           <div class="row mt-4">
             <div class="col">
               <button type="submit" class="btn btn-primary">
-                <span class="loading d-none">
-                  <span class="spinner-border spinner-border-sm align-middle" role="status" aria-hidden="true">
-                  </span>
-                  <span>Submitting</span> ...
-                </span>
-
-                <span class="button-text">
-                  <span>Submit</span>
-                  <i class="la la-lg la-envelope opacity-50 ms-2"></i>
-                </span>
+                Submit
               </button>
             </div>
           </div>
@@ -1717,25 +1642,34 @@ Vvveb.Sections.add("contact-form/contact-form-1", {
 
     <div class="row pt-4">
       <div class="col-12 col-md-6">
-        <iframe loading="lazy" class="map" title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.8444388087937!2d26.101253041406952!3d44.43635311654287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff4770adb5b7%3A0x58147f39579fe6fa!2zR3J1cHVsIFN0YXR1YXIgIkPEg3J1yJthIEN1IFBhaWHIm2Ui!5e0!3m2!1sen!2sro!4v1507381157656" style="border:0" allowfullscreen="" width="100%" height="300" frameborder="0"></iframe>
+
+        <div style="height:300px" data-component-maps>
+          <iframe loading="lazy" frameborder="0" title="map" src="https://maps.google.com/maps?q=Auckland,New+Zealand&z=15&t=q&key=&output=embed" width="100%" height="100%" style="width:100%;height:100%;left:0px">
+          </iframe>
+        </div>
+
       </div>
 
-      <div class="col-12 col-md-6 pt-5">
-        <form>
+      <div class="col-12 col-md-6">
+        <form hx-post="/contact" hx-disabled-elt="find button">
           <div class="row">
             <div class="col">
-              <input type="email" class="form-control" placeholder="Enter email">
+              <input type="text" class="form-control" placeholder="Name" name="name" required>
+            </div>
+
+            <div class="col">
+              <input type="email" class="form-control" placeholder="Enter email" name="email" required>
             </div>
           </div>
 
           <div class="row mt-4">
             <div class="col">
-              <input type="email" class="form-control" placeholder="Subject">
+              <input type="text" class="form-control" placeholder="Subject" name="subject">
             </div>
           </div>
           <div class="row mt-4">
             <div class="col">
-              <textarea class="form-control" name="message" rows="3" placeholder="How can we help?"></textarea>
+              <textarea class="form-control" name="message" rows="5" placeholder="How can we help?" required></textarea>
             </div>
           </div>
           <div class="row mt-4">
@@ -1753,7 +1687,10 @@ Vvveb.Sections.add("contact-form/contact-form-1", {
     image: Vvveb.themeBaseUrl + "/screenshots/sections/contact-form/contact-form-8-thumb.jpeg",
     html: `<section class="contact-form-8 pt-0">
   <div class="container-fluid p-0 pb-3">
-    <iframe loading="lazy" class="map" title="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2848.8444388087937!2d26.101253041406952!3d44.43635311654287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff4770adb5b7%3A0x58147f39579fe6fa!2zR3J1cHVsIFN0YXR1YXIgIkPEg3J1yJthIEN1IFBhaWHIm2Ui!5e0!3m2!1sen!2sro!4v1507381157656" style="border:0" allowfullscreen="" width="100%" height="300" frameborder="0"></iframe>
+    <div style="height:300px" data-component-maps>
+      <iframe loading="lazy" frameborder="0" title="map" src="https://maps.google.com/maps?q=Auckland,New+Zealand&z=15&t=q&key=&output=embed" width="100%" height="100%" style="width:100%;height:100%;left:0px">
+      </iframe>
+    </div>
   </div>
   <div class="container">
     <div class="row text-center justify-content-center pt-5">
@@ -1764,22 +1701,26 @@ Vvveb.Sections.add("contact-form/contact-form-1", {
 
     <div class="row justify-content-center pt-4">
       <div class="col-12 col-md-7">
-        <form>
+        <form hx-post="/contact" hx-disabled-elt="find button">
           <div class="row">
             <div class="col">
-              <input type="text" class="form-control" placeholder="Email">
+              <input type="text" class="form-control" placeholder="Name" name="name" required>
+            </div>
+
+            <div class="col">
+              <input type="email" class="form-control" placeholder="Email" name="email" required>
             </div>
           </div>
 
           <div class="row mt-4">
             <div class="col">
-              <input type="email" class="form-control" placeholder="Subject">
+              <input type="text" class="form-control" placeholder="Subject" name="subject">
             </div>
           </div>
 
           <div class="row mt-4">
             <div class="col">
-              <textarea class="form-control" name="message" rows="3" placeholder="How can we help?"></textarea>
+              <textarea class="form-control" name="message" rows="5" placeholder="How can we help?"></textarea>
             </div>
           </div>
           <div class="row mt-4">
@@ -1792,52 +1733,26 @@ Vvveb.Sections.add("contact-form/contact-form-1", {
     </div>
     <div class="row-100"></div>
   </div>
-  <div class="">
-    <div class="container">
-      <div class="row-50"></div>
-      <div class="row justify-content-center text-center">
-        <div class="col-12 col-md me-auto ms-auto">
-          <p class="lead">+55 (111) 123 777</p>
-        </div>
 
-        <div class="col-12 col-md pt-4 me-auto ms-auto">
-          <p class="lead">7th St.
-            <br>New York, NY 12345
-          </p>
-        </div>
-
-        <div class="col-12 col-md pt-4 me-auto ms-auto">
-          <p class="lead">support@vvveb.com</p>
-        </div>
+  <div class="container pt-5">
+    <div class="row justify-content-center text-center align-items-center">
+      <div class="col-12 col-md me-auto ms-auto">
+        <p class="lead">022 4020 111</p>
       </div>
-      <div class="row-50"></div>
-    </div>
-  </div>
 
-  <div class="container">
-    <div class="row-70"></div>
-    <div class="row text-center">
-      <div class="col">
-        <p class="h2">
-          <a href="#" class="mx-2">
-            <i class="la la-facebook"></i>
-          </a>
-          <a href="#" class="mx-2">
-            <i class="la la-twitter"></i>
-          </a>
-          <a href="#" class="mx-2">
-            <i class="la la-instagram"></i>
-          </a>
-          <a href="#" class="mx-2">
-            <i class="la la-google"></i>
-          </a>
-          <a href="#" class="mx-2">
-            <i class="la la-pinterest"></i>
-          </a>
+      <div class="col-12 col-md pt-4 me-auto ms-auto">
+        <p class="lead">10 Main Street
+          <br>Auckland, 1010
         </p>
       </div>
+
+      <div class="col-12 col-md pt-4 me-auto ms-auto">
+        <p class="lead">support@yourcompany.com</p>
+      </div>
     </div>
+    <div class="row-50"></div>
   </div>
+
 </section>`
 });Vvveb.Sections.add("contact-form/contact-form-9", {
     name: "Contact form 9",
@@ -1853,32 +1768,33 @@ Vvveb.Sections.add("contact-form/contact-form-1", {
         </div>
         <div class="col-lg-6">
           <div class="contact-box ms-3">
-            <h1 class=" mt-2">Quick Contact</h1>
-            <form class="mt-4">
+            <h1 class=" mt-2">Contact Us</h1>
+            <p>Get in touch with us, fill out the form below.</p>
+            <form hx-post="/contact" hx-disabled-elt="find button" class="mt-4">
               <div class="row">
                 <div class="col-lg-12">
                   <div class="form-group mt-2">
-                    <input class="form-control" type="text" placeholder="name">
+                    <input class="form-control" type="text" placeholder="name" name="name">
                   </div>
                 </div>
                 <div class="col-lg-12">
                   <div class="form-group mt-2">
-                    <input class="form-control" type="email" placeholder="email address">
+                    <input class="form-control" type="email" placeholder="email address" name="email" required>
                   </div>
                 </div>
                 <div class="col-lg-12">
                   <div class="form-group mt-2">
-                    <input class="form-control" type="text" placeholder="phone">
+                    <input class="form-control" type="text" placeholder="phone" name="phone">
                   </div>
                 </div>
                 <div class="col-lg-12">
                   <div class="form-group mt-2">
-                    <textarea class="form-control" rows="3" placeholder="message"></textarea>
+                    <textarea class="form-control" rows="5" name="message" placeholder="message"></textarea>
                   </div>
                 </div>
                 <div class="col-lg-12">
                   <button type="submit" class="btn btn-success mt-3 text-white border-0 px-3 py-2">
-                    <span> Submit</span>
+                    Submit
                   </button>
                 </div>
               </div>
