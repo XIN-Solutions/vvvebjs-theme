@@ -1,553 +1,711 @@
-<html><head><base src="../"><link href="../css/style.bundle.css" rel="stylesheet"><link href="../css/screenshots.css" rel="stylesheet"></head><body><section title="Contact form 1" class="contact-form-9">
-  <div class="container py-5 my-5">
-    <div class="row py-5">
-      <div class="col py-5">
-        <div>
-          <div class="row text-center justify-content-center">
-            <div class="col-12 col-md-9 col-lg-7">
-              <h1>Contact Us</h1>
-              <p class="lead">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim.
-              </p>
-            </div>
-          </div>
+<!DOCTYPE html>
+<html lang="en">
 
-          <div class="row justify-content-center pt-4">
-            <div class="col-12 col-md-8">
-              <form hx-post="/contact" hx-disabled-elt="find button">
-                <div class="row">
-                  <div class="col-12 col-md">
-                    <input type="text" class="form-control" placeholder="Name" name="name" required>
-                  </div>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
 
-                  <div class="col-12 col-md mt-4 mt-md-0">
-                    <input type="text" class="form-control" placeholder="Email" name="email" required>
-                  </div>
-                </div>
+  <base href="../">
 
-                <div class="row mt-4">
-                  <div class="col">
-                    <textarea class="form-control" name="message" rows="5" placeholder="How can we help?" required></textarea>
-                  </div>
-                </div>
+  <title>Vvveb Landing - Section</title>
 
-                <div class="row mt-4">
-                  <div class="col text-center">
-                    <button type="submit" class="btn btn-primary">Send</button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section><section title="Contact form 2" class="contact-form-11 pt-0">
-  <div class="container-fluid p-0 pb-5">
-    <div style="height:300px" data-component-maps>
-      <iframe loading="lazy" frameborder="0" title="map" src="https://maps.google.com/maps?q=Auckland,New+Zealand&z=15&t=q&key=&output=embed" width="100%" height="100%" style="width:100%;height:100%;left:0px">
-      </iframe>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row pt-5">
-      <div class="col-12">
-        <form hx-post="/contact" hx-disabled-elt="find button">
-          <div class="row">
-            <div class="col-12">
-              <label>Name</label>
-              <input type="text" name="name" class="form-control" required>
-            </div>
-          </div>
+  <meta name="description" content="" />
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <link rel="canonical" href="">
 
-          <div class="row mt-4">
-            <div class="col">
-              <label>Your Email</label>
-              <input type="email" class="form-control" name="email" required>
-            </div>
-          </div>
+  <link href="js/swiper/swiper-bundle-min.css" rel="stylesheet" media="screen">
+  <link id="landing-css" href="css/style.bundle.css" rel="stylesheet" media="screen">
+  <link id="vvvebjs-css" href="css/custom.css" rel="stylesheet" media="screen">
 
-          <div class="row mt-4">
-            <div class="col">
-              <label>Subject</label>
-              <input type="text" class="form-control" name="subject">
-            </div>
-          </div>
-          <div class="row mt-4">
-            <div class="col">
-              <label>How can we help?</label>
-              <textarea class="form-control" name="message" rows="5" required></textarea>
-            </div>
-          </div>
-          <div class="row mt-4 text-center">
-            <div class="col">
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</section><section title="Contact form 3" class="contact-form-12 py-0">
-  <div class="container py-5" style="background-image: url(img/sections/contct-form-12.jpg);">
-    <div class="row text-center justify-content-center">
-      <div class="col-12 col-md-8 col-lg-7">
-        <h1>Contact Us</h1>
-        <p class="lead">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim.
-        </p>
-      </div>
-    </div>
 
-    <div class="row-50">
-    </div>
 
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-8 col-lg-7">
-        <form hx-post="/contact" hx-disabled-elt="find button">
-          <div class="row">
 
-            <div class="col">
-              <label>Name</label>
-              <input type="text" class="form-control" name="name" required>
-            </div>
 
-            <div class="col">
-              <label>Email Address</label>
-              <input type="email" class="form-control" name="email" required>
-            </div>
-          </div>
+  <style>
+    :root {}
+  </style>
 
-          <div class="row mt-4">
-            <div class="col">
-              <label>Subject</label>
-              <input type="text" class="form-control" name="subject">
-            </div>
-          </div>
 
-          <div class="row mt-4">
-            <div class="col">
-              <label>How can we help?</label>
-              <textarea class="form-control" name="message" rows="5" required></textarea>
-            </div>
-          </div>
-          <div class="row mt-4">
-            <div class="col text-end">
-              <button type="submit" class="btn btn-dark">Send</button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-    <div class="row-100"></div>
-  </div>
 
-  <div class="container-fluid p-0">
 
-    <div style="height:300px" data-component-maps>
-      <iframe loading="lazy" frameborder="0" title="map" src="https://maps.google.com/maps?q=Auckland,New+Zealand&z=15&t=q&key=&output=embed" width="100%" height="100%" style="width:100%;height:100%;left:0px">
-      </iframe>
-    </div>
+  <link rel="alternate" type="application/rss+xml" title="Feed" href="/feed/posts" />
+  <link rel="alternate" type="application/rss+xml" title="Comments Feed" href="/feed/comments" />
 
-  </div>
+  <link rel="icon" type="image/x-icon" href="../../media/favicon.ico" data-v-global-site.favicon>
 
-</section><section title="Contact form 4" class="contact-form-13">
-  <div class="container">
-    <div class="row text-center justify-content-center">
-      <div class="col-12 col-md-8 col-lg-7">
-        <h1>Contact Us</h1>
-        <p class="lead">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim.
-        </p>
-      </div>
-    </div>
-    <div class="row-70"></div>
-    <div class="row">
-      <div class="col-12 col-md-8 col-lg">
-        <form hx-post="/contact" hx-disabled-elt="find button">
-          <div class="row">
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Name" name="name" required>
-            </div>
+  <link rel="manifest" href="/manifest.webmanifest">
 
-            <div class="col">
-              <input type="email" class="form-control" placeholder="Enter email" name="email" required>
-            </div>
-          </div>
+  <link rel="alternate" hreflang="" href="" />
+</head>
 
-          <div class="row mt-4">
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Subject" name="subject">
-            </div>
-          </div>
-          <div class="row mt-4">
-            <div class="col">
-              <textarea class="form-control" name="message" rows="5" placeholder="How can we help?" required></textarea>
-            </div>
-          </div>
-          <div class="row mt-4">
-            <div class="col">
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </div>
-          </div>
-        </form>
-      </div>
 
-      <div class="col-12 col-md-8 col-lg pt-5 pt-lg-0">
 
-        <div style="height:200px" data-component-maps>
-          <iframe loading="lazy" frameborder="0" title="map" src="https://maps.google.com/maps?q=Auckland,New+Zealand&z=15&t=q&key=&output=embed" width="100%" height="100%" style="width:100%;height:100%;left:0px">
-          </iframe>
-        </div>
+<body>
 
-        <p>
-          <strong>Showroom</strong>
-        </p>
-        <p>
-          1 Showroom Street
-          <br>Chevy Chase, MD 20815
-        </p>
-      </div>
-    </div>
-  </div>
-</section><section title="Contact form 5" class="contact-form-2 container-fluid px-5 my-5">
-  <div class="row justify-content-center">
-    <div class="col-xl-10">
-      <div class="card border-0 rounded-3 shadow-lg ">
-        <div class="card-body p-0">
-          <div class="row g-0">
-            <div class="col-sm-6 d-none d-sm-block bg-image">
 
-              <img alt="image" src="img/illustrations.co/day68-happy-cat.svg" alt="happy cat" loading="lazy" class="img-fluid">
 
-            </div>
-            <div class="col-sm-6 p-4">
-              <div class="text-center">
-                <div class="h3 fw-light">Contact Form</div>
-                <p class="mb-4 text-muted">
+  <section class="contact-form-9">
+    <div class="container py-5 my-5">
+      <div class="row py-5">
+        <div class="col py-5">
+          <div>
+            <div class="row text-center justify-content-center">
+              <div class="col-12 col-md-9 col-lg-7">
+                <h1>Contact Us</h1>
+                <p class="lead">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim.
                 </p>
               </div>
+            </div>
 
+            <div class="row justify-content-center pt-4">
+              <div class="col-12 col-md-8">
+                <form hx-post="/contact" hx-disabled-elt="find button">
+                  <div class="row">
+                    <div class="col-12 col-md">
+                      <input type="text" class="form-control" placeholder="Name" name="name" required>
+                    </div>
 
-              <form hx-post="/contact" hx-disabled-elt="find button">
+                    <div class="col-12 col-md mt-4 mt-md-0">
+                      <input type="text" class="form-control" placeholder="Email" name="email" required>
+                    </div>
+                  </div>
 
-                <div class="mb-3">
-                  <input class="form-control" id="name" type="text" placeholder="Name" name="name" required />
+                  <div class="row mt-4">
+                    <div class="col">
+                      <textarea class="form-control" name="message" rows="5" placeholder="How can we help?" required></textarea>
+                    </div>
+                  </div>
+
+                  <div class="row mt-4">
+                    <div class="col text-center">
+                      <button type="submit" class="btn btn-primary">Send</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr />
+
+  <section class="contact-form-11 pt-0">
+    <div class="container-fluid p-0 pb-5">
+      <div style="height:300px" data-component-maps>
+        <iframe loading="lazy" frameborder="0" title="map" src="https://maps.google.com/maps?q=Auckland,New+Zealand&z=15&t=q&key=&output=embed" width="100%" height="100%" style="width:100%;height:100%;left:0px">
+        </iframe>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row pt-5">
+        <div class="col-12">
+          <form hx-post="/contact" hx-disabled-elt="find button">
+            <div class="row">
+              <div class="col-12">
+                <label>Name</label>
+                <input type="text" name="name" class="form-control" required>
+              </div>
+            </div>
+
+            <div class="row mt-4">
+              <div class="col">
+                <label>Your Email</label>
+                <input type="email" class="form-control" name="email" required>
+              </div>
+            </div>
+
+            <div class="row mt-4">
+              <div class="col">
+                <label>Subject</label>
+                <input type="text" class="form-control" name="subject">
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col">
+                <label>How can we help?</label>
+                <textarea class="form-control" name="message" rows="5" required></textarea>
+              </div>
+            </div>
+            <div class="row mt-4 text-center">
+              <div class="col">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr />
+
+  <section class="contact-form-12 py-0">
+    <div class="container py-5" style="background-image: url(img/sections/contct-form-12.jpg);">
+      <div class="row text-center justify-content-center">
+        <div class="col-12 col-md-8 col-lg-7">
+          <h1>Contact Us</h1>
+          <p class="lead">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim.
+          </p>
+        </div>
+      </div>
+
+      <div class="row-50">
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8 col-lg-7">
+          <form hx-post="/contact" hx-disabled-elt="find button">
+            <div class="row">
+
+              <div class="col">
+                <label>Name</label>
+                <input type="text" class="form-control" name="name" required>
+              </div>
+
+              <div class="col">
+                <label>Email Address</label>
+                <input type="email" class="form-control" name="email" required>
+              </div>
+            </div>
+
+            <div class="row mt-4">
+              <div class="col">
+                <label>Subject</label>
+                <input type="text" class="form-control" name="subject">
+              </div>
+            </div>
+
+            <div class="row mt-4">
+              <div class="col">
+                <label>How can we help?</label>
+                <textarea class="form-control" name="message" rows="5" required></textarea>
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col text-end">
+                <button type="submit" class="btn btn-dark">Send</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row-100"></div>
+    </div>
+
+    <div class="container-fluid p-0">
+
+      <div style="height:300px" data-component-maps>
+        <iframe loading="lazy" frameborder="0" title="map" src="https://maps.google.com/maps?q=Auckland,New+Zealand&z=15&t=q&key=&output=embed" width="100%" height="100%" style="width:100%;height:100%;left:0px">
+        </iframe>
+      </div>
+
+    </div>
+
+  </section>
+
+  <hr />
+
+  <section class="contact-form-13">
+    <div class="container">
+      <div class="row text-center justify-content-center">
+        <div class="col-12 col-md-8 col-lg-7">
+          <h1>Contact Us</h1>
+          <p class="lead">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim.
+          </p>
+        </div>
+      </div>
+      <div class="row-70"></div>
+      <div class="row">
+        <div class="col-12 col-md-8 col-lg">
+          <form hx-post="/contact" hx-disabled-elt="find button">
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Name" name="name" required>
+              </div>
+
+              <div class="col">
+                <input type="email" class="form-control" placeholder="Enter email" name="email" required>
+              </div>
+            </div>
+
+            <div class="row mt-4">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Subject" name="subject">
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col">
+                <textarea class="form-control" name="message" rows="5" placeholder="How can we help?" required></textarea>
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="col-12 col-md-8 col-lg pt-5 pt-lg-0">
+
+          <div style="height:200px" data-component-maps>
+            <iframe loading="lazy" frameborder="0" title="map" src="https://maps.google.com/maps?q=Auckland,New+Zealand&z=15&t=q&key=&output=embed" width="100%" height="100%" style="width:100%;height:100%;left:0px">
+            </iframe>
+          </div>
+
+          <p>
+            <strong>Showroom</strong>
+          </p>
+          <p>
+            1 Showroom Street
+            <br>Chevy Chase, MD 20815
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr />
+
+  <section class="contact-form-2 container-fluid px-5 my-5">
+    <div class="row justify-content-center">
+      <div class="col-xl-10">
+        <div class="card border-0 rounded-3 shadow-lg ">
+          <div class="card-body p-0">
+            <div class="row g-0">
+              <div class="col-sm-6 d-none d-sm-block bg-image">
+
+                <img alt="image" src="img/illustrations.co/day68-happy-cat.svg" alt="happy cat" loading="lazy" class="img-fluid">
+
+              </div>
+              <div class="col-sm-6 p-4">
+                <div class="text-center">
+                  <div class="h3 fw-light">Contact Form</div>
+                  <p class="mb-4 text-muted">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim.
+                  </p>
                 </div>
 
 
-                <div class="mb-3">
-                  <input class="form-control" id="emailAddress" name="email" type="email" placeholder="Email Address" required />
+                <form hx-post="/contact" hx-disabled-elt="find button">
+
+                  <div class="mb-3">
+                    <input class="form-control" id="name" type="text" placeholder="Name" name="name" required />
+                  </div>
+
+
+                  <div class="mb-3">
+                    <input class="form-control" id="emailAddress" name="email" type="email" placeholder="Email Address" required />
+                  </div>
+
+
+                  <div class=" mb-3">
+                    <textarea class="form-control" id="message" type="text" name="message" placeholder="Message" style="height: 10rem;" required></textarea>
+                  </div>
+
+                  <div>
+                    <button class="btn btn-primary" id="submitButton" type="submit">Submit</button>
+                  </div>
+
+                </form>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr />
+
+  <section class="contact-form-6">
+    <div class="container-fluid g-0">
+
+      <div style="height:300px" data-component-maps>
+        <iframe loading="lazy" frameborder="0" title="map" src="https://maps.google.com/maps?q=Auckland,New+Zealand&z=15&t=q&key=&output=embed" width="100%" height="100%" style="width:100%;height:100%;left:0px">
+        </iframe>
+      </div>
+
+    </div>
+    <div class="container">
+      <div class="row my-5">
+        <div class="col-12 col-md-6 col-lg-5">
+          <h2>Contact Us</h2>
+          <p class="lead">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim.
+          </p>
+
+          <p class="lead">
+            Aliquam tempor porttitor velit a consectetur. Sed rhoncus sagittis euismod.
+          </p>
+
+          <div data-v-component-site>
+            <p class="mt-5">
+              <span>
+                <i class="la la-lg la-envelope opacity-50"></i> Email:
+              </span>
+              <span>
+                <a href="mailto:contact@mysite.com">
+                  contact@mysite.com
+                </a>
+              </span>
+            </p>
+            <p class="">
+              <span>
+                <i class="la la-lg la-phone opacity-50"></i> Phone:
+              </span>
+              <a href="tel:0224020111">022 4020 111</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6 ms-auto">
+
+          <form hx-post="/contact" hx-disabled-elt="find button">
+
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Name" name="name" required>
+              </div>
+            </div>
+
+            <div class="row mt-4">
+              <div class="col">
+                <input type="email" class="form-control" placeholder="Enter email" name="email" required>
+              </div>
+            </div>
+
+            <div class="row mt-4">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Subject" name="subject">
+              </div>
+            </div>
+
+            <div class="row mt-4">
+              <div class="col">
+                <textarea class="form-control" name="message" rows="5" placeholder="How can we help?" required></textarea>
+              </div>
+            </div>
+
+            <div class="row mt-4">
+              <div class="col">
+                <button type="submit" class="btn btn-primary">
+                  Submit
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr />
+
+  <section class="contact-form-8">
+    <div class="container">
+      <div class="row text-center justify-content-center">
+        <div class="col-12 col-md-8 col-lg-7">
+          <h1>Contact Us</h1>
+          <p class="lead">
+            Aliquam tempor porttitor velit a consectetur. Sed rhoncus sagittis euismod.
+          </p>
+        </div>
+      </div>
+
+      <div class="row pt-4">
+        <div class="col-12 col-md-6">
+
+          <div style="height:300px" data-component-maps>
+            <iframe loading="lazy" frameborder="0" title="map" src="https://maps.google.com/maps?q=Auckland,New+Zealand&z=15&t=q&key=&output=embed" width="100%" height="100%" style="width:100%;height:100%;left:0px">
+            </iframe>
+          </div>
+
+        </div>
+
+        <div class="col-12 col-md-6">
+          <form hx-post="/contact" hx-disabled-elt="find button">
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Name" name="name" required>
+              </div>
+
+              <div class="col">
+                <input type="email" class="form-control" placeholder="Enter email" name="email" required>
+              </div>
+            </div>
+
+            <div class="row mt-4">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Subject" name="subject">
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col">
+                <textarea class="form-control" name="message" rows="5" placeholder="How can we help?" required></textarea>
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr />
+
+  <section class="contact-form-8 pt-0">
+    <div class="container-fluid p-0 pb-3">
+      <div style="height:300px" data-component-maps>
+        <iframe loading="lazy" frameborder="0" title="map" src="https://maps.google.com/maps?q=Auckland,New+Zealand&z=15&t=q&key=&output=embed" width="100%" height="100%" style="width:100%;height:100%;left:0px">
+        </iframe>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row text-center justify-content-center pt-5">
+        <div class="col-12 col-md-7">
+          <h1>Contact Us</h1>
+        </div>
+      </div>
+
+      <div class="row justify-content-center pt-4">
+        <div class="col-12 col-md-7">
+          <form hx-post="/contact" hx-disabled-elt="find button">
+            <div class="row">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Name" name="name" required>
+              </div>
+
+              <div class="col">
+                <input type="email" class="form-control" placeholder="Email" name="email" required>
+              </div>
+            </div>
+
+            <div class="row mt-4">
+              <div class="col">
+                <input type="text" class="form-control" placeholder="Subject" name="subject">
+              </div>
+            </div>
+
+            <div class="row mt-4">
+              <div class="col">
+                <textarea class="form-control" name="message" rows="5" placeholder="How can we help?"></textarea>
+              </div>
+            </div>
+            <div class="row mt-4">
+              <div class="col text-center">
+                <button type="submit" class="btn btn-primary">Send</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="row-100"></div>
+    </div>
+
+    <div class="container pt-5">
+      <div class="row justify-content-center text-center align-items-center">
+        <div class="col-12 col-md me-auto ms-auto">
+          <p class="lead">022 4020 111</p>
+        </div>
+
+        <div class="col-12 col-md pt-4 me-auto ms-auto">
+          <p class="lead">10 Main Street
+            <br>Auckland, 1010
+          </p>
+        </div>
+
+        <div class="col-12 col-md pt-4 me-auto ms-auto">
+          <p class="lead">support@yourcompany.com</p>
+        </div>
+      </div>
+      <div class="row-50"></div>
+    </div>
+
+  </section>
+
+  <hr />
+
+  <section class="contact-form-3 py-5" title="contact-form-3">
+    <div class="row no-gutters">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card-shadow">
+              <img alt="image" src="img/illustrations.co/day68-happy-cat.svg" alt="happy cat" loading="lazy" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="contact-box ms-3">
+              <h1 class=" mt-2">Contact Us</h1>
+              <p>Get in touch with us, fill out the form below.</p>
+              <form hx-post="/contact" hx-disabled-elt="find button" class="mt-4">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <div class="form-group mt-2">
+                      <input class="form-control" type="text" placeholder="name" name="name">
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="form-group mt-2">
+                      <input class="form-control" type="email" placeholder="email address" name="email" required>
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="form-group mt-2">
+                      <input class="form-control" type="text" placeholder="phone" name="phone">
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="form-group mt-2">
+                      <textarea class="form-control" rows="5" name="message" placeholder="message"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-lg-12">
+                    <button type="submit" class="btn btn-success mt-3 text-white border-0 px-3 py-2">
+                      Submit
+                    </button>
+                  </div>
                 </div>
-
-
-                <div class=" mb-3">
-                  <textarea class="form-control" id="message" type="text" name="message" placeholder="Message" style="height: 10rem;" required></textarea>
-                </div>
-
-                <div>
-                  <button class="btn btn-primary" id="submitButton" type="submit">Submit</button>
-                </div>
-
               </form>
-
             </div>
           </div>
-
+          <div class="col-lg-12">
+            <div class="card mt-4 border-0 mb-4">
+              <div class="row">
+                <div class="col-lg-4 col-md-4">
+                  <div class="card-body d-flex align-items-center c-detail pl-0">
+                    <div class="me-3 align-self-center">
+                      <i class="la la-map la-lg"></i>
+                    </div>
+                    <div>
+                      <h6>Address</h6>
+                      <p>708 Picadilly Ave.
+                        <br> New York
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                  <div class="card-body d-flex align-items-center c-detail">
+                    <div class="me-3 align-self-center">
+                      <i class="la la-phone la-lg"></i>
+                    </div>
+                    <div>
+                      <h6>Phone</h6>
+                      <p>555 111 333</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                  <div class="card-body d-flex align-items-center c-detail">
+                    <div class="me-3 align-self-center">
+                      <i class="la la-email la-lg"></i>
+                    </div>
+                    <div>
+                      <h6>Email</h6>
+                      <p>
+                        hello@yourwebsite.com
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section><section title="Contact form 6" class="contact-form-6">
-  <div class="container-fluid g-0">
+  </section>
 
-    <div style="height:300px" data-component-maps>
-      <iframe loading="lazy" frameborder="0" title="map" src="https://maps.google.com/maps?q=Auckland,New+Zealand&z=15&t=q&key=&output=embed" width="100%" height="100%" style="width:100%;height:100%;left:0px">
-      </iframe>
-    </div>
+  <hr />
 
-  </div>
-  <div class="container">
-    <div class="row my-5">
-      <div class="col-12 col-md-6 col-lg-5">
-        <h2>Contact Us</h2>
-        <p class="lead">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim.
-        </p>
 
-        <p class="lead">
-          Aliquam tempor porttitor velit a consectetur. Sed rhoncus sagittis euismod.
-        </p>
 
-        <div data-v-component-site>
-          <p class="mt-5">
-            <span>
-              <i class="la la-lg la-envelope opacity-50"></i> Email:
-            </span>
-            <span>
-              <a href="mailto:contact@mysite.com">
-                contact@mysite.com
-              </a>
-            </span>
-          </p>
-          <p class="">
-            <span>
-              <i class="la la-lg la-phone opacity-50"></i> Phone:
-            </span>
-            <a href="tel:0224020111">022 4020 111</a>
-          </p>
-        </div>
+  <div class="bg-image" data-locked></div>
+
+  <div class="alert alert-light alert-dismissible fade alert-top" role="alert" style="display:none" data-locked>
+    <div class="container">
+
+      <div class="message">
+        Product was added to cart.
       </div>
 
-      <div class="col-12 col-md-6 ms-auto">
 
-        <form hx-post="/contact" hx-disabled-elt="find button">
+      <button type="button" class="btn-close" data-dismiss="alert" aria-label="Close"></button>
+    </div>
+  </div>
 
-          <div class="row">
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Name" name="name" required>
-            </div>
-          </div>
+  <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModalLabel" aria-hidden="true" data-locked>
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
 
-          <div class="row mt-4">
-            <div class="col">
-              <input type="email" class="form-control" placeholder="Enter email" name="email" required>
-            </div>
-          </div>
-
-          <div class="row mt-4">
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Subject" name="subject">
-            </div>
-          </div>
-
-          <div class="row mt-4">
-            <div class="col">
-              <textarea class="form-control" name="message" rows="5" placeholder="How can we help?" required></textarea>
-            </div>
-          </div>
-
-          <div class="row mt-4">
-            <div class="col">
-              <button type="submit" class="btn btn-primary">
-                Submit
+          <form>
+            <input type="hidden" name="route" value="search">
+            <div class="input-group">
+              <input type="search" name="search" class="form-control" id="headerSearch" placeholder="Type for search" data-v-vvveb-action="search" data-selector=".search-results" data-v-vvveb-on="keyup">
+              <button class="btn btn-outline-primary border" type="submit" title="Search">
+                <div class="la-flip-horizontal">
+                  <i class="la la-search la-lg" aria-hidden="true"></i>
+                </div>
               </button>
             </div>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</section><section title="Contact form 7" class="contact-form-8">
-  <div class="container">
-    <div class="row text-center justify-content-center">
-      <div class="col-12 col-md-8 col-lg-7">
-        <h1>Contact Us</h1>
-        <p class="lead">
-          Aliquam tempor porttitor velit a consectetur. Sed rhoncus sagittis euismod.
-        </p>
-      </div>
-    </div>
+          </form>
 
-    <div class="row pt-4">
-      <div class="col-12 col-md-6">
+          <div class="search-results">
 
-        <div style="height:300px" data-component-maps>
-          <iframe loading="lazy" frameborder="0" title="map" src="https://maps.google.com/maps?q=Auckland,New+Zealand&z=15&t=q&key=&output=embed" width="100%" height="100%" style="width:100%;height:100%;left:0px">
-          </iframe>
-        </div>
-
-      </div>
-
-      <div class="col-12 col-md-6">
-        <form hx-post="/contact" hx-disabled-elt="find button">
-          <div class="row">
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Name" name="name" required>
-            </div>
-
-            <div class="col">
-              <input type="email" class="form-control" placeholder="Enter email" name="email" required>
-            </div>
           </div>
 
-          <div class="row mt-4">
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Subject" name="subject">
-            </div>
-          </div>
-          <div class="row mt-4">
-            <div class="col">
-              <textarea class="form-control" name="message" rows="5" placeholder="How can we help?" required></textarea>
-            </div>
-          </div>
-          <div class="row mt-4">
-            <div class="col">
-              <button type="submit" class="btn btn-primary">Submit</button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-  </div>
-</section><section title="Contact form 8" class="contact-form-8 pt-0">
-  <div class="container-fluid p-0 pb-3">
-    <div style="height:300px" data-component-maps>
-      <iframe loading="lazy" frameborder="0" title="map" src="https://maps.google.com/maps?q=Auckland,New+Zealand&z=15&t=q&key=&output=embed" width="100%" height="100%" style="width:100%;height:100%;left:0px">
-      </iframe>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row text-center justify-content-center pt-5">
-      <div class="col-12 col-md-7">
-        <h1>Contact Us</h1>
-      </div>
-    </div>
-
-    <div class="row justify-content-center pt-4">
-      <div class="col-12 col-md-7">
-        <form hx-post="/contact" hx-disabled-elt="find button">
-          <div class="row">
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Name" name="name" required>
-            </div>
-
-            <div class="col">
-              <input type="email" class="form-control" placeholder="Email" name="email" required>
-            </div>
-          </div>
-
-          <div class="row mt-4">
-            <div class="col">
-              <input type="text" class="form-control" placeholder="Subject" name="subject">
-            </div>
-          </div>
-
-          <div class="row mt-4">
-            <div class="col">
-              <textarea class="form-control" name="message" rows="5" placeholder="How can we help?"></textarea>
-            </div>
-          </div>
-          <div class="row mt-4">
-            <div class="col text-center">
-              <button type="submit" class="btn btn-primary">Send</button>
-            </div>
-          </div>
-        </form>
-      </div>
-    </div>
-    <div class="row-100"></div>
-  </div>
-
-  <div class="container pt-5">
-    <div class="row justify-content-center text-center align-items-center">
-      <div class="col-12 col-md me-auto ms-auto">
-        <p class="lead">022 4020 111</p>
-      </div>
-
-      <div class="col-12 col-md pt-4 me-auto ms-auto">
-        <p class="lead">10 Main Street
-          <br>Auckland, 1010
-        </p>
-      </div>
-
-      <div class="col-12 col-md pt-4 me-auto ms-auto">
-        <p class="lead">support@yourcompany.com</p>
-      </div>
-    </div>
-    <div class="row-50"></div>
-  </div>
-
-</section><section title="Contact form 9" class="contact-form-3 py-5" title="contact-form-3">
-  <div class="row no-gutters">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-6">
-          <div class="card-shadow">
-            <img alt="image" src="img/illustrations.co/day68-happy-cat.svg" alt="happy cat" loading="lazy" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <div class="contact-box ms-3">
-            <h1 class=" mt-2">Contact Us</h1>
-            <p>Get in touch with us, fill out the form below.</p>
-            <form hx-post="/contact" hx-disabled-elt="find button" class="mt-4">
-              <div class="row">
-                <div class="col-lg-12">
-                  <div class="form-group mt-2">
-                    <input class="form-control" type="text" placeholder="name" name="name">
-                  </div>
-                </div>
-                <div class="col-lg-12">
-                  <div class="form-group mt-2">
-                    <input class="form-control" type="email" placeholder="email address" name="email" required>
-                  </div>
-                </div>
-                <div class="col-lg-12">
-                  <div class="form-group mt-2">
-                    <input class="form-control" type="text" placeholder="phone" name="phone">
-                  </div>
-                </div>
-                <div class="col-lg-12">
-                  <div class="form-group mt-2">
-                    <textarea class="form-control" rows="5" name="message" placeholder="message"></textarea>
-                  </div>
-                </div>
-                <div class="col-lg-12">
-                  <button type="submit" class="btn btn-success mt-3 text-white border-0 px-3 py-2">
-                    Submit
-                  </button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="col-lg-12">
-          <div class="card mt-4 border-0 mb-4">
-            <div class="row">
-              <div class="col-lg-4 col-md-4">
-                <div class="card-body d-flex align-items-center c-detail pl-0">
-                  <div class="me-3 align-self-center">
-                    <i class="la la-map la-lg"></i>
-                  </div>
-                  <div>
-                    <h6>Address</h6>
-                    <p>708 Picadilly Ave.
-                      <br> New York
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4">
-                <div class="card-body d-flex align-items-center c-detail">
-                  <div class="me-3 align-self-center">
-                    <i class="la la-phone la-lg"></i>
-                  </div>
-                  <div>
-                    <h6>Phone</h6>
-                    <p>555 111 333</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-4">
-                <div class="card-body d-flex align-items-center c-detail">
-                  <div class="me-3 align-self-center">
-                    <i class="la la-email la-lg"></i>
-                  </div>
-                  <div>
-                    <h6>Email</h6>
-                    <p>
-                      hello@yourwebsite.com
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
   </div>
-</section></body></html>
+
+
+  <!-- Vvveb Common Js -->
+  <script id="popper-js" src="../../js/popper.min.js"></script>
+  <!-- <script src="../../js/bootstrap.min.js"></script> -->
+  <!-- <script src="../../js/bootstrap.bundle.min.js"></script> -->
+  <script id="bootstrap-js" src="js/bootstrap.min.js"></script>
+
+  <!-- Vvveb Ajax Common Js -->
+  <!--<script id="app-js" src="../../js/app.js"></script>-->
+
+  <!-- Animation -->
+
+  <link rel="stylesheet" href="js/aos.css">
+  <noscript>
+    <style type="text/css">
+      [data-aos] {
+        opacity: 1 !important;
+        transform: translate(0) scale(1) !important;
+      }
+    </style>
+  </noscript>
+
+  <script src="js/aos.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/swiper/swiper-bundle.min.js"></script>
+
+  <script>
+	AOS.init();
+</script>
+
+
+</body>
+
+</html>
