@@ -2926,7 +2926,7 @@ Vvveb.Sections.add("team/team-1", {
 
         <div class="row">
           <div class="col-md-12">
-            <img alt="image" loading="lazy" src="img/sections/team/1.jpg" class="img-fluid p-4 rounded-circle">
+            <img alt="image" loading="lazy" src="img/sections/team/1.jpg" data-image-hint="width=512" class="img-fluid p-4 rounded-circle">
           </div>
           <div class="col-md-12 text-center">
             <div class="pt-2">
@@ -2973,7 +2973,7 @@ Vvveb.Sections.add("team/team-1", {
 
         <div class="row">
           <div class="col-md-12">
-            <img alt="image" loading="lazy" src="img/sections/team/2.jpg" class="img-fluid p-4 rounded-circle">
+            <img alt="image" loading="lazy" src="img/sections/team/2.jpg" data-image-hint="width=512" class="img-fluid p-4 rounded-circle">
           </div>
           <div class="col-md-12 text-center">
             <div class="pt-2">
@@ -3020,7 +3020,7 @@ Vvveb.Sections.add("team/team-1", {
 
         <div class="row">
           <div class="col-md-12">
-            <img alt="image" loading="lazy" src="img/sections/team/3.jpg" class="img-fluid p-4 rounded-circle">
+            <img alt="image" loading="lazy" src="img/sections/team/3.jpg" data-image-hint="width=512" class="img-fluid p-4 rounded-circle">
           </div>
           <div class="col-md-12 text-center">
             <div class="pt-2">
@@ -3067,7 +3067,7 @@ Vvveb.Sections.add("team/team-1", {
 
         <div class="row">
           <div class="col-md-12">
-            <img alt="image" loading="lazy" src="img/sections/team/4.jpg" class="img-fluid p-4 rounded-circle">
+            <img alt="image" loading="lazy" src="img/sections/team/4.jpg" data-image-hint="width=512" class="img-fluid p-4 rounded-circle">
           </div>
           <div class="col-md-12 text-center">
             <div class="pt-2">
@@ -3128,7 +3128,7 @@ Vvveb.Sections.add("team/team-1", {
         <div class="card-content">
           <div class="card-body p-0">
             <div class="profile">
-              <img src="img/sections/team/1.jpg" loading="lazy" alt="team">
+              <img src="img/sections/team/1.jpg" data-image-hint="width=512" loading="lazy" alt="team">
             </div>
             <div class="card-title mt-4">
               <h4>Jane Doe</h4>
@@ -3172,7 +3172,7 @@ Vvveb.Sections.add("team/team-1", {
         <div class="card-content">
           <div class="card-body p-0">
             <div class="profile">
-              <img src="img/sections/team/2.jpg" loading="lazy" alt="team">
+              <img src="img/sections/team/2.jpg" data-image-hint="width=512" loading="lazy" alt="team">
             </div>
             <div class="card-title mt-4">
               <h4>John Doe</h4>
@@ -3216,7 +3216,7 @@ Vvveb.Sections.add("team/team-1", {
         <div class="card-content">
           <div class="card-body p-0">
             <div class="profile">
-              <img src="img/sections/team/3.jpg" loading="lazy" alt="team">
+              <img src="img/sections/team/3.jpg" data-image-hint="width=512" loading="lazy" alt="team">
             </div>
             <div class="card-title mt-4">
               <h4>Jane Doe</h4>
@@ -3275,7 +3275,7 @@ Vvveb.Sections.add("team/team-1", {
 
         <div class="row no-gutters">
           <div class="col-md-12 pro-pic">
-            <img alt="image" src="img/sections/team/1.jpg" class="img-fluid p-4" loading="lazy">
+            <img alt="image" src="img/sections/team/1.jpg" data-image-hint="width=512" class="img-fluid p-4" loading="lazy">
 
             <ul class="mb-0 list-inline mt-3 px-4">
               <li class="list-inline-item">
@@ -3319,7 +3319,7 @@ Vvveb.Sections.add("team/team-1", {
 
         <div class="row no-gutters">
           <div class="col-md-12 pro-pic">
-            <img alt="image" src="img/sections/team/2.jpg" class="img-fluid p-4" loading="lazy">
+            <img alt="image" src="img/sections/team/2.jpg" data-image-hint="width=512" class="img-fluid p-4" loading="lazy">
 
             <ul class="mb-0 list-inline mt-3 px-4">
               <li class="list-inline-item">
@@ -3363,7 +3363,7 @@ Vvveb.Sections.add("team/team-1", {
 
         <div class="row no-gutters">
           <div class="col-md-12 pro-pic">
-            <img alt="image" src="img/sections/team/3.jpg" class="img-fluid p-4" loading="lazy">
+            <img alt="image" src="img/sections/team/3.jpg" data-image-hint="width=512" class="img-fluid p-4" loading="lazy">
 
             <ul class="mb-0 list-inline mt-3 px-4">
               <li class="list-inline-item">
@@ -3407,7 +3407,7 @@ Vvveb.Sections.add("team/team-1", {
 
         <div class="row no-gutters">
           <div class="col-md-12 pro-pic">
-            <img alt="image" src="img/sections/team/4.jpg" class="img-fluid p-4" loading="lazy">
+            <img alt="image" src="img/sections/team/4.jpg" data-image-hint="width=512" class="img-fluid p-4" loading="lazy">
 
             <ul class="mb-0 list-inline mt-3 px-4">
               <li class="list-inline-item">
@@ -3466,7 +3466,7 @@ Vvveb.Sections.add("team/team-1", {
 
         <div class="row">
           <div class="col-md-12">
-            <img alt="image" src="img/sections/team/1.jpg" class="img-fluid p-4" loading="lazy">
+            <img alt="image" src="img/sections/team/1.jpg" data-image-hint="width=512" class="img-fluid p-4" loading="lazy">
           </div>
           <div class="col-md-12">
             <div class="px-4">
@@ -3509,7 +3509,7 @@ Vvveb.Sections.add("team/team-1", {
 
         <div class="row">
           <div class="col-md-12 pro-pic">
-            <img alt="image" src="img/sections/team/2.jpg" class="img-fluid p-4" loading="lazy">
+            <img alt="image" src="img/sections/team/2.jpg" data-image-hint="width=512" class="img-fluid p-4" loading="lazy">
           </div>
           <div class="col-md-12">
             <div class="px-4">
@@ -3552,7 +3552,7 @@ Vvveb.Sections.add("team/team-1", {
 
         <div class="row">
           <div class="col-md-12 pro-pic">
-            <img alt="image" src="img/sections/team/3.jpg" class="img-fluid p-4" loading="lazy">
+            <img alt="image" src="img/sections/team/3.jpg" data-image-hint="width=512" class="img-fluid p-4" loading="lazy">
           </div>
           <div class="col-md-12">
             <div class="px-4">
@@ -3612,7 +3612,7 @@ Vvveb.Sections.add("team/team-1", {
           <div class="row no-gutters">
             <div class="col-md-5">
 
-              <img alt="image" src="img/sections/team/1.jpg" class="img-fluid" loading="lazy">
+              <img alt="image" src="img/sections/team/1.jpg" data-image-hint="width=512" class="img-fluid" loading="lazy">
 
             </div>
             <div class="col-md-7">
@@ -3658,7 +3658,7 @@ Vvveb.Sections.add("team/team-1", {
           <div class="row no-gutters">
             <div class="col-md-5">
 
-              <img alt="image" src="img/sections/team/2.jpg" class="img-fluid" loading="lazy">
+              <img alt="image" src="img/sections/team/2.jpg" data-image-hint="width=512" class="img-fluid" loading="lazy">
 
             </div>
             <div class="col-md-7">
@@ -3707,7 +3707,7 @@ Vvveb.Sections.add("team/team-1", {
           <div class="row no-gutters">
             <div class="col-md-5">
 
-              <img alt="image" src="img/sections/team/3.jpg" class="img-fluid" loading="lazy">
+              <img alt="image" src="img/sections/team/3.jpg" data-image-hint="width=512" class="img-fluid" loading="lazy">
             </div>
             <div class="col-md-7">
               <div class="p-4">
@@ -3752,7 +3752,7 @@ Vvveb.Sections.add("team/team-1", {
           <div class="row no-gutters">
             <div class="col-md-5">
 
-              <img alt="image" src="img/sections/team/4.jpg" class="img-fluid" loading="lazy">
+              <img alt="image" src="img/sections/team/4.jpg" data-image-hint="width=512" class="img-fluid" loading="lazy">
 
             </div>
             <div class="col-md-7">
@@ -3806,7 +3806,7 @@ Vvveb.Sections.add("team/team-1", {
       <div class="col-xl-3 col-sm-6 mb-5">
         <div class="bg-white rounded shadow-sm py-5 px-4">
 
-          <img src="img/sections/team/1.jpg" alt="team" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" loading="lazy">
+          <img src="img/sections/team/1.jpg" data-image-hint="width=512" alt="team" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" loading="lazy">
 
           <h5 class="mb-0">John Doe</h5>
           <span class="small text-uppercase text-muted">CEO - Founder</span>
@@ -3842,7 +3842,7 @@ Vvveb.Sections.add("team/team-1", {
       <div class="col-xl-3 col-sm-6 mb-5">
         <div class="bg-white rounded shadow-sm py-5 px-4">
 
-          <img src="img/sections/team/2.jpg" alt="team" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" loading="lazy">
+          <img src="img/sections/team/2.jpg" data-image-hint="width=512" alt="team" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" loading="lazy">
 
           <h5 class="mb-0">Jane Doe</h5>
           <span class="small text-uppercase text-muted">CTO - Co-Founder</span>
@@ -3879,7 +3879,7 @@ Vvveb.Sections.add("team/team-1", {
       <div class="col-xl-3 col-sm-6 mb-5">
         <div class="bg-white rounded shadow-sm py-5 px-4">
 
-          <img src="img/sections/team/3.jpg" alt="team" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" loading="lazy">
+          <img src="img/sections/team/3.jpg" data-image-hint="width=512" alt="team" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" loading="lazy">
 
           <h5 class="mb-0">John Doe</h5>
           <span class="small text-uppercase text-muted">CMO - Operations</span>
@@ -3916,7 +3916,7 @@ Vvveb.Sections.add("team/team-1", {
       <div class="col-xl-3 col-sm-6 mb-5">
         <div class="bg-white rounded shadow-sm py-5 px-4">
 
-          <img src="img/sections/team/4.jpg" alt="team" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" loading="lazy">
+          <img src="img/sections/team/4.jpg" data-image-hint="width=512" alt="team" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" loading="lazy">
 
           <h5 class="mb-0">Jane Doe</h5>
           <span class="small text-uppercase text-muted">CCO - Financial</span>
@@ -3979,7 +3979,7 @@ Vvveb.Sections.add("testimonials/testimonials-1", {
 
           <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui.</p>
 
-          <img src="img/sections/team/1.jpg" alt="team" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow" loading="lazy">
+          <img src="img/sections/team/1.jpg" data-image-hint="width=512" alt="team" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow" loading="lazy">
 
           <h4 class="mb-0">John Doe</h4>
           <span class="small text-uppercase text-muted">Company Inc.</span>
@@ -3998,7 +3998,7 @@ Vvveb.Sections.add("testimonials/testimonials-1", {
 
 
           <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui.</p>
-          <img src="img/sections/team/2.jpg" alt="team" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow" loading="lazy">
+          <img src="img/sections/team/2.jpg" data-image-hint="width=512" alt="team" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow" loading="lazy">
 
           <h4 class="mb-0">Jane Doe</h4>
           <span class="small text-uppercase text-muted">Company Inc.</span>
@@ -4018,7 +4018,7 @@ Vvveb.Sections.add("testimonials/testimonials-1", {
 
           <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui.</p>
 
-          <img src="img/sections/team/3.jpg" alt="team" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow" loading="lazy">
+          <img src="img/sections/team/3.jpg" data-image-hint="width=512" alt="team" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow" loading="lazy">
 
           <h4 class="mb-0">John Doe</h4>
           <span class="small text-uppercase text-muted">Company Inc.</span>
@@ -4038,7 +4038,7 @@ Vvveb.Sections.add("testimonials/testimonials-1", {
 
           <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sem tempor, varius quam at, luctus dui.</p>
 
-          <img src="img/sections/team/4.jpg" alt="team" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow" loading="lazy">
+          <img src="img/sections/team/4.jpg" data-image-hint="width=512" alt="team" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow" loading="lazy">
 
           <h4 class="mb-0">Jane Doe</h4>
           <span class="small text-uppercase text-muted">Company Inc.</span>
@@ -4075,7 +4075,7 @@ Vvveb.Sections.add("testimonials/testimonials-1", {
               <p class="text-muted"> I really enjoyed working with them, they are Group of Professionals and they know what they're Doing</p>
             </div>
 
-            <img alt="image" src="img/sections/team/1.jpg" class="img-fluid p-4 rounded-circle" loading="lazy">
+            <img alt="image" src="img/sections/team/1.jpg" data-image-hint="width=512" class="img-fluid p-4 rounded-circle" loading="lazy">
           </div>
           <div class="col-md-12 text-center">
             <div class="pt-2">
@@ -4105,7 +4105,7 @@ Vvveb.Sections.add("testimonials/testimonials-1", {
               <p class="text-muted"> I really enjoyed working with them, they are Group of Professionals and they know what they're Doing</p>
             </div>
 
-            <img alt="image" src="img/sections/team/2.jpg" class="img-fluid p-4 rounded-circle" loading="lazy">
+            <img alt="image" src="img/sections/team/2.jpg" data-image-hint="width=512" class="img-fluid p-4 rounded-circle" loading="lazy">
           </div>
           <div class="col-md-12 text-center">
             <div class="pt-2">
@@ -4134,7 +4134,7 @@ Vvveb.Sections.add("testimonials/testimonials-1", {
               <p class="text-muted"> I really enjoyed working with them, they are Group of Professionals and they know what they're Doing</p>
             </div>
 
-            <img alt="image" src="img/sections/team/3.jpg" class="img-fluid p-4 rounded-circle" loading="lazy">
+            <img alt="image" src="img/sections/team/3.jpg" data-image-hint="width=512" class="img-fluid p-4 rounded-circle" loading="lazy">
           </div>
           <div class="col-md-12 text-center">
             <div class="pt-2">
@@ -4162,7 +4162,7 @@ Vvveb.Sections.add("testimonials/testimonials-1", {
               <p class="text-muted"> I really enjoyed working with them, they are Group of Professionals and they know what they're Doing</p>
             </div>
 
-            <img alt="image" src="img/sections/team/4.jpg" class="img-fluid p-4 rounded-circle" loading="lazy">
+            <img alt="image" src="img/sections/team/4.jpg" data-image-hint="width=512" class="img-fluid p-4 rounded-circle" loading="lazy">
           </div>
           <div class="col-md-12 text-center">
             <div class="pt-2">
@@ -4207,7 +4207,7 @@ Vvveb.Sections.add("testimonials/testimonials-1", {
             </div>
 
             <div class="profile">
-              <img src="img/sections/team/1.jpg" loading="lazy" alt="team">
+              <img src="img/sections/team/1.jpg" data-image-hint="width=512" loading="lazy" alt="team">
             </div>
             <div class="card-title mt-4">
               <h4>Jane Doe</h4>
@@ -4231,7 +4231,7 @@ Vvveb.Sections.add("testimonials/testimonials-1", {
             </div>
 
             <div class="profile">
-              <img src="img/sections/team/2.jpg" loading="lazy" alt="team">
+              <img src="img/sections/team/2.jpg" data-image-hint="width=512" loading="lazy" alt="team">
             </div>
             <div class="card-title mt-4">
               <h4>John Doe</h4>
@@ -4255,7 +4255,7 @@ Vvveb.Sections.add("testimonials/testimonials-1", {
             </div>
 
             <div class="profile">
-              <img src="img/sections/team/3.jpg" loading="lazy" alt="team">
+              <img src="img/sections/team/3.jpg" data-image-hint="width=512" loading="lazy" alt="team">
             </div>
             <div class="card-title mt-4">
               <h4>Jane Doe</h4>
