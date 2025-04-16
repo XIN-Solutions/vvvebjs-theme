@@ -40,7 +40,7 @@ Vvveb.Sections.add("hero/hero-1", {
   </div>
 
   <div class="background-container">
-    <img src="img//background.svg" alt="Hero background" loading="lazy">
+    <img src="img/background.svg" data-image-hint="width=1920" alt="Hero background" loading="lazy">
   </div>
 
 </header>`
@@ -69,7 +69,7 @@ Vvveb.Sections.add("hero/hero-1", {
           <span class="play-button">
             <i class="la la-play"></i>
           </span>
-          <img src="img/demo/video-1.jpg" loading="lazy" alt="Video image" class="img-fluid">
+          <img src="img/demo/video-1.jpg" data-image-hint="width=400" loading="lazy" alt="Video image" class="img-fluid">
         </a>
       </div>
     </div>
@@ -140,7 +140,7 @@ Vvveb.Sections.add("hero/hero-1", {
 
   <div class="background-container">
 
-    <img src="img/demo/hero-3.jpg" alt="Hero background">
+    <img src="img/demo/hero-3.jpg" data-image-hint="width=1920" alt="Hero background">
 
   </div>
 
@@ -194,7 +194,7 @@ Vvveb.Sections.add("hero/hero-1", {
   </div>
 
   <div class="background-container">
-    <img src="img/demo/hero-3.jpg" alt="Hero background">
+    <img src="img/demo/hero-3.jpg" data-image-hint="width=1920" alt="Hero background">
   </div>
 </header>`
 });Vvveb.Sections.add("hero/hero-5", {
@@ -243,7 +243,7 @@ Vvveb.Sections.add("hero/hero-1", {
   </div>
 
   <div class="background-container">
-    <img src="img/demo/hero-3.jpg" alt="Hero background">
+    <img src="img/demo/hero-3.jpg" data-image-hint="width=1920" alt="Hero background">
   </div>
 
 </header>`
@@ -298,7 +298,7 @@ Vvveb.Sections.add("hero/hero-1", {
   </div>
 
   <div class="background-container">
-    <img src="img/demo/hero-3.jpg" alt="Hero background" loading="lazy">
+    <img src="img/demo/hero-3.jpg" data-image-hint="width=1920" alt="Hero background" loading="lazy">
   </div>
 </header>`
 });Vvveb.Sections.add("hero/hero-7", {
@@ -353,7 +353,7 @@ Vvveb.Sections.add("hero/hero-1", {
   </div>
 
   <div class="background-container">
-    <img src="img/demo/hero-3.jpg" alt="Hero background">
+    <img src="img/demo/hero-3.jpg" data-image-hint="width=1920" alt="Hero background">
   </div>
 </header>`
 });Vvveb.Sections.add("hero/hero-compact", {
@@ -404,7 +404,7 @@ Vvveb.Sections.add("hero/hero-1", {
 
   <div class="background-container">
 
-    <img src="img/demo/hero-3.jpg" alt="Hero background">
+    <img src="img/demo/hero-3.jpg" data-image-hint="width=1920" alt="Hero background">
 
   </div>
 
