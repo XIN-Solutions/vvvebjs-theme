@@ -435,12 +435,12 @@ Vvveb.Sections.add("features/features-1", {
         </div>
       </div>
       <div class="col-md-5">
-        <img src="img/illustrations.co/118-macbook.svg" alt="" loading="lazy" class="img-fluid" />
+        <img src="img/illustrations.co/118-macbook.svg" data-image-hint="width=768" alt="" loading="lazy" class="img-fluid" />
       </div>
     </div>
     <div class="row wrap">
       <div class="col-md-5">
-        <img src="img/illustrations.co/day95-app-development.svg" alt="" loading="lazy" class="img-fluid" />
+        <img src="img/illustrations.co/day95-app-development.svg" data-image-hint="width=768" alt="" loading="lazy" class="img-fluid" />
       </div>
       <div class="col-md-7 align-self-center">
         <div class="max-box ms-auto">
@@ -469,7 +469,7 @@ Vvveb.Sections.add("features/features-1", {
 
   <div class="row no-gutters">
     <div class="col-lg-6">
-      <img alt="image" src="img/illustrations.co/day68-happy-cat.svg" alt="happy cat" loading="lazy" class="img-fluid">
+      <img alt="image" src="img/illustrations.co/day68-happy-cat.svg" data-image-hint="width=768" loading="lazy" class="img-fluid">
     </div>
 
     <div class="col-lg-6 bg-primary bg-gradient text-white d-flex">
@@ -570,7 +570,7 @@ Vvveb.Sections.add("features/features-1", {
       </div>
 
       <div class="col-lg-6">
-        <img src="img/illustrations.co/day67-dog.svg" alt="dog" loading="lazy" class="img-fluid" />
+        <img src="img/illustrations.co/day67-dog.svg" data-image-hint="width=768" loading="lazy" class="img-fluid" />
       </div>
 
       <div class="col-md-12 mt-3 text-center">
@@ -656,7 +656,7 @@ Vvveb.Sections.add("features/features-1", {
   <div class="container">
     <div class="row align-items-center">
       <div class="col-12 col-md-8 col-lg-6 m-md-auto ms-lg-0 me-lg-auto">
-        <img src="img/illustrations.co/day67-dog.svg" alt="dog" loading="lazy" class="img-fluid" />
+        <img src="img/illustrations.co/day67-dog.svg" data-image-hint="width=768" loading="lazy" class="img-fluid" />
       </div>
       <div class="col-12 col-lg-6 col-xl-5 ms-sm-auto pt-5 pt-lg-0">
         <h2>Lorem ipsum dolor sit amet.</h2>
@@ -708,7 +708,7 @@ Vvveb.Sections.add("features/features-1", {
     <div class="row text-center justify-content-center">
       <div class="col-12 col-sm-4 col-xl-3 m-md-auto">
         <div>
-          <img loading="lazy" src="img/illustrations.co/109-map-location.svg" alt="map location">
+          <img loading="lazy" src="img/illustrations.co/109-map-location.svg" data-image-hint="width=768" alt="">
           <h3>Cras felis nunc</h3>
           <p class="lead text-muted mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
 
@@ -718,7 +718,7 @@ Vvveb.Sections.add("features/features-1", {
 
       <div class="col-12 col-sm-4 col-xl-3 m-md-auto">
         <div>
-          <img loading="lazy" src="img/illustrations.co/107-healthy.svg" alt="dumbbell">
+          <img loading="lazy" src="img/illustrations.co/107-healthy.svg" data-image-hint="width=768" alt="">
           <h3>Cras felis nunc.</h3>
           <p class="lead text-muted mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
 
@@ -728,7 +728,7 @@ Vvveb.Sections.add("features/features-1", {
 
       <div class="col-12 col-sm-4 col-xl-3 m-md-auto">
         <div>
-          <img loading="lazy" src="img/illustrations.co/104-dumbbell.svg" alt="dumbbell">
+          <img loading="lazy" src="img/illustrations.co/104-dumbbell.svg" data-image-hint="width=768" alt="">
           <h3>Cras felis nunc.</h3>
           <p class="lead text-muted mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
 
@@ -751,7 +751,7 @@ Vvveb.Sections.add("features/features-1", {
     <div class="row text-center justify-content-center">
       <div class="col-12 col-md-6 col-lg-3">
         <div>
-          <img alt="map location" loading="lazy" src="img/illustrations.co/109-map-location.svg">
+          <img alt="" loading="lazy" src="img/illustrations.co/109-map-location.svg" data-image-hint="width=768">
           <h3>Cras felis nunc.</h3>
           <p class="lead text-muted mt-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim.
@@ -763,7 +763,7 @@ Vvveb.Sections.add("features/features-1", {
 
       <div class="col-12 col-md-6 col-lg-3">
         <div>
-          <img alt="healthy" loading="lazy" src="img/illustrations.co/107-healthy.svg">
+          <img loading="lazy" src="img/illustrations.co/107-healthy.svg" data-image-hint="width=768">
           <h3>Cras felis nunc.</h3>
           <p class="lead text-muted mt-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim.
@@ -775,7 +775,7 @@ Vvveb.Sections.add("features/features-1", {
 
       <div class="col-12 col-md-6 col-lg-3">
         <div>
-          <img alt="dumbbell" loading="lazy" src="img/illustrations.co/104-dumbbell.svg">
+          <img loading="lazy" src="img/illustrations.co/104-dumbbell.svg" data-image-hint="width=768">
           <h3>Cras felis nunc.</h3>
           <p class="lead text-muted mt-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim.
@@ -787,12 +787,11 @@ Vvveb.Sections.add("features/features-1", {
 
       <div class="col-12 col-md-6 col-lg-3">
         <div>
-          <img alt="namaste" loading="lazy" src="img/illustrations.co/126-namaste-no-hand-shake.svg">
+          <img loading="lazy" src="img/illustrations.co/126-namaste-no-hand-shake.svg" data-image-hint="width=768">
           <h3>Cras felis nunc.</h3>
           <p class="lead text-muted mt-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim.
           </p>
-
           <a href="#">Learn More</a>
         </div>
       </div>
@@ -813,7 +812,7 @@ Vvveb.Sections.add("features/features-1", {
       <div class="col-12 col-md-4">
         <div class="row">
           <div class="col-3">
-            <img alt="map location" loading="lazy" src="img/illustrations.co/109-map-location.svg">
+            <img alt="" loading="lazy" src="img/illustrations.co/109-map-location.svg" data-image-hint="width=768">
           </div>
           <div class="col-9">
             <h4>Cras felis nunc.</h4>
@@ -826,7 +825,7 @@ Vvveb.Sections.add("features/features-1", {
       <div class="col-12 col-md-4 pt-3 pt-sm-4">
         <div class="row">
           <div class="col-3">
-            <img alt="healthy" loading="lazy" src="img/illustrations.co/107-healthy.svg">
+            <img alt="" loading="lazy" src="img/illustrations.co/107-healthy.svg" data-image-hint="width=768">
           </div>
           <div class="col-9">
             <h4>Cras felis nunc.</h4>
@@ -840,7 +839,7 @@ Vvveb.Sections.add("features/features-1", {
       <div class="col-12 col-md-4 pt-3 pt-sm-4">
         <div class="row">
           <div class="col-3">
-            <img alt="dumbbell" loading="lazy" src="img/illustrations.co/104-dumbbell.svg">
+            <img alt="" loading="lazy" src="img/illustrations.co/104-dumbbell.svg" data-image-hint="width=768">
           </div>
           <div class="col-9">
             <h4>Cras felis nunc.</h4>
@@ -856,7 +855,7 @@ Vvveb.Sections.add("features/features-1", {
       <div class="col-12 col-md-4">
         <div class="row">
           <div class="col-3">
-            <img alt="namaste" loading="lazy" src="img/illustrations.co/126-namaste-no-hand-shake.svg">
+            <img alt="" loading="lazy" src="img/illustrations.co/126-namaste-no-hand-shake.svg" data-image-hint="width=768">
           </div>
           <div class="col-9">
             <h4>Cras felis nunc.</h4>
@@ -870,7 +869,7 @@ Vvveb.Sections.add("features/features-1", {
       <div class="col-12 col-md-4 pt-3 pt-sm-4">
         <div class="row">
           <div class="col-3">
-            <img alt="map location" loading="lazy" src="img/illustrations.co/109-map-location.svg">
+            <img alt="" loading="lazy" src="img/illustrations.co/109-map-location.svg" data-image-hint="width=768">
           </div>
           <div class="col-9">
             <h4>Cras felis nunc.</h4>
@@ -884,13 +883,12 @@ Vvveb.Sections.add("features/features-1", {
       <div class="col-12 col-md-4 pt-3 pt-sm-4">
         <div class="row">
           <div class="col-3">
-            <img alt="healthy" loading="lazy" src="img/illustrations.co/107-healthy.svg">
+            <img alt="" loading="lazy" src="img/illustrations.co/107-healthy.svg" data-image-hint="width=768">
           </div>
           <div class="col-9">
             <h4>Cras felis nunc.</h4>
             <p class="lead text-muted mt-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
             <a href="#">Learn More</a>
-
           </div>
         </div>
       </div>
@@ -911,7 +909,7 @@ Vvveb.Sections.add("features/features-1", {
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="row">
           <div class="col-3">
-            <img alt="map location" loading="lazy" src="img/illustrations.co/109-map-location.svg">
+            <img alt="" loading="lazy" src="img/illustrations.co/109-map-location.svg" data-image-hint="width=768">
           </div>
           <div class="col-9">
             <h4>Cras felis nunc.</h4>
@@ -925,7 +923,7 @@ Vvveb.Sections.add("features/features-1", {
       <div class="col-12 col-sm-6 col-lg-3 pt-3 pt-sm-0">
         <div class="row">
           <div class="col-3">
-            <img alt="healthy" loading="lazy" src="img/illustrations.co/107-healthy.svg">
+            <img alt="" loading="lazy" src="img/illustrations.co/107-healthy.svg" data-image-hint="width=768">
           </div>
           <div class="col-9">
             <h4>Cras felis nunc.</h4>
@@ -940,7 +938,7 @@ Vvveb.Sections.add("features/features-1", {
       <div class="col-12 col-sm-6 col-lg-3 pt-3 pt-lg-0">
         <div class="row">
           <div class="col-3">
-            <img alt="dumbbell" loading="lazy" src="img/illustrations.co/104-dumbbell.svg">
+            <img alt="" loading="lazy" src="img/illustrations.co/104-dumbbell.svg" data-image-hint="width=768">
           </div>
           <div class="col-9">
             <h4>Cras felis nunc.</h4>
@@ -955,7 +953,7 @@ Vvveb.Sections.add("features/features-1", {
       <div class="col-12 col-sm-6 col-lg-3 pt-3 pt-lg-0">
         <div class="row">
           <div class="col-3">
-            <img alt="namaste" loading="lazy" src="img/illustrations.co/126-namaste-no-hand-shake.svg">
+            <img alt="" loading="lazy" src="img/illustrations.co/126-namaste-no-hand-shake.svg" data-image-hint="width=768">
           </div>
           <div class="col-9">
             <h4>Cras felis nunc.</h4>
@@ -973,7 +971,7 @@ Vvveb.Sections.add("features/features-1", {
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="row">
           <div class="col-3">
-            <img alt="map location" loading="lazy" src="img/illustrations.co/109-map-location.svg">
+            <img alt="" loading="lazy" src="img/illustrations.co/109-map-location.svg" data-image-hint="width=768">
           </div>
           <div class="col-9">
             <h4>Cras felis nunc.</h4>
@@ -988,7 +986,7 @@ Vvveb.Sections.add("features/features-1", {
       <div class="col-12 col-sm-6 col-lg-3 pt-3 pt-sm-0">
         <div class="row">
           <div class="col-3">
-            <img alt="healthy" loading="lazy" src="img/illustrations.co/107-healthy.svg">
+            <img alt="" loading="lazy" src="img/illustrations.co/107-healthy.svg" data-image-hint="width=768">
           </div>
           <div class="col-9">
             <h4>Cras felis nunc.</h4>
@@ -1003,7 +1001,7 @@ Vvveb.Sections.add("features/features-1", {
       <div class="col-12 col-sm-6 col-lg-3 pt-3 pt-lg-0">
         <div class="row">
           <div class="col-3">
-            <img alt="map location" loading="lazy" src="img/illustrations.co/109-map-location.svg">
+            <img alt="" loading="lazy" src="img/illustrations.co/109-map-location.svg" data-image-hint="width=768">
 
           </div>
           <div class="col-9">
@@ -1019,7 +1017,7 @@ Vvveb.Sections.add("features/features-1", {
       <div class="col-12 col-sm-6 col-lg-3 pt-3 pt-lg-0">
         <div class="row">
           <div class="col-3">
-            <img alt="healthy" loading="lazy" src="img/illustrations.co/107-healthy.svg">
+            <img alt="" loading="lazy" src="img/illustrations.co/107-healthy.svg" data-image-hint="width=768">
           </div>
           <div class="col-9">
             <h4>Cras felis nunc.</h4>
@@ -1041,13 +1039,13 @@ Vvveb.Sections.add("features/features-1", {
   <div class="container">
     <div class="row text-end align-items-center">
       <div class="col-12 col-md-6 m-auto">
-        <img src="img/illustrations.co/day67-dog.svg" alt="dog" loading="lazy" class="img-fluid">
+        <img src="img/illustrations.co/day67-dog.svg" data-image-hint="width=768" alt="" loading="lazy" class="img-fluid">
       </div>
 
       <div class="col-12 col-md-7 col-lg-5 m-auto text-start pt-5">
         <div class="row pb-lg-5">
           <div class="col-3">
-            <img src="img/illustrations.co/107-healthy.svg" alt="healthy" loading="lazy" class="img-fluid">
+            <img src="img/illustrations.co/107-healthy.svg" data-image-hint="width=768" alt="" loading="lazy" class="img-fluid">
           </div>
           <div class="col-9">
             <h3>
@@ -1059,7 +1057,7 @@ Vvveb.Sections.add("features/features-1", {
 
         <div class="row pt-4 pt-md-5 pb-lg-5">
           <div class="col-3">
-            <img alt="image" src="img/illustrations.co/104-dumbbell.svg" alt="dumbbell" loading="lazy" class="img-fluid">
+            <img alt="image" src="img/illustrations.co/104-dumbbell.svg" data-image-hint="width=768" alt="" loading="lazy" class="img-fluid">
           </div>
           <div class="col-9">
             <h3>
@@ -1072,7 +1070,7 @@ Vvveb.Sections.add("features/features-1", {
 
         <div class="row pt-4 pt-md-5">
           <div class="col-3">
-            <img alt="image" src="img/illustrations.co/109-map-location.svg" alt="map location" loading="lazy" class="img-fluid">
+            <img alt="image" src="img/illustrations.co/109-map-location.svg" data-image-hint="width=768" alt="" loading="lazy" class="img-fluid">
           </div>
           <div class="col-9">
             <h3>
@@ -1093,7 +1091,7 @@ Vvveb.Sections.add("features/features-1", {
     <div class="row text-center">
       <div class="col-12 col-md-8 col-lg-4">
         <div>
-          <img alt="image" src="img/illustrations.co/109-map-location.svg" alt="map location" loading="lazy" class="img-fluid">
+          <img alt="image" src="img/illustrations.co/109-map-location.svg" data-image-hint="width=768" alt="" loading="lazy" class="img-fluid">
           <h3>Cras felis nunc</h3>
           <p class="lead text-muted mt-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim.
@@ -1105,7 +1103,7 @@ Vvveb.Sections.add("features/features-1", {
 
       <div class="col-12 col-md-8 col-lg-4">
         <div>
-          <img alt="image" src="img/illustrations.co/107-healthy.svg" alt="healthy" loading="lazy" class="img-fluid">
+          <img alt="image" src="img/illustrations.co/107-healthy.svg" data-image-hint="width=768" alt="" loading="lazy" class="img-fluid">
           <h3>Cras felis nunc</h3>
           <p class="lead text-muted mt-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim.
@@ -1117,7 +1115,7 @@ Vvveb.Sections.add("features/features-1", {
 
       <div class="col-12 col-md-8 col-lg-4">
         <div>
-          <img alt="image" src="img/illustrations.co/104-dumbbell.svg" alt="dumbbell" loading="lazy" class="img-fluid">
+          <img alt="image" src="img/illustrations.co/104-dumbbell.svg" data-image-hint="width=768" alt="" loading="lazy" class="img-fluid">
           <h3>Cras felis nunc</h3>
           <p class="lead text-muted mt-4">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim.
