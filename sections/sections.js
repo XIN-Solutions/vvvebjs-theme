@@ -2888,7 +2888,7 @@ Vvveb.Sections.add("showcase/showcase-1", {
       <div class="col-md-6 col-sm-12">
         <h3>Lorem ipsum dolor sit amet.</h3>
         <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas cursus in lectus ut dignissim. </p>
-        <a href="content/post.html">
+        <a href="/">
           <span>Learn more</span>
           <i class="la la-long-arrow-alt-right ms-1"></i>
         </a>
@@ -3353,7 +3353,7 @@ Vvveb.Sections.add("showcase/showcase-1", {
   <div class="container">
     <div class="row align-items-center justify-content-center">
       <div class="col-12 col-md-6   mt-4 mt-md-0 order-md-1 order-2">
-        <img alt="image" loading="lazy" class="img-fluid" src="http://via.placeholder.com/650x450/5fa9f8/fff">
+        <img alt="image" loading="lazy" class="img-fluid" src="img/illustrations.co/126-namaste-no-hand-shake.svg" data-image-hint="width=768">
       </div>
       <div class="col-12 col-md-4 order-1 order-md-2">
         <h2>Cras felis nunc</h2>
@@ -3367,12 +3367,12 @@ Vvveb.Sections.add("showcase/showcase-1", {
 
       </div>
       <div class="col-12 col-md-6   mt-4 mt-md-0">
-        <img alt="image" loading="lazy" class="img-fluid" src="http://via.placeholder.com/650x450/5fa9f8/fff">
+        <img alt="image" loading="lazy" class="img-fluid" src="img/illustrations.co/107-healthy.svg" data-image-hint="width=768">
       </div>
     </div>
     <div class="row align-items-center justify-content-center">
       <div class="col-12 col-md-6   mt-4 mt-md-0 order-md-1 order-2">
-        <img alt="image" loading="lazy" class="img-fluid" src="http://via.placeholder.com/650x450/5fa9f8/fff">
+        <img alt="image" loading="lazy" class="img-fluid" src="img/illustrations.co/126-namaste-no-hand-shake.svg" data-image-hint="width=768">
       </div>
       <div class="col-12 col-md-4 order-1 order-md-2">
         <h2>Cras felis nunc</h2>
