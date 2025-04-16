@@ -1498,7 +1498,7 @@ Vvveb.Sections.add("contact-form/contact-form-1", {
           <div class="row g-0">
             <div class="col-sm-6 d-none d-sm-block bg-image">
 
-              <img alt="image" src="img/illustrations.co/day68-happy-cat.svg" alt="happy cat" loading="lazy" class="img-fluid">
+              <img alt="image" src="img/illustrations.co/day68-happy-cat.svg" alt="" data-image-hint="width=768" loading="lazy" class="img-fluid">
 
             </div>
             <div class="col-sm-6 p-4">
@@ -1761,7 +1761,7 @@ Vvveb.Sections.add("contact-form/contact-form-1", {
       <div class="row">
         <div class="col-lg-6">
           <div class="card-shadow">
-            <img alt="image" src="img/illustrations.co/day68-happy-cat.svg" alt="happy cat" loading="lazy" class="img-fluid">
+            <img alt="" src="img/illustrations.co/day68-happy-cat.svg" data-image-hint="width=768" loading="lazy" class="img-fluid">
           </div>
         </div>
         <div class="col-lg-6">
@@ -1874,9 +1874,9 @@ Vvveb.Sections.add("posts/posts-1", {
 
                 <div class="col-md-4 mb-3" data-v-post>
                   <div class="card">
-                    <img class="img-fluid" loading="lazy" alt="day67-dog" src="img/illustrations.co/day67-dog.svg" data-v-post-image>
+                    <img class="img-fluid" loading="lazy" alt="" src="img/illustrations.co/day67-dog.svg" data-image-hint="width=512" data-v-post-image>
                     <div class="card-body">
-                      <a href="content/post.html" data-v-post-url>
+                      <a href="#" data-v-post-url>
                         <h4 class="card-title" data-v-post-name>Interdum et malesuada</h4>
                       </a>
                       <p class="card-text" data-v-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus purus dignissim convallis.</p>
@@ -1887,7 +1887,7 @@ Vvveb.Sections.add("posts/posts-1", {
                 </div>
                 <div class="col-md-4 mb-3" data-v-post>
                   <div class="card">
-                    <img class="img-fluid" loading="lazy" alt="day22-owl" src="img/illustrations.co/day22-owl.svg" data-v-post-image>
+                    <img class="img-fluid" loading="lazy" src="img/illustrations.co/day22-owl.svg" data-v-post-image data-image-hint="width=512">
                     <div class="card-body">
                       <a href="content/post.html" data-v-post-url>
                         <h4 class="card-title" data-v-post-name>Interdum et malesuada</h4>
@@ -1899,9 +1899,9 @@ Vvveb.Sections.add("posts/posts-1", {
                 </div>
                 <div class="col-md-4 mb-3" data-v-post>
                   <div class="card">
-                    <img class="img-fluid" loading="lazy" alt="day68-happy-cat" src="img/illustrations.co/day68-happy-cat.svg" data-v-post-image>
+                    <img class="img-fluid" loading="lazy" alt="" data-image-hint="width=512" src="img/illustrations.co/day68-happy-cat.svg" data-v-post-image>
                     <div class="card-body">
-                      <a href="content/post.html" data-v-post-url>
+                      <a href="#" data-v-post-url>
                         <h4 class="card-title" data-v-post-name>Interdum et malesuada</h4>
                       </a>
                       <p class="card-text" data-v-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus purus dignissim convallis.</p>
@@ -1917,9 +1917,9 @@ Vvveb.Sections.add("posts/posts-1", {
 
                 <div class="col-md-4 mb-3" data-v-post>
                   <div class="card">
-                    <img class="img-fluid" loading="lazy" alt="day79-coffee" src="img/illustrations.co/day79-coffee.svg" data-v-post-image>
+                    <img class="img-fluid" loading="lazy" alt="" data-image-hint="width=512" src="img/illustrations.co/day79-coffee.svg" data-v-post-image>
                     <div class="card-body">
-                      <a href="content/post.html" data-v-post-url>
+                      <a href="#" data-v-post-url>
                         <h4 class="card-title" data-v-post-name>Interdum et malesuada</h4>
                       </a>
                       <p class="card-text" data-v-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus purus dignissim convallis.</p>
@@ -1930,9 +1930,9 @@ Vvveb.Sections.add("posts/posts-1", {
                 </div>
                 <div class="col-md-4 mb-3" data-v-post>
                   <div class="card">
-                    <img class="img-fluid" loading="lazy" alt="109-map-location" src="img/illustrations.co/109-map-location.svg" data-v-post-image>
+                    <img class="img-fluid" loading="lazy" alt="" data-image-hint="width=512" src="img/illustrations.co/109-map-location.svg" data-v-post-image>
                     <div class="card-body">
-                      <a href="content/post.html" data-v-post-url>
+                      <a href="#" data-v-post-url>
                         <h4 class="card-title" data-v-post-name>Interdum et malesuada</h4>
                       </a>
                       <p class="card-text" data-v-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus purus dignissim convallis.</p>
@@ -1942,9 +1942,9 @@ Vvveb.Sections.add("posts/posts-1", {
                 </div>
                 <div class="col-md-4 mb-3" data-v-post>
                   <div class="card">
-                    <img class="img-fluid" loading="lazy" alt="107-healthy" src="img/illustrations.co/107-healthy.svg" data-v-post-image>
+                    <img class="img-fluid" loading="lazy" alt="" data-image-hint="width=512" src="img/illustrations.co/107-healthy.svg" data-v-post-image>
                     <div class="card-body">
-                      <a href="content/post.html" data-v-post-url>
+                      <a href="#" data-v-post-url>
                         <h4 class="card-title" data-v-post-name>Interdum et malesuada</h4>
                       </a>
                       <p class="card-text" data-v-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus purus dignissim convallis.</p>
@@ -1960,9 +1960,9 @@ Vvveb.Sections.add("posts/posts-1", {
 
                 <div class="col-md-4 mb-3" data-v-post>
                   <div class="card">
-                    <img class="img-fluid" loading="lazy" alt="126-namaste-no-hand-shake" src="img/illustrations.co/126-namaste-no-hand-shake.svg" data-v-post-image>
+                    <img class="img-fluid" loading="lazy" alt="" data-image-hint="width=512" src="img/illustrations.co/126-namaste-no-hand-shake.svg" data-v-post-image>
                     <div class="card-body">
-                      <a href="content/post.html" data-v-post-url>
+                      <a href="#" data-v-post-url>
                         <h4 class="card-title" data-v-post-name>Interdum et malesuada</h4>
                       </a>
                       <p class="card-text" data-v-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus purus dignissim convallis.</p>
@@ -1973,9 +1973,9 @@ Vvveb.Sections.add("posts/posts-1", {
                 </div>
                 <div class="col-md-4 mb-3" data-v-post>
                   <div class="card">
-                    <img class="img-fluid" loading="lazy" alt="104-dumbbell" src="img/illustrations.co/104-dumbbell.svg" data-v-post-image>
+                    <img class="img-fluid" loading="lazy" alt="" data-image-hint="width=512" src="img/illustrations.co/104-dumbbell.svg" data-v-post-image>
                     <div class="card-body">
-                      <a href="content/post.html" data-v-post-url>
+                      <a href="#" data-v-post-url>
                         <h4 class="card-title" data-v-post-name>Interdum et malesuada</h4>
                       </a>
                       <p class="card-text" data-v-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus purus dignissim convallis.</p>
@@ -1985,9 +1985,9 @@ Vvveb.Sections.add("posts/posts-1", {
                 </div>
                 <div class="col-md-4 mb-3" data-v-post>
                   <div class="card">
-                    <img class="img-fluid" loading="lazy" alt="day50-pirahna" src="img/illustrations.co/day50-pirahna.svg" data-v-post-image>
+                    <img class="img-fluid" loading="lazy" alt="" data-image-hint="width=512" src="img/illustrations.co/day50-pirahna.svg" data-v-post-image>
                     <div class="card-body">
-                      <a href="content/post.html" data-v-post-url>
+                      <a href="#" data-v-post-url>
                         <h4 class="card-title" data-v-post-name>Interdum et malesuada</h4>
                       </a>
                       <p class="card-text" data-v-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus purus dignissim convallis.</p>
@@ -2021,7 +2021,7 @@ Vvveb.Sections.add("posts/posts-1", {
 
       <div class="col-md-4" data-v-post>
         <div class="card position-relative shadow border-0 mb-4" data-bs-theme="dark">
-          <img class="card-img" src="img/demo/product.jpg" loading="lazy" alt="product" data-v-post-image>
+          <img class="card-img" src="img/demo/product.jpg" data-image-hint="width=512" loading="lazy" alt="" data-v-post-image>
           <div class="card-img-overlay overflow-hidden">
             <div class="d-flex align-items-center">
               <span class="badge bg-primary text-white px-3 py-1 font-weight-normal">New</span>
@@ -2029,7 +2029,7 @@ Vvveb.Sections.add("posts/posts-1", {
                 <span class="ms-2 small">Jan 21, 2024</span>
               </div>
             </div>
-            <a href="content/post.html" class="text-body" data-v-post-url>
+            <a href="#" class="text-body" data-v-post-url>
               <h5 class="card-title my-3 font-weight-normal" data-v-post-name>Interdum et malesuada</h5>
             </a>
             <p class="card-text" data-v-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus purus dignissim convallis.</p>
@@ -2040,7 +2040,7 @@ Vvveb.Sections.add("posts/posts-1", {
 
       <div class="col-md-4" data-v-post>
         <div class="card position-relative shadow border-0 mb-4" data-bs-theme="dark">
-          <img class="card-img" src="img/demo/product.jpg" loading="lazy" alt="product" data-v-post-image>
+          <img class="card-img" src="img/demo/product.jpg" data-image-hint="width=512" loading="lazy" alt="" data-v-post-image>
           <div class="card-img-overlay overflow-hidden">
             <div class="d-flex align-items-center">
               <span class="badge bg-primary text-white px-3 py-1 font-weight-normal">New</span>
@@ -2048,7 +2048,7 @@ Vvveb.Sections.add("posts/posts-1", {
                 <span class="ms-2 small">Jan 21, 2024</span>
               </div>
             </div>
-            <a href="content/post.html" class="text-body" data-v-post-url>
+            <a href="#" class="text-body" data-v-post-url>
               <h5 class="card-title my-3 font-weight-normal" data-v-post-name>Interdum et malesuada</h5>
             </a>
             <p class="card-text" data-v-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus purus dignissim convallis.</p>
@@ -2059,7 +2059,7 @@ Vvveb.Sections.add("posts/posts-1", {
 
       <div class="col-md-4" data-v-post>
         <div class="card position-relative shadow border-0 mb-4" data-bs-theme="dark">
-          <img class="card-img" src="img/demo/product.jpg" loading="lazy" alt="product" data-v-post-image>
+          <img class="card-img" src="img/demo/product.jpg" data-image-hint="width=512" loading="lazy" alt="" data-v-post-image>
           <div class="card-img-overlay overflow-hidden">
             <div class="d-flex align-items-center">
               <span class="badge bg-primary text-white px-3 py-1 font-weight-normal">New</span>
@@ -2067,7 +2067,7 @@ Vvveb.Sections.add("posts/posts-1", {
                 <span class="ms-2 small">Jan 21, 2024</span>
               </div>
             </div>
-            <a href="content/post.html" class="text-body" data-v-post-url>
+            <a href="#" class="text-body" data-v-post-url>
               <h5 class="card-title my-3 font-weight-normal" data-v-post-name>Interdum et malesuada</h5>
             </a>
             <p class="card-text" data-v-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus purus dignissim convallis.</p>
@@ -2087,6 +2087,7 @@ Vvveb.Sections.add("posts/posts-1", {
       <div class="col-6">
         <h3 class="mb-3">News sections</h3>
       </div>
+
       <div class="col-6 text-end">
         <a class="btn btn-primary mb-3 me-1" href="#carouselPosts2" role="button" data-bs-slide="prev">
           <i class="la la-arrow-left"></i>
@@ -2095,6 +2096,7 @@ Vvveb.Sections.add("posts/posts-1", {
           <i class="la la-arrow-right"></i>
         </a>
       </div>
+
       <div class="col-12">
         <div id="carouselPosts2" class="carousel slide" data-bs-ride="carousel">
 
@@ -2104,9 +2106,9 @@ Vvveb.Sections.add("posts/posts-1", {
 
                 <div class="col-md-4 mb-3" data-v-post>
                   <div class="card">
-                    <img class="img-fluid" loading="lazy" alt="day67-dog" src="img/illustrations.co/day67-dog.svg" data-v-post-image>
+                    <img class="img-fluid" loading="lazy" alt="" data-image-hint="width=512" src="img/illustrations.co/day67-dog.svg" data-v-post-image>
                     <div class="card-body">
-                      <a href="content/post.html" data-v-post-url>
+                      <a href="#" data-v-post-url>
                         <h4 class="card-title" data-v-post-name>Interdum et malesuada</h4>
                       </a>
                       <p class="card-text" data-v-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus purus dignissim convallis.</p>
@@ -2117,9 +2119,9 @@ Vvveb.Sections.add("posts/posts-1", {
                 </div>
                 <div class="col-md-4 mb-3" data-v-post>
                   <div class="card">
-                    <img class="img-fluid" loading="lazy" alt="day22-owl" src="img/illustrations.co/day22-owl.svg" data-v-post-image>
+                    <img class="img-fluid" loading="lazy" alt="" data-image-hint="width=512" src="img/illustrations.co/day22-owl.svg" data-v-post-image>
                     <div class="card-body">
-                      <a href="content/post.html" data-v-post-url>
+                      <a href="#" data-v-post-url>
                         <h4 class="card-title" data-v-post-name>Interdum et malesuada</h4>
                       </a>
                       <p class="card-text" data-v-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus purus dignissim convallis.</p>
@@ -2129,9 +2131,9 @@ Vvveb.Sections.add("posts/posts-1", {
                 </div>
                 <div class="col-md-4 mb-3" data-v-post>
                   <div class="card">
-                    <img class="img-fluid" loading="lazy" alt="day68-happy-cat" src="img/illustrations.co/day68-happy-cat.svg" data-v-post-image>
+                    <img class="img-fluid" loading="lazy" alt="" data-image-hint="width=512" src="img/illustrations.co/day68-happy-cat.svg" data-v-post-image>
                     <div class="card-body">
-                      <a href="content/post.html" data-v-post-url>
+                      <a href="#" data-v-post-url>
                         <h4 class="card-title" data-v-post-name>Interdum et malesuada</h4>
                       </a>
                       <p class="card-text" data-v-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus purus dignissim convallis.</p>
@@ -2147,9 +2149,9 @@ Vvveb.Sections.add("posts/posts-1", {
 
                 <div class="col-md-4 mb-3" data-v-post>
                   <div class="card">
-                    <img class="img-fluid" loading="lazy" alt="day79-coffee" src="img/illustrations.co/day79-coffee.svg" data-v-post-image>
+                    <img class="img-fluid" loading="lazy" alt="" data-image-hint="width=512" src="img/illustrations.co/day79-coffee.svg" data-v-post-image>
                     <div class="card-body">
-                      <a href="content/post.html" data-v-post-url>
+                      <a href="#" data-v-post-url>
                         <h4 class="card-title" data-v-post-name>Interdum et malesuada</h4>
                       </a>
                       <p class="card-text" data-v-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus purus dignissim convallis.</p>
@@ -2160,9 +2162,9 @@ Vvveb.Sections.add("posts/posts-1", {
                 </div>
                 <div class="col-md-4 mb-3" data-v-post>
                   <div class="card">
-                    <img class="img-fluid" loading="lazy" alt="109-map-location" src="img/illustrations.co/109-map-location.svg" data-v-post-image>
+                    <img class="img-fluid" loading="lazy" alt="" data-image-hint="width=512" src="img/illustrations.co/109-map-location.svg" data-v-post-image>
                     <div class="card-body">
-                      <a href="content/post.html" data-v-post-url>
+                      <a href="#" data-v-post-url>
                         <h4 class="card-title" data-v-post-name>Interdum et malesuada</h4>
                       </a>
                       <p class="card-text" data-v-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus purus dignissim convallis.</p>
@@ -2172,9 +2174,9 @@ Vvveb.Sections.add("posts/posts-1", {
                 </div>
                 <div class="col-md-4 mb-3" data-v-post>
                   <div class="card">
-                    <img class="img-fluid" loading="lazy" alt="107-healthy" src="img/illustrations.co/107-healthy.svg" data-v-post-image>
+                    <img class="img-fluid" loading="lazy" alt="" data-image-hint="width=512" src="img/illustrations.co/107-healthy.svg" data-v-post-image>
                     <div class="card-body">
-                      <a href="content/post.html" data-v-post-url>
+                      <a href="#" data-v-post-url>
                         <h4 class="card-title" data-v-post-name>Interdum et malesuada</h4>
                       </a>
                       <p class="card-text" data-v-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus purus dignissim convallis.</p>
@@ -2190,9 +2192,9 @@ Vvveb.Sections.add("posts/posts-1", {
 
                 <div class="col-md-4 mb-3" data-v-post>
                   <div class="card">
-                    <img class="img-fluid" loading="lazy" alt="126-namaste-no-hand-shake" src="img/illustrations.co/126-namaste-no-hand-shake.svg" data-v-post-image>
+                    <img class="img-fluid" loading="lazy" alt="" data-image-hint="width=512" src="img/illustrations.co/126-namaste-no-hand-shake.svg" data-v-post-image>
                     <div class="card-body">
-                      <a href="content/post.html" data-v-post-url>
+                      <a href="#" data-v-post-url>
                         <h4 class="card-title" data-v-post-name>Interdum et malesuada</h4>
                       </a>
                       <p class="card-text" data-v-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus purus dignissim convallis.</p>
@@ -2203,9 +2205,9 @@ Vvveb.Sections.add("posts/posts-1", {
                 </div>
                 <div class="col-md-4 mb-3" data-v-post>
                   <div class="card">
-                    <img class="img-fluid" loading="lazy" alt="104-dumbbell" src="img/illustrations.co/104-dumbbell.svg" data-v-post-image>
+                    <img class="img-fluid" loading="lazy" alt="" data-image-hint="width=512" src="img/illustrations.co/104-dumbbell.svg" data-v-post-image>
                     <div class="card-body">
-                      <a href="content/post.html" data-v-post-url>
+                      <a href="#" data-v-post-url>
                         <h4 class="card-title" data-v-post-name>Interdum et malesuada</h4>
                       </a>
                       <p class="card-text" data-v-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus purus dignissim convallis.</p>
@@ -2215,9 +2217,9 @@ Vvveb.Sections.add("posts/posts-1", {
                 </div>
                 <div class="col-md-4 mb-3" data-v-post>
                   <div class="card">
-                    <img class="img-fluid" loading="lazy" alt="day50-pirahna" src="img/illustrations.co/day50-pirahna.svg" data-v-post-image>
+                    <img class="img-fluid" loading="lazy" alt="" data-image-hint="width=512" src="img/illustrations.co/day50-pirahna.svg" data-v-post-image>
                     <div class="card-body">
-                      <a href="content/post.html" data-v-post-url>
+                      <a href="#" data-v-post-url>
                         <h4 class="card-title" data-v-post-name>Interdum et malesuada</h4>
                       </a>
                       <p class="card-text" data-v-post-excerpt>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim nulla, mollis eu metus in, sagittis fringilla tortor. Phasellus purus dignissim convallis.</p>
@@ -2249,7 +2251,7 @@ Vvveb.Sections.add("pricing-table/pricing-table-3", {
       <div class="col-md-4">
         <div class="price-col shadow">
           <div class="img">
-            <img src="img/illustrations.co/104-dumbbell.svg" alt="104-dumbbell" loading="lazy" class="img-fluid" />
+            <img src="img/illustrations.co/104-dumbbell.svg" alt="" data-image-hint="width=512" loading="lazy" class="img-fluid" />
           </div>
           <div class="text-center p-4">
             <span class="excerpt d-block">Personal</span>
@@ -2282,7 +2284,7 @@ Vvveb.Sections.add("pricing-table/pricing-table-3", {
       <div class="col-md-4">
         <div class="price-col shadow">
           <div class="img">
-            <img src="img/illustrations.co/107-healthy.svg" alt="107-healthy" loading="lazy" class="img-fluid" />
+            <img src="img/illustrations.co/107-healthy.svg" alt="" data-image-hint="width=512" loading="lazy" class="img-fluid" />
           </div>
           <div class="text-center p-4">
             <span class="excerpt d-block">Business</span>
@@ -2315,7 +2317,7 @@ Vvveb.Sections.add("pricing-table/pricing-table-3", {
       <div class="col-md-4">
         <div class="price-col shadow">
           <div class="img">
-            <img src="img/illustrations.co/126-namaste-no-hand-shake.svg" alt="126-namaste-no-hand-shake" loading="lazy" class="img-fluid" />
+            <img src="img/illustrations.co/126-namaste-no-hand-shake.svg" alt="" data-image-hint="width=512" loading="lazy" class="img-fluid" />
           </div>
           <div class="text-center p-4">
             <span class="excerpt d-block">Ultimate</span>
@@ -2350,535 +2352,6 @@ Vvveb.Sections.add("pricing-table/pricing-table-3", {
 </section>`
 });
 	Vvveb.SectionsGroup["Pricing table"] = ["pricing-table/pricing-table-3"];
-Vvveb.Sections.add("products/products-1", {
-    name: "Products 1",
-    image: Vvveb.themeBaseUrl + "/screenshots/sections/products/products-1-thumb.jpeg",
-    html: `<section class="products-1">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="section-heading text-center">
-          <h2>Popular Products</h2>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="container" data-v-component-products="popular" data-v-limit="8" data-v-image_size="medium">
-    <div class="row">
-
-
-
-      <div class="col-md-3" data-v-product>
-
-        <article class="single-product-wrapper">
-          <!-- Product Image -->
-          <a href="product/product.html" data-v-product-url> </a>
-          <div class="product-image">
-            <a href="product/product.html" data-v-product-url>
-
-              <img src="img/demo/product.jpg" loading="lazy" data-v-product-alt alt="" data-v-size="thumb" loading="lazy" data-v-product-image />
-
-              <!-- Hover Thumb -->
-              <img class="hover-img" src="img/demo/product-2.jpg" loading="lazy" data-v-product-alt alt="" loading="lazy" data-v-size="thumb" data-v-product-image-1 />
-            </a>
-
-            <!-- Favourite -->
-            <div class="product-favourite">
-              <a href="product/product.html" class="la la-heart" data-v-vvveb-action="addToWishlist" data-v-product-add_wishlist_url>
-                <span></span>
-              </a>
-            </div>
-
-            <!-- Compare -->
-            <div class="product-compare">
-              <a href="product/product.html" class="la la-random" data-v-vvveb-action="addToCompare" data-v-product-add_compare_url>
-                <span></span>
-              </a>
-            </div>
-          </div>
-
-          <!-- Product Description -->
-          <div class="product-content">
-
-            <a href="product/product.html" class="text-body" data-v-product-url>
-              <span data-v-product-name>Product 8</span>
-            </a>
-
-            <p class="product-price" data-v-if="_product.price > 0" data-v-product-price_tax_formatted>100.0000</p>
-
-            <!-- Hover Content -->
-            <div class="hover-content" data-v-if="_product.price > 0">
-              <!-- Add to Cart -->
-              <div class="add-to-cart-btn">
-                <input type="hidden" name="product_id" value="" data-v-product-product_id />
-                <a href="" class="btn btn-primary w-100" data-v-product-add_cart_url data-v-vvveb-action="addToCart" data-product_id="1">
-                  <span class="loading d-none">
-                    <span class="spinner-border spinner-border-sm align-middle" role="status" aria-hidden="true"> </span>
-                    <span>Add to cart</span>...
-                  </span>
-
-                  <span class="button-text">
-                    Add to cart
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </article>
-
-
-      </div>
-
-
-
-      <div class="col-md-3" data-v-product>
-
-        <article class="single-product-wrapper">
-          <!-- Product Image -->
-          <a href="product/product.html" data-v-product-url> </a>
-          <div class="product-image">
-            <a href="product/product.html" data-v-product-url>
-
-              <img src="img/demo/product.jpg" loading="lazy" data-v-product-alt alt="" data-v-size="thumb" loading="lazy" data-v-product-image />
-
-              <!-- Hover Thumb -->
-              <img class="hover-img" src="img/demo/product-2.jpg" loading="lazy" data-v-product-alt alt="" loading="lazy" data-v-size="thumb" data-v-product-image-1 />
-            </a>
-
-            <!-- Favourite -->
-            <div class="product-favourite">
-              <a href="product/product.html" class="la la-heart" data-v-vvveb-action="addToWishlist" data-v-product-add_wishlist_url>
-                <span></span>
-              </a>
-            </div>
-
-            <!-- Compare -->
-            <div class="product-compare">
-              <a href="product/product.html" class="la la-random" data-v-vvveb-action="addToCompare" data-v-product-add_compare_url>
-                <span></span>
-              </a>
-            </div>
-          </div>
-
-          <!-- Product Description -->
-          <div class="product-content">
-
-            <a href="product/product.html" class="text-body" data-v-product-url>
-              <span data-v-product-name>Product 8</span>
-            </a>
-
-            <p class="product-price" data-v-if="_product.price > 0" data-v-product-price_tax_formatted>100.0000</p>
-
-            <!-- Hover Content -->
-            <div class="hover-content" data-v-if="_product.price > 0">
-              <!-- Add to Cart -->
-              <div class="add-to-cart-btn">
-                <input type="hidden" name="product_id" value="" data-v-product-product_id />
-                <a href="" class="btn btn-primary w-100" data-v-product-add_cart_url data-v-vvveb-action="addToCart" data-product_id="1">
-                  <span class="loading d-none">
-                    <span class="spinner-border spinner-border-sm align-middle" role="status" aria-hidden="true"> </span>
-                    <span>Add to cart</span>...
-                  </span>
-
-                  <span class="button-text">
-                    Add to cart
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </article>
-
-
-      </div>
-
-
-
-      <div class="col-md-3" data-v-product>
-
-        <article class="single-product-wrapper">
-          <!-- Product Image -->
-          <a href="product/product.html" data-v-product-url> </a>
-          <div class="product-image">
-            <a href="product/product.html" data-v-product-url>
-
-              <img src="img/demo/product.jpg" loading="lazy" data-v-product-alt alt="" data-v-size="thumb" loading="lazy" data-v-product-image />
-
-              <!-- Hover Thumb -->
-              <img class="hover-img" src="img/demo/product-2.jpg" loading="lazy" data-v-product-alt alt="" loading="lazy" data-v-size="thumb" data-v-product-image-1 />
-            </a>
-
-            <!-- Favourite -->
-            <div class="product-favourite">
-              <a href="product/product.html" class="la la-heart" data-v-vvveb-action="addToWishlist" data-v-product-add_wishlist_url>
-                <span></span>
-              </a>
-            </div>
-
-            <!-- Compare -->
-            <div class="product-compare">
-              <a href="product/product.html" class="la la-random" data-v-vvveb-action="addToCompare" data-v-product-add_compare_url>
-                <span></span>
-              </a>
-            </div>
-          </div>
-
-          <!-- Product Description -->
-          <div class="product-content">
-
-            <a href="product/product.html" class="text-body" data-v-product-url>
-              <span data-v-product-name>Product 8</span>
-            </a>
-
-            <p class="product-price" data-v-if="_product.price > 0" data-v-product-price_tax_formatted>100.0000</p>
-
-            <!-- Hover Content -->
-            <div class="hover-content" data-v-if="_product.price > 0">
-              <!-- Add to Cart -->
-              <div class="add-to-cart-btn">
-                <input type="hidden" name="product_id" value="" data-v-product-product_id />
-                <a href="" class="btn btn-primary w-100" data-v-product-add_cart_url data-v-vvveb-action="addToCart" data-product_id="1">
-                  <span class="loading d-none">
-                    <span class="spinner-border spinner-border-sm align-middle" role="status" aria-hidden="true"> </span>
-                    <span>Add to cart</span>...
-                  </span>
-
-                  <span class="button-text">
-                    Add to cart
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </article>
-
-
-      </div>
-
-
-
-      <div class="col-md-3" data-v-product>
-
-        <article class="single-product-wrapper">
-          <!-- Product Image -->
-          <a href="product/product.html" data-v-product-url> </a>
-          <div class="product-image">
-            <a href="product/product.html" data-v-product-url>
-
-              <img src="img/demo/product.jpg" loading="lazy" data-v-product-alt alt="" data-v-size="thumb" loading="lazy" data-v-product-image />
-
-              <!-- Hover Thumb -->
-              <img class="hover-img" src="img/demo/product-2.jpg" loading="lazy" data-v-product-alt alt="" loading="lazy" data-v-size="thumb" data-v-product-image-1 />
-            </a>
-
-            <!-- Favourite -->
-            <div class="product-favourite">
-              <a href="product/product.html" class="la la-heart" data-v-vvveb-action="addToWishlist" data-v-product-add_wishlist_url>
-                <span></span>
-              </a>
-            </div>
-
-            <!-- Compare -->
-            <div class="product-compare">
-              <a href="product/product.html" class="la la-random" data-v-vvveb-action="addToCompare" data-v-product-add_compare_url>
-                <span></span>
-              </a>
-            </div>
-          </div>
-
-          <!-- Product Description -->
-          <div class="product-content">
-
-            <a href="product/product.html" class="text-body" data-v-product-url>
-              <span data-v-product-name>Product 8</span>
-            </a>
-
-            <p class="product-price" data-v-if="_product.price > 0" data-v-product-price_tax_formatted>100.0000</p>
-
-            <!-- Hover Content -->
-            <div class="hover-content" data-v-if="_product.price > 0">
-              <!-- Add to Cart -->
-              <div class="add-to-cart-btn">
-                <input type="hidden" name="product_id" value="" data-v-product-product_id />
-                <a href="" class="btn btn-primary w-100" data-v-product-add_cart_url data-v-vvveb-action="addToCart" data-product_id="1">
-                  <span class="loading d-none">
-                    <span class="spinner-border spinner-border-sm align-middle" role="status" aria-hidden="true"> </span>
-                    <span>Add to cart</span>...
-                  </span>
-
-                  <span class="button-text">
-                    Add to cart
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </article>
-
-
-      </div>
-
-
-
-      <div class="col-md-3" data-v-product>
-
-        <article class="single-product-wrapper">
-          <!-- Product Image -->
-          <a href="product/product.html" data-v-product-url> </a>
-          <div class="product-image">
-            <a href="product/product.html" data-v-product-url>
-
-              <img src="img/demo/product.jpg" loading="lazy" data-v-product-alt alt="" data-v-size="thumb" loading="lazy" data-v-product-image />
-
-              <!-- Hover Thumb -->
-              <img class="hover-img" src="img/demo/product-2.jpg" loading="lazy" data-v-product-alt alt="" loading="lazy" data-v-size="thumb" data-v-product-image-1 />
-            </a>
-
-            <!-- Favourite -->
-            <div class="product-favourite">
-              <a href="product/product.html" class="la la-heart" data-v-vvveb-action="addToWishlist" data-v-product-add_wishlist_url>
-                <span></span>
-              </a>
-            </div>
-
-            <!-- Compare -->
-            <div class="product-compare">
-              <a href="product/product.html" class="la la-random" data-v-vvveb-action="addToCompare" data-v-product-add_compare_url>
-                <span></span>
-              </a>
-            </div>
-          </div>
-
-          <!-- Product Description -->
-          <div class="product-content">
-
-            <a href="product/product.html" class="text-body" data-v-product-url>
-              <span data-v-product-name>Product 8</span>
-            </a>
-
-            <p class="product-price" data-v-if="_product.price > 0" data-v-product-price_tax_formatted>100.0000</p>
-
-            <!-- Hover Content -->
-            <div class="hover-content" data-v-if="_product.price > 0">
-              <!-- Add to Cart -->
-              <div class="add-to-cart-btn">
-                <input type="hidden" name="product_id" value="" data-v-product-product_id />
-                <a href="" class="btn btn-primary w-100" data-v-product-add_cart_url data-v-vvveb-action="addToCart" data-product_id="1">
-                  <span class="loading d-none">
-                    <span class="spinner-border spinner-border-sm align-middle" role="status" aria-hidden="true"> </span>
-                    <span>Add to cart</span>...
-                  </span>
-
-                  <span class="button-text">
-                    Add to cart
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </article>
-
-
-      </div>
-
-
-
-      <div class="col-md-3" data-v-product>
-
-        <article class="single-product-wrapper">
-          <!-- Product Image -->
-          <a href="product/product.html" data-v-product-url> </a>
-          <div class="product-image">
-            <a href="product/product.html" data-v-product-url>
-
-              <img src="img/demo/product.jpg" loading="lazy" data-v-product-alt alt="" data-v-size="thumb" loading="lazy" data-v-product-image />
-
-              <!-- Hover Thumb -->
-              <img class="hover-img" src="img/demo/product-2.jpg" loading="lazy" data-v-product-alt alt="" loading="lazy" data-v-size="thumb" data-v-product-image-1 />
-            </a>
-
-            <!-- Favourite -->
-            <div class="product-favourite">
-              <a href="product/product.html" class="la la-heart" data-v-vvveb-action="addToWishlist" data-v-product-add_wishlist_url>
-                <span></span>
-              </a>
-            </div>
-
-            <!-- Compare -->
-            <div class="product-compare">
-              <a href="product/product.html" class="la la-random" data-v-vvveb-action="addToCompare" data-v-product-add_compare_url>
-                <span></span>
-              </a>
-            </div>
-          </div>
-
-          <!-- Product Description -->
-          <div class="product-content">
-
-            <a href="product/product.html" class="text-body" data-v-product-url>
-              <span data-v-product-name>Product 8</span>
-            </a>
-
-            <p class="product-price" data-v-if="_product.price > 0" data-v-product-price_tax_formatted>100.0000</p>
-
-            <!-- Hover Content -->
-            <div class="hover-content" data-v-if="_product.price > 0">
-              <!-- Add to Cart -->
-              <div class="add-to-cart-btn">
-                <input type="hidden" name="product_id" value="" data-v-product-product_id />
-                <a href="" class="btn btn-primary w-100" data-v-product-add_cart_url data-v-vvveb-action="addToCart" data-product_id="1">
-                  <span class="loading d-none">
-                    <span class="spinner-border spinner-border-sm align-middle" role="status" aria-hidden="true"> </span>
-                    <span>Add to cart</span>...
-                  </span>
-
-                  <span class="button-text">
-                    Add to cart
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </article>
-
-
-      </div>
-
-
-
-      <div class="col-md-3" data-v-product>
-
-        <article class="single-product-wrapper">
-          <!-- Product Image -->
-          <a href="product/product.html" data-v-product-url> </a>
-          <div class="product-image">
-            <a href="product/product.html" data-v-product-url>
-
-              <img src="img/demo/product.jpg" loading="lazy" data-v-product-alt alt="" data-v-size="thumb" loading="lazy" data-v-product-image />
-
-              <!-- Hover Thumb -->
-              <img class="hover-img" src="img/demo/product-2.jpg" loading="lazy" data-v-product-alt alt="" loading="lazy" data-v-size="thumb" data-v-product-image-1 />
-            </a>
-
-            <!-- Favourite -->
-            <div class="product-favourite">
-              <a href="product/product.html" class="la la-heart" data-v-vvveb-action="addToWishlist" data-v-product-add_wishlist_url>
-                <span></span>
-              </a>
-            </div>
-
-            <!-- Compare -->
-            <div class="product-compare">
-              <a href="product/product.html" class="la la-random" data-v-vvveb-action="addToCompare" data-v-product-add_compare_url>
-                <span></span>
-              </a>
-            </div>
-          </div>
-
-          <!-- Product Description -->
-          <div class="product-content">
-
-            <a href="product/product.html" class="text-body" data-v-product-url>
-              <span data-v-product-name>Product 8</span>
-            </a>
-
-            <p class="product-price" data-v-if="_product.price > 0" data-v-product-price_tax_formatted>100.0000</p>
-
-            <!-- Hover Content -->
-            <div class="hover-content" data-v-if="_product.price > 0">
-              <!-- Add to Cart -->
-              <div class="add-to-cart-btn">
-                <input type="hidden" name="product_id" value="" data-v-product-product_id />
-                <a href="" class="btn btn-primary w-100" data-v-product-add_cart_url data-v-vvveb-action="addToCart" data-product_id="1">
-                  <span class="loading d-none">
-                    <span class="spinner-border spinner-border-sm align-middle" role="status" aria-hidden="true"> </span>
-                    <span>Add to cart</span>...
-                  </span>
-
-                  <span class="button-text">
-                    Add to cart
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </article>
-
-
-      </div>
-
-
-
-      <div class="col-md-3" data-v-product>
-
-        <article class="single-product-wrapper">
-          <!-- Product Image -->
-          <a href="product/product.html" data-v-product-url> </a>
-          <div class="product-image">
-            <a href="product/product.html" data-v-product-url>
-
-              <img src="img/demo/product.jpg" loading="lazy" data-v-product-alt alt="" data-v-size="thumb" loading="lazy" data-v-product-image />
-
-              <!-- Hover Thumb -->
-              <img class="hover-img" src="img/demo/product-2.jpg" loading="lazy" data-v-product-alt alt="" loading="lazy" data-v-size="thumb" data-v-product-image-1 />
-            </a>
-
-            <!-- Favourite -->
-            <div class="product-favourite">
-              <a href="product/product.html" class="la la-heart" data-v-vvveb-action="addToWishlist" data-v-product-add_wishlist_url>
-                <span></span>
-              </a>
-            </div>
-
-            <!-- Compare -->
-            <div class="product-compare">
-              <a href="product/product.html" class="la la-random" data-v-vvveb-action="addToCompare" data-v-product-add_compare_url>
-                <span></span>
-              </a>
-            </div>
-          </div>
-
-          <!-- Product Description -->
-          <div class="product-content">
-
-            <a href="product/product.html" class="text-body" data-v-product-url>
-              <span data-v-product-name>Product 8</span>
-            </a>
-
-            <p class="product-price" data-v-if="_product.price > 0" data-v-product-price_tax_formatted>100.0000</p>
-
-            <!-- Hover Content -->
-            <div class="hover-content" data-v-if="_product.price > 0">
-              <!-- Add to Cart -->
-              <div class="add-to-cart-btn">
-                <input type="hidden" name="product_id" value="" data-v-product-product_id />
-                <a href="" class="btn btn-primary w-100" data-v-product-add_cart_url data-v-vvveb-action="addToCart" data-product_id="1">
-                  <span class="loading d-none">
-                    <span class="spinner-border spinner-border-sm align-middle" role="status" aria-hidden="true"> </span>
-                    <span>Add to cart</span>...
-                  </span>
-
-                  <span class="button-text">
-                    Add to cart
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </article>
-
-
-      </div>
-
-
-
-    </div>
-  </div>
-</section>`
-});
-	Vvveb.SectionsGroup["Products"] = ["products/products-1"];
 Vvveb.Sections.add("showcase/showcase-1", {
     name: "Showcase 1",
     image: Vvveb.themeBaseUrl + "/screenshots/sections/showcase/showcase-1-thumb.jpeg",
